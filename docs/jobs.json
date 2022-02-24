@@ -1,0 +1,4390 @@
+{
+    "jobs": [
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBZGK390",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207730"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBZGK390",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207730"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBZGK395",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207731"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBZGK3X1",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207732"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBZGKMLY",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207733"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBZGKYL3",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207734"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBZGKZR1",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207735"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBZGMY300",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207736"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBZGMYZGA",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207737"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBZGMYY10",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207738"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XVBTBBZMY",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207739"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XTRZBZRZY",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207740"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK300",
+            "pred": "XBYABZRZY",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207741"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK320",
+            "pred": "XZERZB119",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207744"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK320",
+            "pred": "XBZGK110",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207745"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK320",
+            "pred": "XBZGK300",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207746"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK320",
+            "pred": "XBZGKCTZ",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207747"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK320",
+            "pred": "XBZGKCTZ",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207748"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK330",
+            "pred": "XBZGK320",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207749"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK330",
+            "pred": "XBZGKZX1",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207750"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XERZB3295",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207921"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XERZB3308",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207911"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XERZB3312",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207923"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XBZGK008",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207924"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XBZGK100",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207925"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XBZGK110",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207926"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XBZGK330",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207927"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XBZGK390",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207928"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XBZGK395",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207929"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XBZGK854",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207930"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XBZGKZ20",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207931"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XBBZMY007",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207932"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGK760",
+            "pred": "XBYABZRZY",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207933"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKFBB",
+            "pred": "XBZGKFB1",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207218"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKFBB",
+            "pred": "XBZGKFB2",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207219"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKFBB",
+            "pred": "XBZGKFB3",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207110"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKFBB",
+            "pred": "XBZGKFB4",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207111"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKFBB",
+            "pred": "XBZGKFB5",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207112"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKFBB",
+            "pred": "XBZGKFB6",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207113"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKFBB",
+            "pred": "XBZGKFB7",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207114"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKFBB",
+            "pred": "XBZGKFB8",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207115"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKXB5",
+            "pred": "XBZGK415",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207342"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKZHO",
+            "pred": "XKGZABACYO",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207585"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGKZHO",
+            "pred": "XBZGKBK2",
+            "app": "AZGK",
+            "marker": "Y",
+            "testcol": "207586"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY092",
+            "pred": "XGMBACYO1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214305"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY092",
+            "pred": "XBZGMYGY1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214307"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09A",
+            "pred": "XGMBACYO1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214307"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09A",
+            "pred": "XBZGMY05A",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214308"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09A",
+            "pred": "XBZGMYA09",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214309"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09A",
+            "pred": "XBZGMYBKM",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214310"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09A",
+            "pred": "XBZGMYIXT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214311"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09A",
+            "pred": "XBZGMYIXA",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214312"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09A",
+            "pred": "XBZGMYM20",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214313"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09A",
+            "pred": "XBZGMYOYT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214314"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09A",
+            "pred": "XBZGMYYRC",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214315"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XGMBACYO1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214316"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMY05B",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214317"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYB09",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214318"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYBKM",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214319"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYIXT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214320"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYIXA",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214321"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYM20",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214311"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYOYT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214323"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYYRC",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214324"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09C",
+            "pred": "XGMBACYO1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214325"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09C",
+            "pred": "XBZGMY05C",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214326"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09C",
+            "pred": "XBZGMYBKM",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214327"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09C",
+            "pred": "XBZGMYC09",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214328"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09C",
+            "pred": "XBZGMYIXT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214329"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09C",
+            "pred": "XBZGMYIXA",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214330"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09C",
+            "pred": "XBZGMYM20",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214331"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09C",
+            "pred": "XBZGMYOYT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214332"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09C",
+            "pred": "XBZGMYYRC",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214333"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XGMBACYO1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214334"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMY05B",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214335"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYBKM",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214336"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYB09",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214337"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYIXT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214338"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYIXA",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214339"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYM20",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214340"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYOYT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214341"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY09B",
+            "pred": "XBZGMYYRC",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214342"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19A",
+            "pred": "XGMBACYO1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214449"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19A",
+            "pred": "XBLBBZYCY",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214450"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19A",
+            "pred": "XBOLBZYCY",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214451"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19A",
+            "pred": "XBARIY300",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214452"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19A",
+            "pred": "XBZGMY09A",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214453"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19A",
+            "pred": "XBZGMYA19",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214454"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XGMBACYO1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214455"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBLBBZYCY",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214456"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBOLBZYCY",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214457"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBARIY300",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214458"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBZGMY09B",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214459"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBZGMYB19",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214460"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19C",
+            "pred": "XGMBACYO1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214461"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19C",
+            "pred": "XBLBBZYCY",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214462"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19C",
+            "pred": "XBOLBZYCY",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214463"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19C",
+            "pred": "XBARIY300",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214464"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19C",
+            "pred": "XBZGMY09C",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214465"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19C",
+            "pred": "XBZGMYC19",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214466"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XGMBACYO1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214467"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBLBBZYCY",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214468"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBOLBZYCY",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214469"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBARIY300",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214470"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBZGMY09B",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214471"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBZGMYB19",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214472"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBZGMYIXT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214473"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMY19B",
+            "pred": "XBZGMYIXA",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "214474"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XIZ1GM111",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216712"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XIZ1GMA55",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216713"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAIZ2GM76",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216714"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM178",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216715"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM117",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216716"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM231",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216717"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM280",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216718"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM292",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216719"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM293",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216720"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM294",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216721"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM439",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216711"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM440",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216723"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM457",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216724"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM466",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216725"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM467",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216726"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM479",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216727"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM482",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216728"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XAAAGM483",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216729"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XZJAGM141",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216730"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XATAGM283",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216731"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XLABGM100",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216732"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XRLBGM171",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216733"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XZOBGM172",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216734"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XZRBGM147",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216735"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XZRBGM189",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216736"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XZRBGM281",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216737"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XLZBGM478",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216738"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XTACGM114",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216739"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XTACGM278",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216740"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XZBCGM238",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216741"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XBFCGM460",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216742"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XBFCGM461",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216743"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XBFCGM475",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216744"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XZFCGM237",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216745"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XFZCGM073",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216746"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XVIBGM058",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216747"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XVIBGM096",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216748"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XVIBGM148",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216749"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XVIBGM173",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216750"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XVIBGM242",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216751"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XVIBGM245",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216752"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XVIBGM250",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216753"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XVIBGM408",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216754"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMBZT074",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216755"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB017",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216756"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB020",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216757"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB011",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216758"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB026",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216759"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB029",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216760"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB030",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216761"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB037",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216762"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB038",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216763"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB039",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216764"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB040",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216765"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB041",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216766"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB043",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216767"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB045",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216768"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB051",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216769"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB052",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216770"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB053",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216771"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB055",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216772"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB056",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216773"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB057",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216774"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB058",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216775"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB059",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216776"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB073",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216777"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB074",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216778"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB076",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216779"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB077",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216780"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB070",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216781"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB074",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216782"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB075",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216783"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB076",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216784"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB079",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216785"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB089",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216786"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB092",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216787"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB096",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216788"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB098",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216789"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB100",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216790"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB101",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216791"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB103",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216792"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB125",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216793"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB126",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216794"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB131",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216795"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB140",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216796"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB141",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216797"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB147",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216798"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB148",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216799"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB149",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216800"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB152",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216801"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB158",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216802"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB162",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216803"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB165",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216804"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB167",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216805"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB168",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216807"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB171",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216807"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB172",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216808"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB173",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216809"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB174",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216810"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB178",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216811"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB182",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216812"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB187",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216813"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB189",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216814"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB197",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216815"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB200",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216816"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB201",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216817"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB202",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216818"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB203",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216819"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB204",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216820"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB205",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216821"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB207",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216811"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB207",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216823"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB208",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216824"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB209",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216825"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB214",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216826"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB217",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216827"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB218",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216828"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB219",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216829"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB111",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216830"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB114",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216831"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB117",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216832"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB118",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216833"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB230",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216834"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB231",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216835"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB232",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216836"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB235",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216837"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB236",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216838"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB237",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216839"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB238",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216840"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB240",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216841"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB241",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216842"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB242",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216843"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB244",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216844"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB245",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216845"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB248",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216846"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB250",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216847"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB252",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216848"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB258",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216849"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB264",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216850"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB265",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216851"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB266",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216852"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB269",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216853"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB273",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216854"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB274",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216855"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB278",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216856"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB280",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216857"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB281",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216858"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB283",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216859"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB284",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216860"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB289",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216861"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB290",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216862"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB291",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216863"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB292",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216864"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB293",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216865"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB294",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216866"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB300",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216867"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB353",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216868"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB401",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216869"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB402",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216870"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB407",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216871"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB408",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216872"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB409",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216873"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB431",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216874"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB437",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216875"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB438",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216876"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB439",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216877"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB440",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216878"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB442",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216879"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB443",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216880"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB444",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216881"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB445",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216882"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB448",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216883"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB449",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216884"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB457",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216885"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB460",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216886"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB461",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216887"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB463",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216888"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB464",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216889"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB466",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216890"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB467",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216891"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB475",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216892"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB476",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216893"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB477",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216894"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB478",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216895"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB479",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216896"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB480",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216897"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB482",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216898"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB483",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216899"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB484",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216900"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB487",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216901"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB488",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216902"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB499",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216903"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB501",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216904"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBB507",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216905"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBT125",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216907"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBT202",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216907"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBT214",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216908"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMEBTWIR",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216909"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMFIZ168",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216910"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMFIZ197",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216911"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMFYO118",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216912"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMFYZ480",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216913"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMGOV158",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216914"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMGOV200",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216915"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMICI139",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216916"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIXZ057",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216917"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIXT056",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216918"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIXT248",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216919"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIXT402",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216920"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIRA029",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216921"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIRA041",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216911"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIRA077",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216923"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIRA174",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216924"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIRA353",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216925"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIRA407",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216926"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMIRA409",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216927"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMITR149",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216928"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMJXL070",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216929"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGK017",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216930"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGK026",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216931"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGK098",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216932"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGK103",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216933"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGK165",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216934"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGK167",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216935"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGK445",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216936"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMLBX052",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216937"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMLBX079",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216938"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMFT076",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216939"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMFT201",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216940"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMFT290",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216941"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMFT300",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216942"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM038",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216943"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM039",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216944"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM040",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216945"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM092",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216946"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM126",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216947"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM131",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216948"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM179",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216949"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM182",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216950"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM291",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216951"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM438",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216952"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM443",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216953"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAZGM488",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216954"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMLZ499",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216955"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMMZ045",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216956"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMMZ075",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216957"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMMZ431",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216958"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMMZ437",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216959"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMMZ444",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216960"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMMZ449",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216961"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMMZ463",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216962"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMMMZ464",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216963"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMXZO401",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216964"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMXTZ030",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216965"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMXTW070",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216966"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMOYZ037",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216967"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMOYZ089",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216968"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMOYZ090",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216969"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMOYZ094",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216970"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMOYZ264",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216971"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMOYZ265",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216972"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMYZO241",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216973"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMYZO284",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216974"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMREO011",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216975"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMREO187",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216976"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMREO230",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216977"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMREO232",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216978"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMREO235",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216979"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMREO240",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216980"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMREO266",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216981"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMREO269",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216982"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMREOR59",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216983"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMRTA476",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216984"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMRTG152",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216985"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMRTG162",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216986"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "AZGMBR274",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216987"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "AZGMRZ020",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216988"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "AZGMRZ140",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216989"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "AZGMRZ219",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216990"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "AZGMRZ236",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216991"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "AZGMRZ244",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216992"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "AZGMRZ273",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216993"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "AZGMRZ289",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216994"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMTRF204",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216995"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMTRF205",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216996"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMTRF207",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216997"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMTRF207",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216998"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMTRF208",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "216999"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMTRF209",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217000"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMABZ043",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217001"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMABZ484",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217002"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAIT218",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217003"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMAIT252",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217004"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMVRY203",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217005"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XGMVZZ053",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217007"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "YBZRB15A",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217007"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XBZGMYHZR",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217008"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XBZGMYVZ1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217009"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "XBBZMYZWG",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217010"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "YAXIBRMG",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217011"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYBET",
+            "pred": "TIME2000",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217012"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYEB1",
+            "pred": "XBZGMY801",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217800"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYEB1",
+            "pred": "XBZGMYEB0",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217801"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYEB1",
+            "pred": "XBZGMYEB4",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217802"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYEB1",
+            "pred": "XBZGMYEBK",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217803"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYEB1",
+            "pred": "XBZGMYEBL",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217804"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYEB1",
+            "pred": "XBZGMYRT4",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "217805"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYLI3",
+            "pred": "OYCAZTRT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "219299"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYLI4",
+            "pred": "OYCAZTRT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "219300"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYLI5",
+            "pred": "OYCAZTRT",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "219301"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "XGMBZT074",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110411"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "YAAABMG2",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110412"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "YCYZBYLG",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110413"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "YIXTBIHR",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110414"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "XBZGK075",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110415"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "XBZGMYCO1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110416"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "XBZGMYBET",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110417"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "XBZGMYLZZ",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110418"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "XBZGMYX01",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110419"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "XBZGMYYLA",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110420"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "XBZGMYYLB",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110421"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "XBZGMYZYL",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110411"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "XBZGMYZW1",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110423"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "YYZOB050",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110424"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "YTEFBZ03",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110425"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBZGMYYLG",
+            "pred": "TIME2000",
+            "app": "AZGM",
+            "marker": "Y",
+            "testcol": "110426"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMY000",
+            "pred": "XBZGMYYRC",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114198"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMY000",
+            "pred": "XBBZMY00A",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114199"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMY000",
+            "pred": "XBBZMY011",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114200"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMY000",
+            "pred": "XBBZMYCLO",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114201"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMY000",
+            "pred": "YYABB202",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114202"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMY000",
+            "pred": "ABABBMZ5",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114203"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMYBIF",
+            "pred": "XBBZMY031",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114461"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMYBIF",
+            "pred": "XBBZMYMA4",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114462"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMYMR4",
+            "pred": "XERZB8071",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114738"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMYMR4",
+            "pred": "YCFZBCF2",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114739"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMYMR4",
+            "pred": "XBBZMYBAK",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114740"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMYMR4",
+            "pred": "XBBZMYMRC",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114741"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMYRTB",
+            "pred": "XBBZMYC05",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114828"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMYRTB",
+            "pred": "XBBZMYCBZ",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114829"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBBZMYRTB",
+            "pred": "XBBZMYRTC",
+            "app": "MZB",
+            "marker": "Y",
+            "testcol": "114830"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB098",
+            "pred": "BEGX1830",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230380"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB098",
+            "pred": "BAMMYHK8",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230381"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB351",
+            "pred": "BMYHK3A9",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230795"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB351",
+            "pred": "BAMYHOOK",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230796"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB351",
+            "pred": "YYLXB345",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230797"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB351",
+            "pred": "YYLXB347",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230798"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB351",
+            "pred": "YYLXB3Y8",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230799"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "BEGX1830",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230802"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "YYLXBCLK",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230803"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "YYLXBCLL",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230804"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "YYLXBCLM",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230805"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "YYLXBCLX",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230807"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "YYLXBCLO",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230807"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "YYLXBCLY",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230808"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "YYLXBCLY",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230809"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "YYLXBCLR",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230810"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "YYLXBCLZ",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230811"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXB360",
+            "pred": "YYLXBCLT",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "230812"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXBHK2",
+            "pred": "BAMYHK44",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "233012"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYLXBHK2",
+            "pred": "BAMYHK54",
+            "app": "YLX",
+            "marker": "Y",
+            "testcol": "233013"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYRCBAYB",
+            "pred": "YYRCBGEX",
+            "app": "YRC",
+            "marker": "Y",
+            "testcol": "235416"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYRCBAYB",
+            "pred": "YYRCBZRT",
+            "app": "YRC",
+            "marker": "Y",
+            "testcol": "235417"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYRCBAYB",
+            "pred": "YYRCBTEL",
+            "app": "YRC",
+            "marker": "Y",
+            "testcol": "235418"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBFIG",
+            "pred": "YCYZBAEZ",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "235986"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBFIG",
+            "pred": "YYZOBFZT",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "235987"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBFIG",
+            "pred": "YYZOBEXR",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "235988"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBFIG",
+            "pred": "YYZOBFZT",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "235989"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBYXB",
+            "pred": "BAMHK020",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236141"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBYXB",
+            "pred": "YYZOBYZT",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236142"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBYXB",
+            "pred": "YYZOBYZT",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236143"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YYZOBRYZ",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236110"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZAAA031",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236111"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZAAA035",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236112"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZAAA054",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236113"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZAAA202",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236114"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZAEC192",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236115"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZAEC198",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236116"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZATA191",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236117"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZBAZ166",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236118"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZCAT151",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236119"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZCAT153",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236230"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZCBZ160",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236231"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZCZF049",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236232"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZBFX355",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236233"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZBIV146",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236234"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZBIV157",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236235"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZBIV159",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236236"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZBIV168",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236237"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZBMY164",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236238"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZBMY195",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236239"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZEBB407",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236240"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZEBB461",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236241"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZEBIT02",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236242"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZEBT107",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236243"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZEBT148",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236244"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZEBT207",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236245"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZFIZ034",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236246"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZFIZ112",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236247"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZFIZ142",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236248"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZFIZ210",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236249"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZFYO134",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236250"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZIAC041",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236251"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZIAC108",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236252"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZIAC115",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236253"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZICB076",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236254"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZIXZ048",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236255"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZIXZ053",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236256"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZIXT129",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236257"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZIRA052",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236258"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZAZGK038",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236259"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZMBA117",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236260"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZMBA118",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236261"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZMFT200",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236262"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZMFT408",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236263"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZXBA172",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236264"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZXOV215",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236265"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZXZO139",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236266"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZXZO149",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236267"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZXTZ015",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236268"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZXTW043",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236269"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZOYZ057",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236270"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZOYZ073",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236271"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZYZO030",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236272"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZYZO156",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236273"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZYZO420",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236274"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZYZO458",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236275"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZREO107",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236276"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZREO113",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236277"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZREO116",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236278"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZZAT145",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236279"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZZWY097",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236280"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZTYZ460",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236281"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZAIT130",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236282"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZAIT194",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236283"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZAXLT55",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236284"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YZVMX128",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236285"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "YYZOBRZT",
+            "pred": "YAXIBRYZ",
+            "app": "YZO",
+            "marker": "Y",
+            "testcol": "236286"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBYABZRZY",
+            "pred": "XBBZMY000",
+            "app": "ZRZ",
+            "marker": "Y",
+            "testcol": "254016"
+        },
+        {
+            "date": "11-07-2020",
+            "node": "XBYABZRZY",
+            "pred": "YZRZB001",
+            "app": "ZRZ",
+            "marker": "Y",
+            "testcol": "254017"
+        }
+    ],
+    "clusters": [],
+    "tags": []
+}
