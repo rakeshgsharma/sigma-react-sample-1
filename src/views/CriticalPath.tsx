@@ -16,6 +16,7 @@ import "react-sigma-v2/lib/react-sigma-v2.css";
 import { GrClose } from "react-icons/gr";
 import { BiRadioCircleMarked, BiBookContent } from "react-icons/bi";
 import { BsArrowsFullscreen, BsFullscreenExit, BsZoomIn, BsZoomOut } from "react-icons/bs";
+import GraphDataControllerCriticalPath from "./GraphDataControllerCriticalPath";
 interface CriticalPathProps {
     activeNode: string;
     dataset: Dataset;
@@ -96,7 +97,7 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
       >
         {/* <GraphSettingsController hoveredNode={hoveredNode} />
         <GraphEventsController setHoveredNode={setHoveredNode} /> */}
-        <GraphDataController dataset={dataset} filters={filtersState} />
+        <GraphDataControllerCriticalPath dataset={dataset} filters={filtersState} />
 
         {dataReady && (
           <>
