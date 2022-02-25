@@ -40,6 +40,10 @@ ol, ul {
   height: calc(100% - 75px);
 }
 
+.react-sigma {
+  height: calc(100% - 50px) !important;
+}
+
 .top-panel {
   height: 50px;
   padding: 10px;
