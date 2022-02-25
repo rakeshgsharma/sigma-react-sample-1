@@ -60,7 +60,7 @@ const Root: FC = () => {
 
   // Load data on mount:
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/jobs.json`)
+    fetch(`${process.env.PUBLIC_URL}/dataset.json`)
       .then((res) => res.json())
       .then((dataset: Dataset) => {
         setDataset(dataset);
@@ -127,7 +127,7 @@ const Root: FC = () => {
                 customZoomCenter={<BiRadioCircleMarked />}
               />
               {/* <ControlsContainer> */}
-              <ForceAtlasControl className="ico" autoRunFor={2000} />
+              {/* <ForceAtlasControl className="ico" autoRunFor={2000} /> */}
               {/* </ControlsContainer> */}
             </div>
             <div className="contents">
@@ -144,7 +144,7 @@ const Root: FC = () => {
               <GraphTitle filters={filtersState} />
               <div className="panels">
                 <SearchField filters={filtersState} />
-                <DescriptionPanel />
+                {/* <DescriptionPanel /> */}
                 <ClustersPanel
                   clusters={dataset.clusters}
                   filters={filtersState}
