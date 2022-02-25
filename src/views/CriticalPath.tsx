@@ -1,9 +1,6 @@
 import React, { FC, useEffect, useState } from "react";
 import { SigmaContainer, ZoomControl, FullScreenControl, ForceAtlasControl, ControlsContainer } from "react-sigma-v2";
 import { omit, mapValues, keyBy, constant } from "lodash";
-
-import getNodeProgramImage from "sigma/rendering/webgl/programs/node.image";
-
 import GraphSettingsController from "./GraphSettingsController";
 import GraphEventsController from "./GraphEventsController";
 import GraphDataController from "./GraphDataController";
@@ -19,10 +16,12 @@ import "react-sigma-v2/lib/react-sigma-v2.css";
 import { GrClose } from "react-icons/gr";
 import { BiRadioCircleMarked, BiBookContent } from "react-icons/bi";
 import { BsArrowsFullscreen, BsFullscreenExit, BsZoomIn, BsZoomOut } from "react-icons/bs";
-import CriticalPathModal from "./CriticalPathModal";
-import CriticalPath from "./CriticalPath";
-
-const Root: FC = () => {
+import GraphDataControllerCriticalPath from "./GraphDataControllerCriticalPath";
+interface CriticalPathProps {
+    activeNode: string;
+    dataset: Dataset;
+}
+const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
   const [showContents, setShowContents] = useState(false);
   const [dataReady, setDataReady] = useState(false);
   const [dataset, setDataset] = useState<Dataset | null>(null);
@@ -31,15 +30,6 @@ const Root: FC = () => {
     tags: {},
   });
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
-
-  const [show, setShow] = useState(false);
-  const [activeNode, setActiveNode] = useState('');
-  
-  const handleClose = () => setShow(false);
-  const handleShow = (activeNode: string) => {
-    setShow(true);
-    setActiveNode(activeNode)
-  }
 
   const getTags = (data: Dataset) => {
     let jobs = data.jobs;
@@ -71,25 +61,24 @@ const Root: FC = () => {
 
   // Load data on mount:
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/dataset.json`)
-      .then((res) => res.json())
-      .then((dataset: Dataset) => {
-        setDataset(dataset);
-        dataset.tags = getTags(dataset);
-        dataset.clusters = getClusters(dataset);
-        console.log("***", mapValues(keyBy(dataset.clusters, "key"), constant(true)));
-        setFiltersState({
-          clusters: mapValues(keyBy(dataset.clusters, "key"), constant(true)),
-          tags: mapValues(keyBy(dataset.tags, "key"), constant(true)),
-        });
-        requestAnimationFrame(() => setDataReady(true));
-      });
-  }, []);
+    const { dataset } = props;
+    console.log(dataset, props.activeNode);
+    dataset.jobs = dataset.jobs.filter(({ node }) => node === props.activeNode);
+    dataset.tags = getTags(dataset);
+    dataset.clusters = getClusters(dataset);
+    setDataset(dataset);
+    console.log("***", mapValues(keyBy(dataset.clusters, "key"), constant(true)));
+    setFiltersState({
+        clusters: mapValues(keyBy(dataset.clusters, "key"), constant(true)),
+        tags: mapValues(keyBy(dataset.tags, "key"), constant(true)),
+    });
+    requestAnimationFrame(() => setDataReady(true));
+  }, [props.activeNode]);
 
   if (!dataset) return null;
 
   return (
-    <div id="app-root" className={showContents ? "show-contents" : ""}>
+    <div id="app-roots2" className={showContents ? "show-contents" : ""}>
       <SigmaContainer
         graphOptions={{ type: "directed" }}
         initialSettings={{
@@ -101,13 +90,14 @@ const Root: FC = () => {
           labelGridCellSize: 60,
           labelRenderedSizeThreshold: 15,
           labelFont: "Lato, sans-serif",
-          // zIndex: true
+          zIndex: true
         }}
         className="react-sigma"
+        style={{ height: "500px", width: "1000px" }}
       >
-        <GraphSettingsController hoveredNode={hoveredNode} />
-        <GraphEventsController setHoveredNode={setHoveredNode} handleShow={handleShow} />
-        <GraphDataController dataset={dataset} filters={filtersState} />
+        {/* <GraphSettingsController hoveredNode={hoveredNode} />
+        <GraphEventsController setHoveredNode={setHoveredNode} /> */}
+        <GraphDataControllerCriticalPath dataset={dataset} filters={filtersState} />
 
         {dataReady && (
           <>
@@ -138,10 +128,10 @@ const Root: FC = () => {
                 customZoomCenter={<BiRadioCircleMarked />}
               />
               {/* <ControlsContainer> */}
-              {/* <ForceAtlasControl className="ico" autoRunFor={2000} /> */}
+              <ForceAtlasControl className="ico" autoRunFor={250} />
               {/* </ControlsContainer> */}
             </div>
-            <div className="contents">
+            <div className="contents">  
               <div className="ico">
                 <button
                   type="button"
@@ -153,9 +143,9 @@ const Root: FC = () => {
                 </button>
               </div>
               <GraphTitle filters={filtersState} />
-              <div className="panels">
+              {/* <div className="panels">
                 <SearchField filters={filtersState} />
-                {/* <DescriptionPanel /> */}
+                <DescriptionPanel />
                 <ClustersPanel
                   clusters={dataset.clusters}
                   filters={filtersState}
@@ -190,16 +180,13 @@ const Root: FC = () => {
                     }));
                   }}
                 />
-              </div>
+              </div> */}
             </div>
           </>
         )}
-        <CriticalPathModal activeNode={activeNode} handleClose={handleClose} show={show}>
-        <CriticalPath activeNode={activeNode} dataset={{...dataset}} />
-      </CriticalPathModal>
       </SigmaContainer>
     </div>
   );
 };
 
-export default Root;
+export default CriticalPath;
