@@ -26,8 +26,8 @@ const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ 
           label: batchJob.node,
           color: "#ed7047",
           cluster: batchJob.app,
-          tag: batchJob.app
-          // image: `${process.env.PUBLIC_URL}/images/concept.svg`
+          tag: batchJob.app,
+          image: `${process.env.PUBLIC_URL}/images/concept.svg`
         });
         jobNodes.push(batchJob.node);
       }
