@@ -71,7 +71,8 @@ ol, ul {
   font-size: 1.2rem;
   border: 1px solid gray;
   border-right: 0px;
-  background-color: #bfdde1;
+  color: white;
+    background-color: #6bb1bb;
   border-radius: 5px 0px 0px 5px;
 }
 
@@ -168,6 +169,7 @@ background: linear-gradient(135deg, rgba(2,96,74,1) 0%, rgba(36,108,166,1) 57%, 
     font-weight: 500;
     border-bottom: 1px solid #292932;
   }
+
   .category-header {
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -177,13 +179,23 @@ background: linear-gradient(135deg, rgba(2,96,74,1) 0%, rgba(36,108,166,1) 57%, 
     white-space: nowrap;
     cursor: pointer;
   }
+
+  .category-header:hover{
+    color: #6bb1bb;
+    transition: all 0.5s ease;
+    text-decoration: underline;
+
+  }
+
   .category-item {
     position: relative;
     padding: 0.9rem 1.1rem;
     line-height: 1.8rem;
     cursor: pointer;
     white-space: nowrap;
+    border-radius: 5px;
   }
+
   .category-item-status {
     height: 0.8rem;
     width: 0.8rem;
@@ -220,9 +232,20 @@ background: linear-gradient(135deg, rgba(2,96,74,1) 0%, rgba(36,108,166,1) 57%, 
     pointer-events: none;
   }
 
+  .category-item.selected {
+    background-color: #6bb1bb;
+    color: white;
+    pointer-events: none;    
+  }
+
+  .category-item.selected:hover{
+    cursor: pointer;
+  }
+
   .category-item:hover {
     color: white;
     transition: all 0.5s ease;
+    background-color: gray;
   }
 
   .side-bar.collapse .category-item:hover .tooltip,
