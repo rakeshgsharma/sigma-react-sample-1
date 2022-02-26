@@ -5,7 +5,7 @@ import { keyBy, omit } from "lodash";
 import { Dataset, FiltersState } from "../types";
 import { getNodeColor } from "../graph-utils";
 
-const GraphDataControllerCriticalPath: FC<{ dataset: Dataset; filters: FiltersState }> = ({ dataset, filters, children }) => {
+const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ dataset, filters, children }) => {
   const sigma = useSigma();
   const graph = sigma.getGraph();
 
@@ -111,9 +111,8 @@ const GraphDataControllerCriticalPath: FC<{ dataset: Dataset; filters: FiltersSt
 
   function setNodeSize() {
     graph.nodes().forEach((node, i) => {
-      const angle = (i * 2 * Math.PI) / graph.order;
-      graph.setNodeAttribute(node, "x", 100 * Math.cos(angle));
-      graph.setNodeAttribute(node, "y", 100 * Math.sin(angle));
+      // graph.setNodeAttribute(node, "x", i);
+      // graph.setNodeAttribute(node, "y", 70);
       const neigbors = graph.neighbors(node);
       const size = 8 + (neigbors.length * 1.2);
       graph.setNodeAttribute(node, "size", size);
@@ -136,4 +135,4 @@ const GraphDataControllerCriticalPath: FC<{ dataset: Dataset; filters: FiltersSt
   return <>{children}</>;
 };
 
-export default GraphDataControllerCriticalPath;
+export default GraphDataController;
