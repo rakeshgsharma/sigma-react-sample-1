@@ -14,9 +14,9 @@ function CriticalPathModal(props: CriticalPathProps) {
             <Modal.Title>Critical Path for {props.activeNode}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-              {/* <div style={{ height: '500px', width: '500px' }}> */}
+              <div style={{ height: '700px', width: '1000px' }}>
                 {props.children}
-              {/* </div> */}
+              </div>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={props.handleClose}>

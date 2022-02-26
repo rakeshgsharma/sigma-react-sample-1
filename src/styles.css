@@ -303,13 +303,14 @@ body {
   height: 100%; 
   position: relative;
 }
-
-#app-root,
+#app-root, #app-root2,
 .sigma-container {
   inset: 0;
   height: 100%;
 
 }
+
+
 .controls {
   position: absolute;
   bottom: var(--stage-padding);
@@ -572,6 +573,41 @@ ul > li {
     right: var(--stage-padding);
   }
 }
+
+@media (max-width: 767.98px) {
+  #app-root2:not(.show-contents) .contents,
+  #app-root2.show-contents .controls {
+    display: none;
+  }
+
+  #app-root2.show-contents .contents {
+    position: absolute;
+    inset: 0;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    background: var(--transparent-white);
+  }
+  #app-root2.show-contents .graph-title,
+  #app-root2.show-contents .panels {
+    height: auto;
+    max-height: unset;
+    max-width: unset;
+    position: static;
+    overflow-y: visible;
+    width: auto;
+  }
+  #app-root2.show-contents .graph-title {
+    background: white;
+    padding-right: calc(3em + 2 * var(--stage-padding));
+    min-height: 3em;
+  }
+  #app-root2.show-contents .contents .hide-contents {
+    position: absolute;
+    top: var(--stage-padding);
+    right: var(--stage-padding);
+  }
+}
+
 @media (min-width: 768px) {
   button.show-contents,
   button.hide-contents {
