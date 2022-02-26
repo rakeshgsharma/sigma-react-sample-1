@@ -70,7 +70,7 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
   if (!dataset) return null;
 
   return (
-    <div id="app-roots2" className={showContents ? "show-contents" : ""}>
+    <div id="app-root2" className={showContents ? "show-contents" : ""}>
       <SigmaContainer
         graphOptions={{ type: "directed" }}
         initialSettings={{
@@ -85,7 +85,7 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
           zIndex: true
         }}
         className="react-sigma"
-        style={{ height: "500px", width: "1000px" }}
+        style={{ height: "600px", width: "1000px" }}
       >
         {/* <GraphSettingsController hoveredNode={hoveredNode} /> */}
         <GraphEventsControllerCriticalPath setHoveredNode={setHoveredNode} />
