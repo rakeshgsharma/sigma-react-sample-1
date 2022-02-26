@@ -37,22 +37,25 @@ ol, ul {
 
 #flex-container {
   display: flex;
+  box-shadow: 2px 2px 6px gray;
   height: calc(100% - 75px);
+  background-color: #f3f2ea;
+  border-radius: 10px;
 }
 
 .react-sigma {
-  height: calc(100% - 50px) !important;
+  height: calc(100% - 110px) !important;
+    margin: 30px;
+    width: calc(100% - 60px) !important;
+  box-shadow: inset 2px 2px 5px 0px;
 }
 
 .top-panel {
   height: 50px;
   padding: 10px;
-  border-bottom: 1px solid black;
-  background-color: gray;
 }
 
 .date-range-label {
-  color: #f5f5e7;
   margin-right: 10px;
 }
 
@@ -83,6 +86,7 @@ div#header {
     height: 100%;
     padding: 2.1rem 1.2rem;
     background-color: #17171e;
+    border-radius: 10px 0px 0px 10px;
     /* position: fixed; */
     transition: all 0.5s ease;
     top: 76px;
@@ -183,11 +187,17 @@ div#header {
     opacity: 0;
     display: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
   }
-  .side-bar.collapse .message:hover .tooltip,
-  .features-item:hover .tooltip,
-  .category-item:hover .tooltip,
-  .chat-new-btn:hover .tooltip {
+
+  .category-item:hover {
+    color: white;
+    transition: all 0.5s ease;
+  }
+
+  .side-bar.collapse .category-item:hover .tooltip,
+  .side-bar.collapse .category-item.features-item-icon:hover .tooltip
+   {
     top: 50%;
     transform: translateY(-50%);
     transition: all 0.5s ease;
@@ -214,10 +224,19 @@ div#header {
     opacity: 0;
     pointer-events: none;
   }
-  .side-bar.collapse .category-item-text,
-  .side-bar.collapse .tooltip  {
+  .side-bar.collapse .category-item-text{
     display: none;
   }
+
+  .tooltip {
+    display: none;
+  }
+  .side-bar.collapse .tooltip{
+    display: block;
+    pointer-events: none;
+    cursor: default;
+  }
+
   .side-bar.collapse .message-text {
     opacity: 0;
     pointer-events: none;
@@ -264,16 +283,19 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
+  background-color: #f3f2ea !important;
 }
 #root {
    width: 100%;
   height: 100%; 
   position: relative;
+  padding: 20px;
 }
 #app-root,
 .sigma-container {
-  position: absolute;
   inset: 0;
+  height: 100%;
+
 }
 .controls {
   position: absolute;
