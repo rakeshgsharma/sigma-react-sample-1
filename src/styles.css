@@ -37,39 +37,43 @@ ol, ul {
 
 #flex-container {
   display: flex;
-  box-shadow: 2px 2px 6px gray;
-  height: calc(100% - 75px);
+  box-shadow: 2px 2px 6px grey;
+  height: calc(100% - 115px);
   background-color: #f3f2ea;
   border-radius: 10px;
+  margin: 20px;
+}
+
+.top-float {
+  float: right;
 }
 
 .react-sigma {
   height: calc(100% - 110px) !important;
-    margin: 30px;
+  margin: 0px 30px 30px 30px;
     width: calc(100% - 60px) !important;
   box-shadow: inset 2px 2px 5px 0px;
 }
 
 .top-panel {
-  height: 50px;
+  height: 80px;
   padding: 10px;
 }
 
 .date-range-label {
-  margin-right: 10px;
+  margin: 20px;
 }
 
 .pdf-icon {
-  float: right;
   font-size: xx-large;
-  color: #f5f5e7;
+  color: #666;
   cursor: pointer;
+  /* margin: 20px; */
 }
 
 div#header {
     text-align: center;
     padding: 10px;
-    border-bottom: 2px solid #000000;
     background-color: #376c8b;
     color: white;
   }
@@ -129,6 +133,14 @@ div#header {
   .features-item-icon {
     /* font-size: 2rem; */
   }
+
+  .date-picker {
+    margin-right: 30px;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: inset 1px 1px 2px 0px grey;
+  }
   
   .category-list {
     padding-top: 2.1rem;
@@ -146,6 +158,7 @@ div#header {
     color: var(--white-color);
     margin-bottom: 1.3rem;
     white-space: nowrap;
+    cursor: pointer;
   }
   .category-item {
     position: relative;
@@ -289,8 +302,8 @@ body {
    width: 100%;
   height: 100%; 
   position: relative;
-  padding: 20px;
 }
+
 #app-root,
 .sigma-container {
   inset: 0;

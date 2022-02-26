@@ -24,6 +24,7 @@ import CriticalPath from "./CriticalPath";
 import { getNodeColor } from "../graph-utils";
 import { SideBar } from "./SideBar";
 import { TopPanel } from "./TopPanel";
+import { TitlePanel } from "./TitlePanel";
 
 const Root: FC = () => {
   const [showContents, setShowContents] = useState(false);
@@ -116,6 +117,7 @@ const Root: FC = () => {
 
   return (
     <div id="app-root" className={showContents ? "show-contents" : ""}>
+      <TitlePanel/>
       <div id="flex-container">
         <SideBar />
         <div className="flex-item">
