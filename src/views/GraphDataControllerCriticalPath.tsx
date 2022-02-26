@@ -19,7 +19,7 @@ const GraphDataControllerCriticalPath: FC<{ dataset: CriticalPathDataset; filter
       if (jobNodes.indexOf(job.key) < 0 && dataset.edges.find((edge: any) => edge.inV === job.key || edge.outV === job.key)) {
         if(job.status === 'failed') {
           graph.addNode(job.key, {
-            size: 8,
+            size: 5,
             label: job.label,
             color: "red",
             cluster: job.cluster,
@@ -54,7 +54,6 @@ const GraphDataControllerCriticalPath: FC<{ dataset: CriticalPathDataset; filter
     dataset.edges.forEach((edge: any) => {
       graph.addEdge(edge.inV, edge.outV, {
         type: "arrow",
-        label: "depends",
         size: 1,
         color: 'red'
       });
@@ -65,7 +64,7 @@ const GraphDataControllerCriticalPath: FC<{ dataset: CriticalPathDataset; filter
       graph.setNodeAttribute(node, "x", 100 * Math.cos(angle));
       graph.setNodeAttribute(node, "y", 100 * Math.sin(angle));
       const neigbors = graph.neighbors(node);
-      graph.setNodeAttribute(node, "size", 5 + (neigbors.length * 0.1));
+      graph.setNodeAttribute(node, "size", 5 + (neigbors.length * 2));
     });
 
     return () => graph.clear();

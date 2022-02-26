@@ -84,8 +84,8 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
           labelFont: "Lato, sans-serif",
           zIndex: true
         }}
-        className="react-sigma"
-        style={{ height: "600px", width: "1000px" }}
+        // className="react-sigma"
+        style={{ height: "700px", width: "1000px" }}
       >
         {/* <GraphSettingsController hoveredNode={hoveredNode} /> */}
         <GraphEventsControllerCriticalPath setHoveredNode={setHoveredNode} />
