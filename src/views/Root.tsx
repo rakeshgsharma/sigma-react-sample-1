@@ -21,6 +21,9 @@ import { BiRadioCircleMarked, BiBookContent } from "react-icons/bi";
 import { BsArrowsFullscreen, BsFullscreenExit, BsZoomIn, BsZoomOut } from "react-icons/bs";
 import CriticalPathModal from "./CriticalPathModal";
 import CriticalPath from "./CriticalPath";
+import { getNodeColor } from "../graph-utils";
+import { SideBar } from "./SideBar";
+import { TopPanel } from "./TopPanel";
 
 const Root: FC = () => {
   const [showContents, setShowContents] = useState(false);
@@ -34,7 +37,7 @@ const Root: FC = () => {
 
   const [show, setShow] = useState(false);
   const [activeNode, setActiveNode] = useState('');
-  
+
   const handleClose = () => setShow(false);
   const handleShow = (activeNode: string) => {
     setShow(true);
@@ -61,19 +64,42 @@ const Root: FC = () => {
     let clusters: Cluster[] = [];
     let apps: string[] = [];
     for (let i = 0; i < jobs.length; i++) {
-      if (apps.indexOf(jobs[i].app) < 0) {
-        clusters.push({ key: jobs[i].app, clusterLabel: jobs[i].app, color: '' });
-        apps.push(jobs[i].app);
+      if (apps.indexOf(jobs[i].status) < 0) {
+        clusters.push({ key: jobs[i].status, clusterLabel: jobs[i].status, color: getNodeColor(jobs[i].status) });
+        apps.push(jobs[i].status);
       }
     }
     return clusters;
   }
 
+  const massageJobsData = (data: any) => {
+    let jobs = [];
+    for (let i = 0; i < data.vertex.length; i++) {
+      const jobObj = data.vertex[i];
+      jobs.push(
+        {
+          "name": jobObj.id,
+          "app": jobObj.properties?.app[0]?.value,
+          "status": jobObj.properties?.status[0]?.value,
+          "marker": (jobObj.properties?.marker[0]?.value === "Y"),
+          "time": (i+1),
+          "avgTime": jobObj.properties?.avgTime[0]?.value,
+          "description": jobObj.properties?.description[0]?.value
+        }
+      );
+    }
+
+    data.jobs = jobs;
+    console.log("jobs", jobs);
+    // data.edge = data.edge[0];
+  }
+
   // Load data on mount:
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/dataset.json`)
+    fetch(`${process.env.PUBLIC_URL}/sample-data.json`)
       .then((res) => res.json())
       .then((dataset: Dataset) => {
+        massageJobsData(dataset);
         setDataset(dataset);
         dataset.tags = getTags(dataset);
         dataset.clusters = getClusters(dataset);
@@ -90,114 +116,123 @@ const Root: FC = () => {
 
   return (
     <div id="app-root" className={showContents ? "show-contents" : ""}>
-      <SigmaContainer
-        graphOptions={{ type: "directed" }}
-        initialSettings={{
-          // nodeProgramClasses: { circle: getNodeCir() },
-          labelRenderer: drawLabel,
-          defaultNodeType: "circle",
-          defaultEdgeType: "arrow",
-          labelDensity: 0.07,
-          labelGridCellSize: 60,
-          labelRenderedSizeThreshold: 15,
-          labelFont: "Lato, sans-serif",
-          // zIndex: true
-        }}
-        className="react-sigma"
-      >
-        <GraphSettingsController hoveredNode={hoveredNode} />
-        <GraphEventsController setHoveredNode={setHoveredNode} handleShow={handleShow} />
-        <GraphDataController dataset={dataset} filters={filtersState} />
+      <div id="flex-container">
+        <SideBar />
+        <div className="flex-item">
+          <TopPanel/>
+          <SigmaContainer
+            graphOptions={{ type: "directed" }}
+            initialSettings={{
+              // nodeProgramClasses: { circle: getNodeCir() },
+              labelRenderer: drawLabel,
+              defaultNodeType: "circle",
+              defaultEdgeType: "arrow",
+              labelDensity: 0.07,
+              labelGridCellSize: 60,
+              labelRenderedSizeThreshold: 15,
+              labelFont: "Lato, sans-serif",
+              // zIndex: true
+            }}
+            className="react-sigma"
+          >
+            <GraphSettingsController hoveredNode={hoveredNode} />
+            <GraphEventsController setHoveredNode={setHoveredNode} handleShow={handleShow} />
+            <GraphDataController dataset={dataset} filters={filtersState} />
 
-        {dataReady && (
-          <>
-            <div className="controls">
-              <div className="ico">
-                <button
-                  type="button"
-                  className="show-contents"
-                  onClick={() => setShowContents(true)}
-                  title="Show caption and description"
-                >
-                  <BiBookContent />
-                </button>
-              </div>
+            {dataReady && (
+              <>
+                <div className="controls">
+                  <div className="ico">
+                    <button
+                      type="button"
+                      className="show-contents"
+                      onClick={() => setShowContents(true)}
+                      title="Show caption and description"
+                    >
+                      <BiBookContent />
+                    </button>
+                  </div>
 
-              <div className="ico">
+                  <div className="ico">
 
-              </div>
-              <FullScreenControl
-                className="ico"
-                customEnterFullScreen={<BsArrowsFullscreen />}
-                customExitFullScreen={<BsFullscreenExit />}
-              />
-              <ZoomControl
-                className="ico"
-                customZoomIn={<BsZoomIn />}
-                customZoomOut={<BsZoomOut />}
-                customZoomCenter={<BiRadioCircleMarked />}
-              />
-              {/* <ControlsContainer> */}
-              {/* <ForceAtlasControl className="ico" autoRunFor={2000} /> */}
-              {/* </ControlsContainer> */}
-            </div>
-            <div className="contents">
-              <div className="ico">
-                <button
-                  type="button"
-                  className="ico hide-contents"
-                  onClick={() => setShowContents(false)}
-                  title="Show caption and description"
-                >
-                  <GrClose />
-                </button>
-              </div>
-              <GraphTitle filters={filtersState} />
-              <div className="panels">
-                <SearchField filters={filtersState} />
-                {/* <DescriptionPanel /> */}
-                <ClustersPanel
-                  clusters={dataset.clusters}
-                  filters={filtersState}
-                  setClusters={(clusters) =>
-                    setFiltersState((filters) => ({
-                      ...filters,
-                      clusters,
-                    }))
-                  }
-                  toggleCluster={(cluster) => {
-                    setFiltersState((filters) => ({
-                      ...filters,
-                      clusters: filters.clusters[cluster]
-                        ? omit(filters.clusters, cluster)
-                        : { ...filters.clusters, [cluster]: true },
-                    }));
-                  }}
-                />
-                <TagsPanel
-                  tags={dataset.tags}
-                  filters={filtersState}
-                  setTags={(tags) =>
-                    setFiltersState((filters) => ({
-                      ...filters,
-                      tags,
-                    }))
-                  }
-                  toggleTag={(tag) => {
-                    setFiltersState((filters) => ({
-                      ...filters,
-                      tags: filters.tags[tag] ? omit(filters.tags, tag) : { ...filters.tags, [tag]: true },
-                    }));
-                  }}
-                />
-              </div>
-            </div>
-          </>
-        )}
-        <CriticalPathModal activeNode={activeNode} handleClose={handleClose} show={show}>
-        <CriticalPath activeNode={activeNode} />
-      </CriticalPathModal>
-      </SigmaContainer>
+                  </div>
+                  <FullScreenControl
+                    className="ico"
+                    customEnterFullScreen={<BsArrowsFullscreen />}
+                    customExitFullScreen={<BsFullscreenExit />}
+                  />
+                  <ZoomControl
+                    className="ico"
+                    customZoomIn={<BsZoomIn />}
+                    customZoomOut={<BsZoomOut />}
+                    customZoomCenter={<BiRadioCircleMarked />}
+                  />
+                  {/* <ControlsContainer> */}
+                  {/* <ForceAtlasControl className="ico" autoRunFor={2000} /> */}
+                  {/* </ControlsContainer> */}
+                </div>
+                <div className="contents">
+                  <div className="ico">
+                    <button
+                      type="button"
+                      className="ico hide-contents"
+                      onClick={() => setShowContents(false)}
+                      title="Show caption and description"
+                    >
+                      <GrClose />
+                    </button>
+                  </div>
+                  <GraphTitle filters={filtersState} />
+                  <div className="panels">
+                    <SearchField filters={filtersState} />
+                    {/* <DescriptionPanel /> */}
+                    <ClustersPanel
+                      clusters={dataset.clusters}
+                      filters={filtersState}
+                      setClusters={(clusters) =>
+                        setFiltersState((filters) => ({
+                          ...filters,
+                          clusters,
+                        }))
+                      }
+                      toggleCluster={(cluster) => {
+                        setFiltersState((filters) => ({
+                          ...filters,
+                          clusters: filters.clusters[cluster]
+                            ? omit(filters.clusters, cluster)
+                            : { ...filters.clusters, [cluster]: true },
+                        }));
+                      }}
+                    />
+                    <TagsPanel
+                      tags={dataset.tags}
+                      filters={filtersState}
+                      setTags={(tags) =>
+                        setFiltersState((filters) => ({
+                          ...filters,
+                          tags,
+                        }))
+                      }
+                      toggleTag={(tag) => {
+                        setFiltersState((filters) => ({
+                          ...filters,
+                          tags: filters.tags[tag] ? omit(filters.tags, tag) : { ...filters.tags, [tag]: true },
+                        }));
+                      }}
+                    />
+                  </div>
+                </div>
+              </>
+            )}
+            <CriticalPathModal activeNode={activeNode} handleClose={handleClose} show={show}>
+              <CriticalPath activeNode={activeNode} />
+            </CriticalPathModal>
+          </SigmaContainer>
+        </div>
+
+      </div>
+
+
     </div>
   );
 };

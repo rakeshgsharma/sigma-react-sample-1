@@ -3,6 +3,7 @@ import { FC, useEffect } from "react";
 import { keyBy, omit } from "lodash";
 
 import { Dataset, FiltersState } from "../types";
+import { getNodeColor } from "../graph-utils";
 
 const GraphDataControllerCriticalPath: FC<{ dataset: Dataset; filters: FiltersState }> = ({ dataset, filters, children }) => {
   const sigma = useSigma();
@@ -14,57 +15,111 @@ const GraphDataControllerCriticalPath: FC<{ dataset: Dataset; filters: FiltersSt
   useEffect(() => {
     if (!graph || !dataset) return;
 
-    let jobNodes = [];
-    let edgeList = [];
     let jobs = dataset.jobs;
+    let edges = dataset.edge;
+    let markerJobs = jobs.filter((job: any) => job.marker);
+    let buckets = getBuckets(markerJobs);
+    console.log("buckets", buckets);
+    renderMarkerJobs(buckets);
+    let nonMarkerJobs = jobs.filter((job: any) => !job.marker);
+    showNonMarkerJobs(nonMarkerJobs);
+    addEdges(graph, edges);
 
-    for (let i = 0; i < jobs.length; i++) {
-      const batchJob = jobs[i];
-      if (jobNodes.indexOf(batchJob.node) < 0) {
-        graph.addNode(batchJob.node, {
-          size: 5,
-          label: batchJob.node,
-          color: "#ed7047",
-          cluster: batchJob.app,
-          tag: batchJob.app,
-          image: `${process.env.PUBLIC_URL}/images/concept.svg`
-        });
-        jobNodes.push(batchJob.node);
+
+
+    setNodeSize();
+    console.log("***completed***");
+
+    return () => graph.clear();
+  }, [graph, dataset]);
+
+  function getBuckets(markerJobs: any[]) {
+    let buckets: any = {};
+    let bucketIndex = 1;
+    for (let i = 0; i < markerJobs.length; i++) {
+      const mkJob = markerJobs[i];
+      if (Math.floor(mkJob.time) > bucketIndex) {
+        bucketIndex++;
       }
-      if (jobNodes.indexOf(batchJob.pred) < 0) {
-        graph.addNode(batchJob.pred, {
-          size: 5,
-          label: batchJob.pred,
-          cluster: batchJob.app,
-          tag: batchJob.app
-          // image: `${process.env.PUBLIC_URL}/images/person.svg`
-        });
-        jobNodes.push(batchJob.pred);
+      if (!buckets[bucketIndex]) {
+        buckets[bucketIndex] = [];
       }
-      const edgeStr = batchJob.pred + "-" + batchJob.node;
-      if (edgeList.indexOf(edgeStr) < 0) {
-        graph.addEdge(batchJob.pred, batchJob.node, {
-          type: "arrow",
-          label: "",
-          size: 1
-        });
-        edgeList.push(edgeStr);
+      buckets[bucketIndex].push(mkJob);
+    }
+    return buckets;
+  }
+
+  function renderMarkerJobs(buckets: any,) {
+    for (const buckInd in buckets) {
+      if (Object.prototype.hasOwnProperty.call(buckets, buckInd)) {
+        const nodeList = buckets[buckInd];
+        let isNeg = true;
+        for (let nodeInd = 0; nodeInd < nodeList.length; nodeInd++) {
+          const batchJob = nodeList[nodeInd];
+          let xCo = parseInt(buckInd) * 50 + (nodeInd * 10);
+          // let xCo = parseInt(buckInd) * 80 + ((batchJob.time - parseInt(buckInd)) * 80);
+          let yCo = 0;
+          if (nodeList.length > 0) {
+            yCo = (nodeInd + 1) * 10;
+            isNeg = !isNeg;
+          } else {
+            isNeg = false;
+          }
+          console.log("adding node", batchJob.name);
+          graph.addNode(batchJob.name, {
+            size: 5,
+            label: batchJob.name,
+            color: getNodeColor(batchJob.status),
+            cluster: batchJob.status,
+            tag: batchJob.app,
+            x: xCo,
+            y: isNeg ? (-yCo) : yCo
+          });
+        }
       }
     }
+  }
 
+  function showNonMarkerJobs(nonMarkerJobs: any[]) {
+    for (let i = 0; i < nonMarkerJobs.length; i++) {
+      const batchJob = nonMarkerJobs[i];
+      const angle = (i * 3 * Math.PI) / graph.order;
+      console.log("angle", angle);
+      graph.addNode(batchJob.name, {
+        size: 5,
+        label: batchJob.name,
+        color: getNodeColor(batchJob.status),
+        cluster: batchJob.status,
+        tag: batchJob.app,
+        x: (10 * i) + 100 * Math.cos(angle),
+        y: 60 + 100 * Math.sin(angle) 
+      });
+    }
+  }
 
+  function addEdges(graph: any, edges: any[]) {
+    for (let i = 0; i < edges.length; i++) {
+      let edgeObj: any = edges[i];
+      console.log("edgeObj", edgeObj);
+      graph.addEdge(edgeObj.inV, edgeObj.outV, {
+        type: "arrow",
+        label: "",
+        size: 1
+      });
+    }
+  }
+
+  function setNodeSize() {
     graph.nodes().forEach((node, i) => {
       const angle = (i * 2 * Math.PI) / graph.order;
       graph.setNodeAttribute(node, "x", 100 * Math.cos(angle));
       graph.setNodeAttribute(node, "y", 100 * Math.sin(angle));
       const neigbors = graph.neighbors(node);
-      graph.setNodeAttribute(node, "size", 5 + (neigbors.length * 0.1));
+      const size = 8 + (neigbors.length * 1.2);
+      graph.setNodeAttribute(node, "size", size);
+      console.log("node size", node, size);
     });
-
-    console.log("done");
-
-    return () => graph.clear();
-  }, [graph, dataset]);
+  }
 
   /**
    * Apply filters to graphology:
@@ -72,7 +127,7 @@ const GraphDataControllerCriticalPath: FC<{ dataset: Dataset; filters: FiltersSt
   useEffect(() => {
     console.log("***", "running filter");
     const { clusters, tags } = filters;
-    graph.forEachNode((node, { cluster, tag }) =>{
+    graph.forEachNode((node, { cluster, tag }) => {
       console.log("***", cluster, tag);
       graph.setNodeAttribute(node, "hidden", !clusters[cluster] || !tags[tag])
     });
