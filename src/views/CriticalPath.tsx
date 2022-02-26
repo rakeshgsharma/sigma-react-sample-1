@@ -1,59 +1,50 @@
-import React, { FC, useEffect, useState } from "react";
-import { SigmaContainer, ZoomControl, FullScreenControl, ForceAtlasControl, ControlsContainer } from "react-sigma-v2";
-import { omit, mapValues, keyBy, constant } from "lodash";
-import GraphSettingsController from "./GraphSettingsController";
-import GraphEventsController from "./GraphEventsController";
-import GraphDataController from "./GraphDataController";
-import DescriptionPanel from "./DescriptionPanel";
-import { Cluster, Dataset, FiltersState, Tag } from "../types";
-import ClustersPanel from "./ClustersPanel";
-import SearchField from "./SearchField";
+import { FC, useEffect, useState } from "react";
+import { SigmaContainer, ZoomControl, FullScreenControl, ForceAtlasControl } from "react-sigma-v2";
+import { mapValues, keyBy, constant } from "lodash";
+import { Cluster, CriticalPathDataset, FiltersState, Tag } from "../types";
 import drawLabel from "../canvas-utils";
 import GraphTitle from "./GraphTitle";
-import TagsPanel from "./TagsPanel";
 
 import "react-sigma-v2/lib/react-sigma-v2.css";
 import { GrClose } from "react-icons/gr";
 import { BiRadioCircleMarked, BiBookContent } from "react-icons/bi";
 import { BsArrowsFullscreen, BsFullscreenExit, BsZoomIn, BsZoomOut } from "react-icons/bs";
 import GraphDataControllerCriticalPath from "./GraphDataControllerCriticalPath";
+import GraphEventsControllerCriticalPath from "./GraphEventsControllerCriticalPath";
 interface CriticalPathProps {
     activeNode: string;
-    dataset: Dataset;
 }
 const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
   const [showContents, setShowContents] = useState(false);
   const [dataReady, setDataReady] = useState(false);
-  const [dataset, setDataset] = useState<Dataset | null>(null);
+  const [dataset, setDataset] = useState<CriticalPathDataset | null>(null);
   const [filtersState, setFiltersState] = useState<FiltersState>({
     clusters: {},
     tags: {},
   });
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
 
-  const getTags = (data: Dataset) => {
-    let jobs = data.jobs;
+  const getTags = (data: CriticalPathDataset) => {
+    let jobs = data.vertex;
     let tags: Tag[] = [];
     let apps: string[] = [];
     for (let i = 0; i < jobs.length; i++) {
-      jobs[i].cluster = jobs[i].app;
-      jobs[i].tag = jobs[i].app;
       if (apps.indexOf(jobs[i].app) < 0) {
-        tags.push({ key: jobs[i].app, image: '' });
-        apps.push(jobs[i].app);
+        tags.push({ key: jobs[i].tag, image: '' });
+        apps.push(jobs[i].cluster);
       }
     }
     return tags;
   }
 
-  const getClusters = (data: Dataset) => {
-    let jobs = data.jobs;
+  const getClusters = (data: CriticalPathDataset) => {
+    let jobs = data.vertex;
     let clusters: Cluster[] = [];
     let apps: string[] = [];
     for (let i = 0; i < jobs.length; i++) {
-      if (apps.indexOf(jobs[i].app) < 0) {
-        clusters.push({ key: jobs[i].app, clusterLabel: jobs[i].app, color: '' });
-        apps.push(jobs[i].app);
+      if (apps.indexOf(jobs[i].cluster) < 0) {
+        clusters.push({ key: jobs[i].cluster, clusterLabel: jobs[i].cluster, color: '' });
+        apps.push(jobs[i].cluster);
       }
     }
     return clusters;
@@ -61,18 +52,19 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
 
   // Load data on mount:
   useEffect(() => {
-    const { dataset } = props;
-    console.log(dataset, props.activeNode);
-    dataset.jobs = dataset.jobs.filter(({ node }) => node === props.activeNode);
-    dataset.tags = getTags(dataset);
-    dataset.clusters = getClusters(dataset);
-    setDataset(dataset);
-    console.log("***", mapValues(keyBy(dataset.clusters, "key"), constant(true)));
-    setFiltersState({
-        clusters: mapValues(keyBy(dataset.clusters, "key"), constant(true)),
-        tags: mapValues(keyBy(dataset.tags, "key"), constant(true)),
-    });
-    requestAnimationFrame(() => setDataReady(true));
+    fetch(`${process.env.PUBLIC_URL}/criticalPathData.json`)
+      .then((res) => res.json())
+      .then((dataset: CriticalPathDataset) => {
+          dataset.edges = dataset.edges.map((edge: any) => ({ inV: edge[1], outV: edge[0] }))
+          dataset.tags = getTags(dataset);
+          dataset.clusters = getClusters(dataset);
+          setDataset(dataset);
+          setFiltersState({
+              clusters: mapValues(keyBy(dataset.clusters, "key"), constant(true)),
+              tags: mapValues(keyBy(dataset.tags, "key"), constant(true)),
+          });
+          requestAnimationFrame(() => setDataReady(true));
+        });
   }, [props.activeNode]);
 
   if (!dataset) return null;
@@ -95,8 +87,8 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
         className="react-sigma"
         style={{ height: "500px", width: "1000px" }}
       >
-        {/* <GraphSettingsController hoveredNode={hoveredNode} />
-        <GraphEventsController setHoveredNode={setHoveredNode} /> */}
+        {/* <GraphSettingsController hoveredNode={hoveredNode} /> */}
+        <GraphEventsControllerCriticalPath setHoveredNode={setHoveredNode} />
         <GraphDataControllerCriticalPath dataset={dataset} filters={filtersState} />
 
         {dataReady && (
@@ -128,7 +120,7 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
                 customZoomCenter={<BiRadioCircleMarked />}
               />
               {/* <ControlsContainer> */}
-              <ForceAtlasControl className="ico" autoRunFor={250} />
+              <ForceAtlasControl className="ico" autoRunFor={400} />
               {/* </ControlsContainer> */}
             </div>
             <div className="contents">  

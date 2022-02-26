@@ -4,7 +4,7 @@ import { keyBy, omit } from "lodash";
 
 import { Dataset, FiltersState } from "../types";
 
-const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ dataset, filters, children }) => {
+const GraphDataControllerCriticalPath: FC<{ dataset: Dataset; filters: FiltersState }> = ({ dataset, filters, children }) => {
   const sigma = useSigma();
   const graph = sigma.getGraph();
 
@@ -20,36 +20,43 @@ const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ 
 
     for (let i = 0; i < jobs.length; i++) {
       const batchJob = jobs[i];
-      if (batchJob.marker) {
-        graph.addNode(batchJob.name, {
+      if (jobNodes.indexOf(batchJob.node) < 0) {
+        graph.addNode(batchJob.node, {
           size: 5,
-          label: batchJob.name,
+          label: batchJob.node,
           color: "#ed7047",
-          cluster: '',
+          cluster: batchJob.app,
           tag: batchJob.app,
-          x: i * 10,
-          y: 0
-          // image: `${process.env.PUBLIC_URL}/images/concept.svg`
+          image: `${process.env.PUBLIC_URL}/images/concept.svg`
         });
-      } else {
-        graph.addNode(batchJob.name, {
-          size: 5,
-          label: batchJob.name,
-          color: "#ed7047",
-          cluster: '',
-          tag: batchJob.app,
-          x: 0,
-          y: i + 20
-          // image: `${process.env.PUBLIC_URL}/images/concept.svg`
-        });
+        jobNodes.push(batchJob.node);
       }
-
+      if (jobNodes.indexOf(batchJob.pred) < 0) {
+        graph.addNode(batchJob.pred, {
+          size: 5,
+          label: batchJob.pred,
+          cluster: batchJob.app,
+          tag: batchJob.app
+          // image: `${process.env.PUBLIC_URL}/images/person.svg`
+        });
+        jobNodes.push(batchJob.pred);
+      }
+      const edgeStr = batchJob.pred + "-" + batchJob.node;
+      if (edgeList.indexOf(edgeStr) < 0) {
+        graph.addEdge(batchJob.pred, batchJob.node, {
+          type: "arrow",
+          label: "",
+          size: 1
+        });
+        edgeList.push(edgeStr);
+      }
     }
 
 
     graph.nodes().forEach((node, i) => {
-      // graph.setNodeAttribute(node, "x", i);
-      // graph.setNodeAttribute(node, "y", 70);
+      const angle = (i * 2 * Math.PI) / graph.order;
+      graph.setNodeAttribute(node, "x", 100 * Math.cos(angle));
+      graph.setNodeAttribute(node, "y", 100 * Math.sin(angle));
       const neigbors = graph.neighbors(node);
       graph.setNodeAttribute(node, "size", 5 + (neigbors.length * 0.1));
     });
@@ -67,11 +74,11 @@ const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ 
     const { clusters, tags } = filters;
     graph.forEachNode((node, { cluster, tag }) =>{
       console.log("***", cluster, tag);
-      // graph.setNodeAttribute(node, "hidden", !clusters[cluster] || !tags[tag])
+      graph.setNodeAttribute(node, "hidden", !clusters[cluster] || !tags[tag])
     });
   }, [graph, filters]);
 
   return <>{children}</>;
 };
 
-export default GraphDataController;
+export default GraphDataControllerCriticalPath;
