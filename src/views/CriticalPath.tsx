@@ -11,6 +11,8 @@ import { BiRadioCircleMarked, BiBookContent } from "react-icons/bi";
 import { BsArrowsFullscreen, BsFullscreenExit, BsZoomIn, BsZoomOut } from "react-icons/bs";
 import GraphDataControllerCriticalPath from "./GraphDataControllerCriticalPath";
 import GraphEventsControllerCriticalPath from "./GraphEventsControllerCriticalPath";
+import { getNodeColor } from "../graph-utils";
+import GraphSettingsController from "./GraphSettingsController";
 interface CriticalPathProps {
     activeNode: string;
 }
@@ -25,37 +27,75 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
 
   const getTags = (data: CriticalPathDataset) => {
-    let jobs = data.vertex;
+    let jobs = data.jobs;
     let tags: Tag[] = [];
     let apps: string[] = [];
     for (let i = 0; i < jobs.length; i++) {
+      jobs[i].cluster = jobs[i].app;
+      jobs[i].tag = jobs[i].app;
       if (apps.indexOf(jobs[i].app) < 0) {
-        tags.push({ key: jobs[i].tag, image: '' });
-        apps.push(jobs[i].cluster);
+        tags.push({ key: jobs[i].app, image: '' });
+        apps.push(jobs[i].app);
       }
     }
     return tags;
   }
 
   const getClusters = (data: CriticalPathDataset) => {
-    let jobs = data.vertex;
+    let jobs = data.jobs;
     let clusters: Cluster[] = [];
     let apps: string[] = [];
     for (let i = 0; i < jobs.length; i++) {
-      if (apps.indexOf(jobs[i].cluster) < 0) {
-        clusters.push({ key: jobs[i].cluster, clusterLabel: jobs[i].cluster, color: '' });
-        apps.push(jobs[i].cluster);
+      if (apps.indexOf(jobs[i].status) < 0) {
+        clusters.push({ key: jobs[i].status, clusterLabel: jobs[i].status, color: getNodeColor(jobs[i].status) });
+        apps.push(jobs[i].status);
       }
     }
     return clusters;
   }
 
+  const massageJobsData = (data: any) => {
+    let jobs = [];
+    for (let i = 0; i < data.vertex.length; i++) {
+      const jobObj = data.vertex[i];
+      jobs.push(
+        {
+          "name": jobObj.id,
+          "app": jobObj.properties?.app[0]?.value,
+          "status": jobObj.properties?.status[0]?.value,
+          "marker": (jobObj.properties?.marker[0]?.value === "Y"),
+          "time": (i+1),
+          "avgTime": jobObj.properties?.avgTime[0]?.value,
+          "description": jobObj.properties?.description[0]?.value
+        }
+      );
+    }
+
+    data.jobs = jobs;
+    console.log("jobs", jobs);
+    // data.edge = data.edge[0];
+  }
+
+  const filterData = (data: CriticalPathDataset) => {
+    const requiredNodes: string[] = [];
+    data.edge = data.edge.filter(({ inV, outV }: { inV: string, outV: string }) => {
+      const exists = inV === props.activeNode || outV === props.activeNode;
+      if(exists) {
+        requiredNodes.push(inV);
+        requiredNodes.push(outV);
+      }
+      return exists;
+    });
+    data.vertex = data.vertex.filter(({ id }) => requiredNodes.find(n => n === id));
+  }
+
   // Load data on mount:
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/criticalPathData.json`)
+    fetch(`${process.env.PUBLIC_URL}/sample-data.json`)
       .then((res) => res.json())
       .then((dataset: CriticalPathDataset) => {
-          dataset.edges = dataset.edges.map((edge: any) => ({ inV: edge[1], outV: edge[0] }))
+          filterData(dataset);
+          massageJobsData(dataset);
           dataset.tags = getTags(dataset);
           dataset.clusters = getClusters(dataset);
           setDataset(dataset);
@@ -87,7 +127,7 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
         // className="react-sigma"
         style={{ height: "700px", width: "1000px" }}
       >
-        {/* <GraphSettingsController hoveredNode={hoveredNode} /> */}
+        <GraphSettingsController hoveredNode={hoveredNode} />
         <GraphEventsControllerCriticalPath setHoveredNode={setHoveredNode} />
         <GraphDataControllerCriticalPath dataset={dataset} filters={filtersState} />
 
@@ -120,7 +160,7 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
                 customZoomCenter={<BiRadioCircleMarked />}
               />
               {/* <ControlsContainer> */}
-              <ForceAtlasControl className="ico" autoRunFor={400} />
+              {/* <ForceAtlasControl className="ico" autoRunFor={400} /> */}
               {/* </ControlsContainer> */}
             </div>
             <div className="contents">  
