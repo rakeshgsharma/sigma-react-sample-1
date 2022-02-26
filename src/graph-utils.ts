@@ -1,10 +1,10 @@
 export function getNodeColor(status: string) {
     let color = 'grey';
-    if (status === 'SUCCESS') {
+    if (status === 'COMPLETED') {
         color = 'green';
-    } else if (status === 'ABENDED') {
+    } else if (status === 'COMPLETED WITH DELAY') {
         color = 'orange';
-    } else if (status === 'FAILURE') {
+    } else if (status === 'FAILED') {
         color = 'red';
     }
     return color;

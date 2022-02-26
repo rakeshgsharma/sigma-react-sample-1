@@ -1,0 +1,151 @@
+{
+  "vertex": [
+    {
+      "key": "cytoscape",
+      "label": "Cytoscape",
+      "tag": "Tool",
+      "URL": "https://en.wikipedia.org/wiki/Cytoscape",
+      "cluster": "0",
+      "x": 643.82275390625,
+      "y": -770.3126220703125,
+      "score": 0.00006909602204225056,
+      "status": "success"
+    },
+    {
+      "key": "microsoft excel",
+      "label": "Microsoft Excel",
+      "tag": "Tool",
+      "URL": "https://en.wikipedia.org/wiki/Microsoft%20Excel",
+      "cluster": "1",
+      "x": -857.2847900390625,
+      "y": 602.7734375,
+      "score": 0.0018317394731443256,
+      "status": "success"
+    },
+    {
+      "key": "gephi",
+      "label": "Gephi",
+      "tag": "Tool",
+      "URL": "https://en.wikipedia.org/wiki/Gephi",
+      "cluster": "0",
+      "x": 343.4423828125,
+      "y": -749.0428466796875,
+      "score": 0.0010242079745792347,
+      "status": "success"
+    },
+    {
+      "key": "microsoft power bi",
+      "label": "Microsoft Power BI",
+      "tag": "Tool",
+      "URL": "https://en.wikipedia.org/wiki/Microsoft%20Power%20BI",
+      "cluster": "1",
+      "x": -900.3515014648438,
+      "y": 633.4600830078125,
+      "score": 0.0000049571249591405295,
+      "status": "success"
+    },
+    {
+      "key": "qlik",
+      "label": "Qlik",
+      "tag": "Tool",
+      "URL": "https://en.wikipedia.org/wiki/Qlik",
+      "cluster": "1",
+      "x": -627.0659790039062,
+      "y": 459.9796447753906,
+      "score": 0,
+      "status": "success"
+    },
+    {
+      "key": "venn diagram",
+      "label": "Venn diagram",
+      "tag": "Chart type",
+      "URL": "https://en.wikipedia.org/wiki/Venn%20diagram",
+      "cluster": "3",
+      "x": -237.4854736328125,
+      "y": -1150.8712158203125,
+      "score": 0.007071322614031072,
+      "status": "success"
+    },
+    {
+      "key": "radar chart",
+      "label": "Radar chart",
+      "tag": "Chart type",
+      "URL": "https://en.wikipedia.org/wiki/Radar%20chart",
+      "cluster": "4",
+      "x": 330.8612365722656,
+      "y": 203.5203857421875,
+      "score": 0,
+      "status": "success"
+    },
+    {
+      "key": "flowchart",
+      "label": "Flowchart",
+      "tag": "Chart type",
+      "URL": "https://en.wikipedia.org/wiki/Flowchart",
+      "cluster": "5",
+      "x": -476.044677734375,
+      "y": 692.1626586914062,
+      "score": 0.01584614746684067,
+      "status": "failed"
+    },
+    {
+      "key": "box plot",
+      "label": "Box plot",
+      "tag": "Chart type",
+      "URL": "https://en.wikipedia.org/wiki/Box%20plot",
+      "cluster": "6",
+      "x": 600.8757934570312,
+      "y": 1116.4998779296875,
+      "score": 0.004182562905931715,
+      "status": "success"
+    }
+  ],
+  "edges": [
+    ["flowchart", "cytoscape"],
+    ["flowchart", "microsoft excel"],
+    ["flowchart", "gephi"],
+    ["flowchart", "qlik"],
+    ["venn diagram", "flowchart"],
+    ["radar chart", "flowchart"],
+    ["microsoft power bi", "flowchart"]
+  ],
+  "clusters": [
+    { "key": "0", "color": "#6c3e81", "clusterLabel": "Graph theory" },
+    { "key": "1", "color": "#666666", "clusterLabel": "Spreadsheets" },
+    { "key": "3", "color": "#57a835", "clusterLabel": "Logic of information" },
+    { "key": "4", "color": "#7145cd", "clusterLabel": "Trees and data structures" },
+    { "key": "5", "color": "#579f5f", "clusterLabel": "Business intelligence" },
+    { "key": "6", "color": "#d043c4", "clusterLabel": "Exploratory data analysis" },
+    { "key": "7", "color": "#477028", "clusterLabel": "Softwares and data mining" },
+    { "key": "8", "color": "#b174cb", "clusterLabel": "Project management" },
+    { "key": "10", "color": "#a4923a", "clusterLabel": "Engineering" },
+    { "key": "11", "color": "#5f83cc", "clusterLabel": "Semantic networks" },
+    { "key": "12", "color": "#666666", "clusterLabel": "Sociometry" },
+    { "key": "13", "color": "#666666", "clusterLabel": "Ideas and concepts" },
+    { "key": "14", "color": "#db4139", "clusterLabel": "Arguments / Logic" },
+    { "key": "15", "color": "#379982", "clusterLabel": "Scientific classification" },
+    { "key": "16", "color": "#666666", "clusterLabel": "Decision trees" },
+    { "key": "17", "color": "#666666", "clusterLabel": "Motion perception" },
+    { "key": "18", "color": "#c94c83", "clusterLabel": "Artificial intelligence" },
+    { "key": "19", "color": "#666666", "clusterLabel": "Linguistics" },
+    { "key": "20", "color": "#7c5d28", "clusterLabel": "Collaborative problem solving" },
+    { "key": "21", "color": "#a54a49", "clusterLabel": "Knowledge management" },
+    { "key": "22", "color": "#666666", "clusterLabel": "Clinical terms and technologies" },
+    { "key": "23", "color": "#cf7435", "clusterLabel": "Network Science" },
+    { "key": "25", "color": "#666666", "clusterLabel": "Knots" },
+    { "key": "24", "color": "#666666", "clusterLabel": "Tensors (mathematics)" }
+  ],
+  "tags": [
+    { "key": "Chart type", "image": "charttype.svg" },
+    { "key": "Company", "image": "company.svg" },
+    { "key": "Concept", "image": "concept.svg" },
+    { "key": "Field", "image": "field.svg" },
+    { "key": "List", "image": "list.svg" },
+    { "key": "Method", "image": "method.svg" },
+    { "key": "Organization", "image": "organization.svg" },
+    { "key": "Person", "image": "person.svg" },
+    { "key": "Technology", "image": "technology.svg" },
+    { "key": "Tool", "image": "tool.svg" },
+    { "key": "unknown", "image": "unknown.svg" }
+  ]
+}

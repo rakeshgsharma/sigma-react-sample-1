@@ -645,3 +645,8 @@ ul > li {
     display: none !important;
   }
 }
+
+
+.panels .panel h2 {
+  font-size: 23px;
+}

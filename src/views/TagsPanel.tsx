@@ -77,7 +77,7 @@ const TagsPanel: FC<{
             <li
               className="caption-row"
               key={tag.key}
-              title={`${nodesCount} page${nodesCount > 1 ? "s" : ""}${
+              title={`${nodesCount} job${nodesCount > 1 ? "s" : ""}${
                 visibleNodesCount !== nodesCount ? ` (only ${visibleNodesCount} visible)` : ""
               }`}
             >
@@ -93,15 +93,8 @@ const TagsPanel: FC<{
                   style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/${tag.image})` }}
                 />{" "}
                 <div className="node-label">
-                  <span>{tag.key}</span>
-                  <div className="bar" style={{ width: (100 * nodesCount) / maxNodesPerTag + "%" }}>
-                    <div
-                      className="inside-bar"
-                      style={{
-                        width: (100 * visibleNodesCount) / nodesCount + "%",
-                      }}
-                    />
-                  </div>
+                  <span>{tag.key|| "NA"}</span>
+                  
                 </div>
               </label>
             </li>

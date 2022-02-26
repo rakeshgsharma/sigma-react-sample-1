@@ -28,9 +28,10 @@ export interface Dataset {
 
 export interface CriticalPathDataset {
   vertex: any[];
-  edges: [string, string][] | any;
+  edge: [string, string][] | any;
   clusters: Cluster[];
   tags: Tag[];
+  jobs: any[];
 }
 
 export interface FiltersState {
