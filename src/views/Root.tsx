@@ -77,11 +77,17 @@ const Root: FC = () => {
     let jobs = [];
     for (let i = 0; i < data.vertex.length; i++) {
       const jobObj = data.vertex[i];
+      const status = jobObj.properties?.status[0]?.value;
+      const statusMap: any = {
+        "FAILURE": "FAILED",
+        "ABENDED": "COMPLETED WITH DELAY",
+        "SUCCESS": "COMPLETED"
+      };
       jobs.push(
         {
           "name": jobObj.id,
           "app": jobObj.properties?.app[0]?.value,
-          "status": jobObj.properties?.status[0]?.value,
+          "status": statusMap[status] || status ,
           "marker": (jobObj.properties?.marker[0]?.value === "Y"),
           "time": (i+1),
           "avgTime": jobObj.properties?.avgTime[0]?.value,

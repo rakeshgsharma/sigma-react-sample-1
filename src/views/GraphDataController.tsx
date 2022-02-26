@@ -81,19 +81,24 @@ const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ 
   }
 
   function showNonMarkerJobs(nonMarkerJobs: any[]) {
+    let angle = 0;
+    let xCo = 0;
     for (let i = 0; i < nonMarkerJobs.length; i++) {
       const batchJob = nonMarkerJobs[i];
-      const angle = (i * 3 * Math.PI) / graph.order;
-      console.log("angle", angle);
+      
+      const yCo = 80 + 20 * Math.sin(angle);
+      console.log(batchJob.name, "angle", angle, xCo, yCo, graph.order);
       graph.addNode(batchJob.name, {
         size: 5,
         label: batchJob.name,
         color: getNodeColor(batchJob.status),
         cluster: batchJob.status,
         tag: batchJob.app,
-        x: (10 * i) + 100 * Math.cos(angle),
-        y: 60 + 100 * Math.sin(angle) 
+        x: xCo,
+        y: yCo
       });
+      angle += 18;
+      xCo += 12;
     }
   }
 
