@@ -21,94 +21,99 @@ import "react-sigma-v2/lib/react-sigma-v2.css";
 
 export const GraphPanel = (props: any) => {
     
-    const [showContents, setShowContents] = useState(false);
-    const [dataReady, setDataReady] = useState(false);
-    const [dataset, setDataset] = useState<Dataset | null>(null);
-    const [filtersState, setFiltersState] = useState<FiltersState>({
-      clusters: {},
-      tags: {},
-    });
-    const [hoveredNode, setHoveredNode] = useState<string | null>(null);
-  
-    const [show, setShow] = useState(false);
-    const [activeNode, setActiveNode] = useState('');
-  
-    const handleClose = () => setShow(false);
-    const handleShow = (activeNode: string) => {
-      setShow(true);
-      setActiveNode(activeNode)
+  const [showContents, setShowContents] = useState(false);
+  const [dataReady, setDataReady] = useState(false);
+  const [dataset, setDataset] = useState<Dataset | null>(null);
+  const [filtersState, setFiltersState] = useState<FiltersState>({
+    clusters: {},
+    tags: {},
+  });
+  const [hoveredNode, setHoveredNode] = useState<string | null>(null);
+
+  const [show, setShow] = useState(false);
+  const [activeNode, setActiveNode] = useState('');
+
+  const handleClose = () => setShow(false);
+  const handleShow = (activeNode: string) => {
+    setShow(true);
+    setActiveNode(activeNode)
+  }
+
+  const getTags = (data: Dataset) => {
+    const jobs = data.jobs;
+    const tags: Tag[] = [];
+    const apps: string[] = [];
+    for (let i = 0; i < jobs.length; i++) {
+      jobs[i].cluster = jobs[i].app;
+      jobs[i].tag = jobs[i].app;
+      if (apps.indexOf(jobs[i].app) < 0) {
+        tags.push({ key: jobs[i].app, image: '' });
+        apps.push(jobs[i].app);
+      }
     }
-  
-    const getTags = (data: Dataset) => {
-      const jobs = data.jobs;
-      const tags: Tag[] = [];
-      const apps: string[] = [];
-      for (let i = 0; i < jobs.length; i++) {
-        jobs[i].cluster = jobs[i].app;
-        jobs[i].tag = jobs[i].app;
-        if (apps.indexOf(jobs[i].app) < 0) {
-          tags.push({ key: jobs[i].app, image: '' });
-          apps.push(jobs[i].app);
+    return tags;
+  }
+
+  const getClusters = (data: Dataset) => {
+    const jobs = data.jobs;
+    const clusters: Cluster[] = [];
+    const apps: string[] = [];
+    for (let i = 0; i < jobs.length; i++) {
+      if (apps.indexOf(jobs[i].status) < 0) {
+        clusters.push({ key: jobs[i].status, clusterLabel: jobs[i].status, color: getNodeColor(jobs[i].status) });
+        apps.push(jobs[i].status);
+      }
+    }
+    return clusters;
+  }
+
+  const massageJobsData = (data: any) => {
+    const jobs = [];
+    for (let i = 0; i < data.vertex.length; i++) {
+      const jobObj = data.vertex[i];
+      const status = jobObj.properties?.status[0]?.value;
+      const statusMap: any = {
+        "FAILURE": "FAILED",
+        "ABENDED": "COMPLETED WITH DELAY",
+        "SUCCESS": "COMPLETED"
+      };
+      jobs.push(
+        {
+          "name": jobObj.id,
+          "app": jobObj.properties?.app[0]?.value,
+          "status": statusMap[status] || status ,
+          "marker": (jobObj.properties?.marker[0]?.value === "Y"),
+          "time": (i+1),
+          "avgTime": jobObj.properties?.avgTime[0]?.value,
+          "description": jobObj.properties?.description[0]?.value
         }
-      }
-      return tags;
+      );
     }
-  
-    const getClusters = (data: Dataset) => {
-      const jobs = data.jobs;
-      const clusters: Cluster[] = [];
-      const apps: string[] = [];
-      for (let i = 0; i < jobs.length; i++) {
-        if (apps.indexOf(jobs[i].status) < 0) {
-          clusters.push({ key: jobs[i].status, clusterLabel: jobs[i].status, color: getNodeColor(jobs[i].status) });
-          apps.push(jobs[i].status);
-        }
-      }
-      return clusters;
-    }
-  
-    const massageJobsData = (data: any) => {
-      const jobs = [];
-      for (let i = 0; i < data.vertex.length; i++) {
-        const jobObj = data.vertex[i];
-        jobs.push(
-          {
-            "name": jobObj.id,
-            "app": jobObj.properties?.app[0]?.value,
-            "status": jobObj.properties?.status[0]?.value,
-            "marker": (jobObj.properties?.marker[0]?.value === "Y"),
-            "time": (i+1),
-            "avgTime": jobObj.properties?.avgTime[0]?.value,
-            "description": jobObj.properties?.description[0]?.value
-          }
-        );
-      }
-  
-      data.jobs = jobs;
-      console.log("jobs", jobs);
-      // data.edge = data.edge[0];
-    }
-  
-    // Load data on mount:
-    useEffect(() => {
-        
-      fetch(`${process.env.PUBLIC_URL}/sample-data.json`)
-        .then((res) => res.json())
-        .then((dataset: Dataset) => {
-          massageJobsData(dataset);
-          setDataset(dataset);
-          dataset.tags = getTags(dataset);
-          dataset.clusters = getClusters(dataset);
-          console.log("***", mapValues(keyBy(dataset.clusters, "key"), constant(true)));
-          setFiltersState({
-            clusters: mapValues(keyBy(dataset.clusters, "key"), constant(true)),
-            tags: mapValues(keyBy(dataset.tags, "key"), constant(true)),
-          });
-          requestAnimationFrame(() => setDataReady(true));
+
+    data.jobs = jobs;
+    console.log("jobs", jobs);
+    // data.edge = data.edge[0];
+  }
+
+  // Load data on mount:
+  useEffect(() => {
+    fetch(`${process.env.PUBLIC_URL}/sample-data.json`)
+      .then((res) => res.json())
+      .then((dataset: Dataset) => {
+        massageJobsData(dataset);
+        setDataset(dataset);
+        dataset.tags = getTags(dataset);
+        dataset.clusters = getClusters(dataset);
+        console.log("***", mapValues(keyBy(dataset.clusters, "key"), constant(true)));
+        setFiltersState({
+          clusters: mapValues(keyBy(dataset.clusters, "key"), constant(true)),
+          tags: mapValues(keyBy(dataset.tags, "key"), constant(true)),
         });
-    }, []);
-  
-    if (!dataset) return null;
+        requestAnimationFrame(() => setDataReady(true));
+      });
+  }, []);
+
+  if (!dataset) return null;
     return(
         <SigmaContainer
             graphOptions={{ type: "directed" }}
