@@ -22,7 +22,9 @@ const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ 
     console.log("buckets", buckets);
     renderMarkerJobs(buckets);
     let nonMarkerJobs = jobs.filter((job: any) => !job.marker);
-    showNonMarkerJobs(nonMarkerJobs);
+    // let jobMap = {};
+    showNonMarkerJobs(nonMarkerJobs, false);
+    // showNonMarkerJobs(nonMarkerJobs, true);
     addEdges(graph, edges);
 
 
@@ -80,13 +82,13 @@ const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ 
     }
   }
 
-  function showNonMarkerJobs(nonMarkerJobs: any[]) {
+  function showNonMarkerJobs(nonMarkerJobs: any[], isNeg: boolean) {
     let angle = 0;
     let xCo = 0;
     for (let i = 0; i < nonMarkerJobs.length; i++) {
       const batchJob = nonMarkerJobs[i];
-      
-      const yCo = 80 + 20 * Math.sin(angle);
+
+      const yCo = (isNeg ? -40 : 80) + 20 * Math.sin(angle);
       console.log(batchJob.name, "angle", angle, xCo, yCo, graph.order);
       graph.addNode(batchJob.name, {
         size: 5,
