@@ -120,7 +120,7 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
                 customZoomCenter={<BiRadioCircleMarked />}
               />
               {/* <ControlsContainer> */}
-              <ForceAtlasControl className="ico" autoRunFor={400} />
+              {/* <ForceAtlasControl className="ico" autoRunFor={400} /> */}
               {/* </ControlsContainer> */}
             </div>
             <div className="contents">  
