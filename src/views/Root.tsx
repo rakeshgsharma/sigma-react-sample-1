@@ -225,7 +225,7 @@ const Root: FC = () => {
               </>
             )}
             <CriticalPathModal activeNode={activeNode} handleClose={handleClose} show={show}>
-              <CriticalPath activeNode={activeNode} dataset={{ ...dataset }} />
+              <CriticalPath activeNode={activeNode} />
             </CriticalPathModal>
           </SigmaContainer>
         </div>
