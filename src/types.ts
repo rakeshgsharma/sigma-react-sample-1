@@ -21,7 +21,7 @@ export interface Tag {
 
 export interface Dataset {
   jobs: any[];
-  edges: [string, string][];
+  edge: [string, string][];
   clusters: Cluster[];
   tags: Tag[];
 }

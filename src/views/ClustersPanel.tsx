@@ -46,7 +46,7 @@ const ClustersPanel: FC<{
     <Panel
       title={
         <>
-          <MdGroupWork className="text-muted" /> Clusters
+          <MdGroupWork className="text-muted" /> Satuses
           {visibleClustersCount < clusters.length ? (
             <span className="text-muted text-small">
               {" "}
@@ -59,7 +59,7 @@ const ClustersPanel: FC<{
       }
     >
       <p>
-        <i className="text-muted">Click a cluster to show/hide related pages from the network.</i>
+        <i className="text-muted">Click a status to show/hide related pages from the network.</i>
       </p>
       <p className="buttons">
         <button className="btn" onClick={() => setClusters(mapValues(keyBy(clusters, "key"), () => true))}>
