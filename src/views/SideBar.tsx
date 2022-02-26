@@ -60,6 +60,7 @@ export class SideBar extends React.Component {
               <span className="category-item-text">Overall</span>
             <span className="tooltip">Overall</span>
           </li>
+          <br/>
           <div className="category-header">Shortest Path</div>
           <div className="category-header">Reports</div>
           <li className="category-item">
