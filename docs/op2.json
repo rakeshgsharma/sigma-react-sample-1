@@ -1,0 +1,2713 @@
+{
+  "vertex": [
+    {
+      "id": "JOB_1",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "a3ebde91-08b7-4e6d-bb0a-52cfde2189a7",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "fff417e9-e996-40a6-99e8-d4b44111325d",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "a191361a-058c-41fa-b129-952e142701fe",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "276c96d4-320e-4372-a5d3-1de6f0544ffc",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "a3a7e661-45af-42c5-971b-7e1efc460720",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "808201df-0ec8-4782-84f6-f8308f346084",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "d926f41d-bba8-48fe-a9a4-4ce0debfd4e0",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_2",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "72b7d8fc-e58b-4d75-a6d1-de2697fdfc4d",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "6f574e9a-8f37-45b7-9458-c9e81e50a512",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "d5b3c71c-a818-44a7-9d73-b31791c47547",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "ca8cb941-b04a-4dd5-9f06-af4c6cf4780b",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "451ef498-810e-4f5e-b53f-2b61dd88603f",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "722bc86a-6021-4111-beec-2a19f81b662c",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "3ac5cfd7-bc1f-4496-95e1-cd703bdf55c8",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_3",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "413258f5-1f1c-4f47-bdca-4971960422cb",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "683c1a6e-a561-4308-9ac2-9626508c0747",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "5fa2b99a-b9cd-43e5-82f1-705775528f0d",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "bedef798-9017-41e5-b686-0cabffab4a0f",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "93813864-8b3d-4ec6-adb7-37ec66e8bab2",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "aafcae78-d5fc-4246-9ce9-137d5f546f94",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "baa063b4-7560-415a-aefc-2129665cacea",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_4",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "450f6613-7405-4474-9cc4-30ce8a512ec0",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "2651256d-05fd-44c6-81cb-7da4d4ed8fe3",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "c5b9e2d7-95d4-4cd1-8e24-c640f85c0ec9",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "3c4e51cc-079d-4beb-9691-f5981eb84970",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "eab1db98-1a9b-417c-9932-a197566dfdbc",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ea40fe17-d907-40bb-b7fa-df0baa8854a2",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "1c1dd66a-e6f4-4a06-9208-339c2825626e",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_5",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "a43b22c2-d7b0-4962-92eb-27de47cf719e",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "e111ab7f-8dba-4ed9-a9f5-d5ec2b2fab16",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "8039cb2b-a3a5-41c2-aa4d-4863e715f447",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "725f9421-a034-4057-978f-db086d67606e",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "d0224138-0fcb-4fd9-8689-23031235fa1e",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "19587d13-88a2-41e0-bd2e-c4d6ca15b916",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "3f4af875-7907-4829-9c99-b989525ffe53",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_6",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "fa3d3355-66fd-45b3-a6e6-e673bbb3684a",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "bf9dcc3e-686e-46ea-abb6-5f2374fd78a4",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "a7ceab73-05c9-4f7a-b2d2-3929bfcc0b26",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "dabd2f5b-35c5-4b8a-9772-aa1126bc3496",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "fab82c7b-1d31-4f11-954c-a5c7cdbd8c52",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ffaa8ff7-f16b-4b7e-8c41-2cca4ef804a1",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "a13b6790-3c17-4b93-b5fa-1de0a527b757",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_7",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "d5f35f25-a736-45d1-b0bd-d790c8150eef",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "dcfea124-f3c6-4f09-8ea0-ab762dd6836b",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "8b9a8ac4-7342-492e-aa65-f35488c01784",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "7718a219-2a25-4446-a279-46560971a903",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "1e4611e1-9fb0-4b52-8434-43e0dfe7aa35",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "477d59f7-fb27-4843-9049-eed752bda268",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "a1d39a0d-afc4-4ae6-a16b-8030518b278f",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_8",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "e56757a8-de95-4c72-8c24-b96371efa27b",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "8012adb8-cfd4-4a47-9763-25601534f058",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "1a317546-c402-4c5a-b879-6b7c05c73ae9",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "515e4646-6fc0-405c-9026-f77abc5a0f1c",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "f6ad5927-2fd4-478e-b25b-89008c7b3cab",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "7957a63d-0ec4-4333-a61a-6ca879939621",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "52b4dea9-5ec6-4b53-94e1-10925f98080f",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PSO",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "f2f23ff5-f10a-4621-8dfd-0f571b08df82",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "60816b6b-b07a-4d02-8210-309574120242",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "1cf4fad4-90c1-429c-93d1-5a19b8398594",
+            "value": "Y"
+          }
+        ],
+        "date": [
+          {
+            "id": "c85ea2e4-d8ae-43b7-a10c-0e23361932ed",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "91048509-eb18-41f8-8d31-f0a9325b13d9",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "de81c959-d2db-4f2f-b141-cdad6a696689",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "429a8f85-c2b5-4bcd-83d2-72ce6c9c87fe",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_9",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "8572a5df-5c45-42e3-bc56-6dbe66cea6e5",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "f1e67843-cb27-4bb2-9e3c-c66c79fdc63f",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "dc427391-375c-4a95-949d-496af20b540d",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "3aa16aa9-e609-46ef-b55b-bb61ec69c632",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3d2fb527-3c52-411d-808b-24d1fe14385d",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "9dee213b-028e-4df2-b107-fa14553353fb",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "809b804c-68e0-4505-97f8-5274d5bad001",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_10",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "2c80c312-57e9-4e3c-b7d8-3ed846fa3233",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "2b3ca795-90d3-4726-8143-0d14203f3366",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "b8bcabfc-502b-4f3f-905f-3021747df4ad",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "459eac47-fee0-4b12-9b81-723955560405",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "6eb53258-aae8-4559-9f3c-cabc1bfd6287",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "17487efb-f329-4b6b-88ef-34f431d680ba",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "3a73e8a3-cfa0-4e61-99d6-422e9203c017",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_11",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "a9089b7d-2184-4f12-a604-371d4fade2a2",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "a18e4fcb-bd60-4a4c-b475-a9b4f440579e",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "ad3acda6-9341-4d12-8228-39a009d95f2e",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "70d2d9b2-98cc-49ca-b5eb-7d0773925dd8",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "5933c00b-561b-4536-bc5d-e0dd7f75be09",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "0e6e615c-9fd7-4cfa-971b-b0ee781c98ac",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "79490534-db9b-43b3-8be4-51798510cfed",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_12",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "cc8722a6-f809-4304-8ba3-a8b4f0a0b54b",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "952eda11-e8f3-42ae-a00b-e84afae38ab5",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "8ad313ff-1a4c-4237-9505-a0843e3d5f09",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "17fa1b5a-700d-472a-bd18-816c501e5675",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "feaa86a1-95aa-4538-a436-c507515b0f3f",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "24d88256-2f01-4e76-8d2b-c7d644ecbe2b",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "e79da503-b32a-4545-8274-d542cb5b648b",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_13",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "79747129-aec1-4099-8b23-44160b083c76",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "de663aad-a963-45ed-9323-2fe3e0d43009",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "7bf414ca-6b79-443a-a6bc-c0b660b5fcaf",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "3fe5fe27-e51b-4a35-b582-8bb7e5d9b80a",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "0abb592e-192e-4a77-b97c-d607f2d7a1ee",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "4f2a9b6f-159c-41e7-9b80-ed452d8a7e2d",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "54d41fe4-efe3-4451-aba3-468c29f7d368",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MARGIN",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "9a3fccf0-25f6-42f2-9aab-c4f5d5e6d9d8",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "1c2b9cb0-7b2d-4437-bd1b-71f78dbfbd8b",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "6cab288f-ce35-45c7-ad9d-1d0f8affdc5b",
+            "value": "Y"
+          }
+        ],
+        "date": [
+          {
+            "id": "bf7ae4bd-c52d-4eab-ae34-d919711bb3a5",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3edf2b4f-1856-4fae-8676-9ef7b0ddff2e",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "848675cf-2a80-4f80-9d5d-b82d6d0cdc3a",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "49ef128c-2df0-42d1-8939-a575ba5d5648",
+            "value": "DELAYED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_14",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "200fd96d-6cf5-4917-ae36-9fdbc30cc0cb",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "d5c873b9-0c88-40a1-8616-508b65cbf1ce",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "24f8f58b-fea8-43be-872c-8d9f893f1073",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "3b4875f8-03dd-442e-8954-dcba105b3c10",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "2d506bb0-93ab-423d-b499-beb6c621c0fe",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "624b5572-e07a-437a-b00c-237dbb7d86e8",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "ae2d14d2-0d01-4b69-88b8-800e0ea3842d",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_15",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "db083249-6443-4dae-a45a-6dcf5df8a865",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "a001a949-8c64-4153-9eec-fa7062c2d9ef",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "33f462db-c8be-4f77-8a96-71838f132ea7",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "be4e58bf-fecc-4ca9-8610-23836c35d600",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "ac4f7f2a-3b31-4664-a899-02ad8d1dac88",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a9f16331-2314-4ab2-91d4-e775ce521f89",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "65adb413-2987-4d6e-ad31-e71c5fbea895",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_16",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "ba910628-a177-4d80-b340-e14bbf469fc5",
+            "value": "Master Security Description"
+          }
+        ],
+        "description": [
+          {
+            "id": "a216214e-03fa-43fe-8285-0c70faa15317",
+            "value": "MSD Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "020ef506-d604-44e0-8aeb-b097a817dda5",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "6dcc68d0-4163-4b25-a267-01582d20fd2c",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "367a1494-9626-4752-8654-e4d9e7a4fb3b",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "803d3a81-160d-4eca-a205-18c34a109ab8",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "10e0de07-99a1-4ea4-bb12-10bbe3af001a",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EDB",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "c1e256a2-a8b9-4a0b-8bd4-5f0ab3e30f49",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "e8cc4383-252a-463d-aa70-c3fb8aad75fd",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "8a8ae0d6-cc7f-4486-954f-b65d37c6acaf",
+            "value": "Y"
+          }
+        ],
+        "date": [
+          {
+            "id": "743f0f35-caee-474d-aba1-51e2b0ce81c5",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "a3893358-90f7-4181-b897-af7b3cf38873",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b9253190-9238-495b-b7e3-f183ebcaff8f",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "2d0600fa-2fe5-4571-ad1f-d000617afa1c",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_17",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "73dca3b8-3b42-4bda-adaf-839b2b66e7fe",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "7ba10719-7bcb-4113-af5a-c2bbcb1b31f2",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "5d393773-ea61-4c98-bb4e-92783e811594",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "f4ecea37-86cf-4005-b180-d212c5f9bc7c",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "a3df205e-68f6-422d-b066-22261d53c068",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "849975d6-6760-4309-93be-b1b9e65d934f",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "8b52e71b-8e6d-4649-97ef-a29a852d3578",
+            "value": "DELAYED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_18",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "16a5f7b2-a902-4a3b-9206-02bca3536e39",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "c961e38b-eabb-47fd-85c9-dfb9667c2485",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "77306376-9a5b-4076-b075-2cb8d482e266",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "83002240-56fd-4e90-b767-709626c2073d",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c8b878be-c860-42e7-b64e-a3c5ed81674a",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "525cea92-61f2-4657-ad4b-a2ed6d7b9f70",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "3f6af112-660b-4fce-92a7-92e6e2eb4a20",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_19",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "65100d3b-ad6b-4a91-92e1-683ecab3d625",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "be0ed49f-564e-4bcb-ad4a-bef893b3b726",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "6fa535e9-6db1-4a38-a414-8dfa3789825d",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "786707a5-7d80-4cfa-aaee-cd4f42cf519b",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "a538f6ad-a3e1-4ecb-8d32-7087c85cfa3a",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "edce9218-c537-48d8-979b-78f97df5c403",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "e0916775-3014-4eca-813b-4abbc557f165",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_20",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "7d5f1503-b9c2-4232-8775-c9e244877bd0",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "b80bb893-e221-47e4-96ba-15f71fac3267",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "86a2ba7e-ba48-4543-a9de-e83d8d1290be",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "0f120ff6-7484-4f06-984e-616d5a1295cd",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "87fabe4b-b4b9-4bab-a851-3fa4354bf93c",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a37b6835-6236-4bd6-bfd8-5425c26888f6",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "e1521c22-341e-453a-adac-800617aa61ee",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_21",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "8dc94a0e-8fe9-4922-b5b9-5f91218f270a",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "c6be8ea2-3c03-499a-9341-0aa4eb27f409",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "b07af25b-97a2-4b31-a955-fd7ef3be7807",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "f1e9ba99-e848-4244-9066-023676d19c8e",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "a422ca30-8241-41c6-94c3-09f685bd6782",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ac0e902d-9f01-404b-bdca-1bd2664df5ea",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "cdc006ae-5a4e-436e-b573-cf82b5a1c9fb",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_22",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "54300306-4ed8-44df-9875-74998c1df6fb",
+            "value": "Mutual Fund Reconciliation"
+          }
+        ],
+        "description": [
+          {
+            "id": "15ffd906-366c-4f2a-8234-734c69eb862d",
+            "value": "Mutual Fund Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "f7cb3994-076d-43e1-9aad-e12ce2193db8",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "cd32c330-c7cd-4823-b679-ddd35161e684",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "51be1c48-e3fc-43a6-9900-b9b58095a38d",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "442310c1-86df-462f-866c-f890e2b92ed5",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "17538c4d-7c43-4a7a-8e7f-7519ae87e8a6",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MSD",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "eabeea3c-3ecf-4c26-a5e1-0972d8a63e7b",
+            "value": "Master Security Description"
+          }
+        ],
+        "description": [
+          {
+            "id": "b8c59f11-aa6e-4192-8f3c-dc4d6a89608b",
+            "value": "MSD Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "211d59b1-9245-453f-aecf-e8c4377e8560",
+            "value": "Y"
+          }
+        ],
+        "date": [
+          {
+            "id": "6505bfd2-0741-4506-adb4-50eff0c82d9c",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "bb3e0fd3-14dd-4a9c-b178-06036b3db3c0",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c35e2389-a523-4ebf-b9e2-c27853b3f9bc",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "902d71d8-127f-43e2-9060-1dbc37c664cc",
+            "value": "FAILED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_23",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "bf55282c-228f-4d98-9032-437ae8b3fc5b",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "061c2619-33d7-47bf-bc94-ada7c719e06e",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "ffe91a56-d478-4106-a80e-8d820cb37b59",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "546619e1-068d-44ea-9245-b09743f9228f",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "1a4c66e0-388a-49b3-b649-517451dcea2d",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "d2ce8737-f94e-4b5f-b52b-439458552f32",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "a4a32c33-999c-4d7d-a828-cbb2e72e9550",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_24",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "ab9e0a89-7ed6-4a33-ad2d-021ae033c339",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "41f3da88-f533-49ec-9d97-88c8bbdc4c06",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "627a7bf4-bd44-48eb-b4e3-20798416b03b",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "832db7ed-8916-450d-a468-7d18e4d84c0e",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "eaa9d46a-c503-4201-9551-b8bc49a1ffb8",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a04bf20b-0b58-46d6-8985-3e23909de3c5",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "77acef1f-6522-4791-8c52-1111afd62d8e",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_25",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "b21edb20-e3b6-4c58-bc06-dfd400ae9bd5",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "02df1003-5a33-4078-b65e-f39ce31ddaf2",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "b84ef94d-c0a9-4143-b15e-61a7ea95dbf3",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "85b893a8-753d-48b8-870b-963ef5403e0c",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "8ac5c328-97f9-4952-a018-bf8c1cafbd88",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "cb85067d-acfd-4d0d-a65f-19eacc83aff9",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "7e5ceda1-d6cc-4cf7-ad22-3074aae40b38",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_26",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "67e84668-551e-4515-8898-5f71da64d7a1",
+            "value": "Mutual Fund Reconciliation"
+          }
+        ],
+        "description": [
+          {
+            "id": "503d219c-46af-4b9e-8207-8ca274093f4a",
+            "value": "Mutual Fund Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "ccaf622e-cf03-4dc4-939a-741ce51e633b",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "a6bd0252-565d-42b3-8b4a-64aa6fa24cee",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "f39f4e47-03b6-456b-be7f-b725a0d8934f",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "49881301-d590-4d47-a95c-190c2de55da1",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "eda82941-f4cb-48b2-8c87-086f2613e992",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_27",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "4aaf739e-b797-4394-8265-c31fcddb3a93",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "7af3d89e-0826-4361-ba78-9f4116c33fcd",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "4e619bce-5aec-4f40-882d-35a0caf364ff",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "9b470766-50e0-46d3-810f-0f5489e7278e",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "31e7641e-1325-4b53-b724-45c5beaf8ffc",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "0dfac0e8-05ba-47bd-8773-51e63abf2dc6",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "88d9f2fd-7a7d-4269-869a-2f29330cb44b",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_28",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "ffcef496-580e-4eda-aa00-7faa46a862c0",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "7b903297-e073-4cec-afc2-63c4671386ef",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "d2081643-593d-4431-b694-1058f4052a6c",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "5000724e-962a-4a54-b8fc-8672523ccd23",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "afd71343-f469-44b2-9ff1-009c7fb7b2b9",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "d950047c-a456-468e-b687-017af2b0a4e3",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "6e8615c5-512b-447a-8a52-9c8c71e0ccdb",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_29",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "2e5cec08-2b47-4365-b3e5-6330e84f218a",
+            "value": "Mutual Fund Reconciliation"
+          }
+        ],
+        "description": [
+          {
+            "id": "94097677-13aa-41ac-9e9d-8aa160a40200",
+            "value": "Mutual Fund Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "4a851acc-f935-4463-9068-d95e86c987e6",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "6f9afc28-355e-456c-a35a-e7b6c8b4884f",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c5e1587c-cd3d-4caa-94c1-ebe4a8298094",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "74f4b2ca-8814-4685-81ad-c926aa4aab34",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "c5fc1b6a-89a3-4889-a697-39cbbb0a9136",
+            "value": "FAILED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RTA",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "75ca1d9a-1b1a-4b89-ac6f-7149013e29d8",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "373ca87f-6734-4010-8618-1afb76ccbd2d",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "5543b73e-ddc4-4c4e-9806-e11c5a0e7e5e",
+            "value": "Y"
+          }
+        ],
+        "date": [
+          {
+            "id": "4dc402b0-82f7-4728-a75b-9f05c7df5618",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "1b7afdfa-cf02-4f4d-a597-14af7f8b5278",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "2e0235b2-bc0a-4f7e-becd-42b11105b63a",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "ddb309ce-acfc-49c2-8800-486e9962e400",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_30",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "dfd69ac1-0af3-4d65-bf51-7e4ff7e1cb7b",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "65c53f20-08e8-4d5b-8b7a-2fdcb0718827",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "2667c0f7-cb6e-4b1b-a15a-bc44850e344a",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "d0cd7a3d-ccac-4d8c-96ae-6d3e1b13e2b4",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "35826ce0-11b7-4dc7-a199-f6d688f8185b",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a5f919e3-afda-46d3-86a5-8579a5ef5da0",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "f09f13e7-8ce4-4ce0-9328-36c530ac054d",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_31",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "f7a1aff2-a072-4f6d-bbc5-2413021b61bb",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "5d6eef84-781d-41db-9d54-53097ffd42cb",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "f4e443e0-e4c8-4423-9ac1-6280d729a2f2",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "2b97959b-ac1d-4308-9c3a-f50999b7d784",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "7c938fad-19fd-4e9f-96bf-4f4eb968a028",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c324adaf-5f58-46be-a07b-36f9c9759bc5",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "d89cd9e3-f562-47cc-9d02-4e79232f41cf",
+            "value": "SUCCESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_32",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "47e6b319-360d-4c4e-9635-490cd8581ce7",
+            "value": "Mutual Fund Reconciliation"
+          }
+        ],
+        "description": [
+          {
+            "id": "d3f9ed37-c5f4-4823-8b3a-2d5084e911f5",
+            "value": "Mutual Fund Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "3c3c1bcb-a4d0-4cdc-8cfa-7039e3355f0a",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "597ac1d7-a38a-41c0-b034-55e2c4b71d5f",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "ec6c1f72-41b8-4f3c-ab74-49fcbdf89148",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "30ed5dc6-a7d7-4250-bff8-321dfc8eb9e9",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "68369ddc-b088-4deb-9a65-ad172fafc8be",
+            "value": "BLOCKED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_33",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "bcbc1cc7-7439-4491-8dda-af97e7247357",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "118c9620-c6b1-4722-9b69-649d69f32a14",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "e527c385-329a-4134-a47d-1dd6b89bfdd9",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "f6efc99c-ae6b-406b-8d2b-be23f1a36f7e",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "1dfc547d-fc78-4099-b966-4997d89d6650",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "58b7e384-5bfc-42ac-a339-c357b4a703f2",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "6393f6a8-6630-4117-a059-153776aafce0",
+            "value": "NOT STARTED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_34",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "9f8f724f-9c16-4da9-b1d3-082306b127fa",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "5eaa8459-895c-45b3-ad9d-943091469f25",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "f8807239-fbf8-4bc3-8c9b-906d2550b5af",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "7721190b-8c3c-43a5-b409-c0c90f72d571",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "5a92ce33-07fb-4323-a31c-daeab7271884",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "86c2fa87-f770-4cae-b9e4-7d9bdf8e05bf",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "4804ed7f-716c-4dd9-8e80-01124b0789f9",
+            "value": "NOT STARTED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_35",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "f125a54b-81a1-46e8-8234-e21643215224",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "e6f1039e-a958-4166-952c-51bb35f3bfb7",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "7e33f0c7-3806-4296-8e1f-478e87458511",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "b3042394-3225-4973-b8e9-1f8e491f5654",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "33ca4105-593d-44d1-ab96-3f2b8bbee295",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "16077bd4-c436-4846-9bce-763e8c5a8e12",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "708643c1-1725-4e64-861f-f05a3113ddbf",
+            "value": "NOT STARTED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_36",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "26cb6d01-8442-483a-9e4e-baae3eb4358c",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "686cc2e7-19e1-47b8-88ec-a968b6912dd3",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "94fd82ba-2439-4a84-b9ec-439899037be1",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "e6bc0a1f-fce0-47c9-90a2-58991052c4b1",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "355acc53-ca44-4850-bf76-6fea15fed35c",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "2a447e1a-28b4-48b6-96a0-9eec649ded0c",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "48adec90-cc84-47ea-b6cd-5474a6edc54a",
+            "value": "NOT STARTED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MFO",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "4c081c2d-f98b-4f6b-8837-166cbcc99034",
+            "value": "Mutual Fund Reconciliation"
+          }
+        ],
+        "description": [
+          {
+            "id": "4e07f6a8-c40a-48b1-9a0f-a623da66f336",
+            "value": "Mutual Fund Delta Process"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "6efe5458-601b-4c14-8c99-f88eeb27af67",
+            "value": "Y"
+          }
+        ],
+        "date": [
+          {
+            "id": "7db50f72-41d5-47cc-97f9-28825f789b23",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "45833d44-266e-4ba5-96c9-adb2a59b1e0b",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "69bcddc3-c4c0-4d79-a7ab-a0329d999d39",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "647b729c-ed71-4d71-aeba-a20aed88deca",
+            "value": "FAILED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_37",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "8b2a5c95-30ab-4c1f-8549-c281326e2b1d",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "2cc12a3b-f83c-4d00-9cb0-d1e1866cdae6",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "7cd074cf-c5ee-4e03-858f-fd3c875d5aae",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "cde8586d-d011-4c49-8fb7-7093f91e2e82",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "15a03a04-2500-4fe7-bd80-8a555a957374",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "222ed59f-9754-4d8c-874e-de1914816b0a",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "75d507e5-6eba-49cf-a078-9601125a3801",
+            "value": "BLOCKED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_38",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "f40f4343-64e5-4dfd-ac39-6208d9d5bc8b",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "b1f73795-c8f6-40fe-9267-f6d675eac4e3",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "ce1ac962-5d02-47db-bc45-2edf15da6be9",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "0eeb7f55-c039-46c4-9340-ebeb0036c8ba",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "52cab4f8-28df-4e8f-95d0-237ad53d1eb8",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c1426ef1-a3bb-4ea7-a186-d730dded9115",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "4ff72d0d-f5f2-406c-92f4-8fb85c923bd0",
+            "value": "BLOCKED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IRA",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "b9ad39b8-b185-4d3f-aa16-c5d2f73f63bf",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "b75f87ac-c97e-473a-95e7-101e1467b4ce",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "37b0880b-451b-4779-94a5-7b4e9c74e0bd",
+            "value": "Y"
+          }
+        ],
+        "date": [
+          {
+            "id": "50459222-84e3-4435-a5ac-e71ef6b6ecc9",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "bb40dbae-b306-43da-9263-fa62339184ea",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "841d6f78-cc4d-410b-8964-21830763ee93",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "b872805e-b087-42d9-bbae-9b466a3fd2ed",
+            "value": "NOT STARTED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_39",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "15785162-572e-47bb-b7b5-9073c6242a0d",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "615fc4cd-73e6-49bb-aafb-947789fe420e",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "66a20336-214b-44aa-b4db-d94b7d067260",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "658c5911-f3cc-44bf-921e-6431fd227cc5",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "370fe928-42e4-44d3-8778-ec0b2db0c23b",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a2d1ac0b-a9cf-429a-9463-2898f2c8b694",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "0a0ed121-b197-4b60-b7fe-9fb9a56da89c",
+            "value": "BLOCKED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_40",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "75e5cea6-1b58-4629-8f40-07976b02a46f",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "8bbc363f-3102-48a4-9bab-0a3c586bfd4c",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "7bf0c6c7-9eec-44b5-877b-4f9d9185161a",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "635b00ac-49d2-4a83-8c8f-61fde9e6f88e",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "f8bc943f-fdf2-4baf-b7e8-4b53e6f2e637",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a87e7391-727c-46e0-b726-f9a91afd0dc6",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "f216bc4e-de7c-4a84-bf27-f3992b86b2db",
+            "value": "BLOCKED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_41",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "41d1dcf9-f0e5-4413-9a95-53df7e3ce316",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "0027ba03-8cfd-4b97-ac26-02aef64c9b6f",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "9d79cd6f-8ddb-4ed3-8bd0-319d177d2bc2",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "2bc90d13-f603-4cb4-b5ee-5d3de1f5e56e",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b656de04-f3b4-49c0-a810-01da8676ce88",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c4c51f09-3d80-49c2-bea6-491175af6f48",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "ffec5f62-f3ba-4285-a955-bc2ff9cb1198",
+            "value": "BLOCKED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_42",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "5382250e-240d-49fc-b9d5-1526e11688d3",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "6ebc122b-f7c1-4cd4-b49c-2c985fbee60e",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "201d896a-2483-42d9-a7cc-6fc945049b0a",
+            "value": ""
+          }
+        ],
+        "date": [
+          {
+            "id": "1cb4aafa-391d-4bf0-8e73-4bf68a7fa5eb",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3bac3161-6e2d-4e01-a27c-b24cb7c36baf",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c605e3ef-087c-45ba-bd07-60db99873df4",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "cd110950-819a-4fb4-b767-10491bdf2b05",
+            "value": "BLOCKED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CBS",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "app": [
+          {
+            "id": "59ace7f1-0254-46e5-9c84-4dbfdb066ca6",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "73092cce-9b87-4eee-a29d-8354509b5bda",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "critical": null,
+        "marker": [
+          {
+            "id": "26f03e95-1e13-4bdd-a787-e364a0f5dd08",
+            "value": "Y"
+          }
+        ],
+        "date": [
+          {
+            "id": "1b3930dc-b284-4ac8-89ea-cd6637fb38e3",
+            "value": ""
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "8be131cc-2c23-444d-be12-7802c123f7ca",
+            "value": ""
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b2cd0d6c-ea51-4e54-bca1-e77205b193c8",
+            "value": "null"
+          }
+        ],
+        "status": [
+          {
+            "id": "ae5747b4-22a0-49e7-ac67-00b78524c59e",
+            "value": "BLOCKED"
+          }
+        ]
+      }
+    }
+  ],
+  "edge": [
+    {
+      "id": "2dc2e642-b4fa-44c8-a324-988460b32085",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_4",
+      "outV": "PSO"
+    },
+    {
+      "id": "3dbb6a1e-b2a8-4182-8973-1781ef5bd0ec",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_6",
+      "outV": "PSO"
+    },
+    {
+      "id": "3a9cdaa3-e9a2-4c59-9345-25800f47475f",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_6",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "193909f8-5140-4674-b954-821ab466153a",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_9",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "2b00c003-1bf9-42cd-822e-4f97bf23e79e",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_10",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "8b9c99bd-3875-4aea-89c5-0be996a107dd",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_11",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "e3adf66a-9b44-448b-926e-e854576f1b4a",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_13",
+      "outV": "EDB"
+    },
+    {
+      "id": "60ed670a-2826-40a7-85e8-555c3b1d82e6",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_14",
+      "outV": "EDB"
+    },
+    {
+      "id": "43f6b789-f6de-4b14-b346-201157af1f6e",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_15",
+      "outV": "EDB"
+    },
+    {
+      "id": "4764feff-8cd5-41a5-a924-6825a68fba42",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_20",
+      "outV": "MSD"
+    },
+    {
+      "id": "38262e2a-ba3c-48dc-ac76-a6190b2a0b94",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_21",
+      "outV": "MSD"
+    },
+    {
+      "id": "3fce3287-46b2-47a4-b369-6802f0ce3e4e",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_18",
+      "outV": "RTA"
+    },
+    {
+      "id": "59c41163-68e6-4648-bbfe-607bb0d488f7",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_20",
+      "outV": "RTA"
+    },
+    {
+      "id": "0b209e84-da59-45d2-947e-d1d14667f4d6",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_23",
+      "outV": "RTA"
+    },
+    {
+      "id": "8798a21a-e971-4044-a464-e35adb4ed9fb",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_26",
+      "outV": "MFO"
+    },
+    {
+      "id": "8136dfdb-ce32-4161-903b-b11a476e7f36",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_32",
+      "outV": "MFO"
+    },
+    {
+      "id": "1f693cee-916a-4f75-8f3d-4171ba13021b",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_33",
+      "outV": "IRA"
+    },
+    {
+      "id": "6ab41735-c94a-4135-972c-9c6862ca2f21",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_35",
+      "outV": "IRA"
+    },
+    {
+      "id": "d4c6f312-aed0-4ac4-9d32-a78746fd12f3",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_36",
+      "outV": "IRA"
+    },
+    {
+      "id": "cd7d38a1-207c-4916-8ac6-38aa2d329e21",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_39",
+      "outV": "CBS"
+    },
+    {
+      "id": "f8c65c91-2084-4785-9525-4f077a0858f5",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_40",
+      "outV": "CBS"
+    },
+    {
+      "id": "028cef24-f4ec-4e76-ad72-a56f7be2b4eb",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_41",
+      "outV": "CBS"
+    },
+    {
+      "id": "785605c0-b005-41fd-a797-1a86158a926f",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_42",
+      "outV": "CBS"
+    }
+  ]
+}

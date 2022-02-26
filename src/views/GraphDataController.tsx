@@ -22,7 +22,15 @@ const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ 
     console.log("buckets", buckets);
     renderMarkerJobs(buckets);
     let nonMarkerJobs = jobs.filter((job: any) => !job.marker);
-    // let jobMap = {};
+    let jobMap: any = {};
+    // for (let i = 0; i < nonMarkerJobs.length; i++) {
+    //   const job = nonMarkerJobs[i];
+    //   jobMap[job.name]= job;
+    // }
+    // for (let i = 0; i < edges.length; i++) {
+    //   const edge = edges[i];
+      
+    // }
     showNonMarkerJobs(nonMarkerJobs, false);
     // showNonMarkerJobs(nonMarkerJobs, true);
     addEdges(graph, edges);
