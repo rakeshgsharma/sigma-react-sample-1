@@ -47,10 +47,10 @@ const TagsPanel: FC<{
       title={
         <>
           <MdCategory className="text-muted" /> Applications
-          {visibleTagsCount < tags.length ? (
+          {visibleTagsCount < tags?.length ? (
             <span className="text-muted text-small">
               {" "}
-              ({visibleTagsCount} / {tags.length})
+              ({visibleTagsCount} / {tags?.length})
             </span>
           ) : (
             ""

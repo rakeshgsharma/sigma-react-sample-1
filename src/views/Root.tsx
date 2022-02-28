@@ -103,7 +103,8 @@ const Root: FC = () => {
 
   // Load data on mount:
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/sample-data.json`)
+    // fetch(`${process.env.PUBLIC_URL}/sample-data-with-successor.json`)
+    fetch(`${process.env.PUBLIC_URL}/sample-data1.json`)
       .then((res) => res.json())
       .then((dataset: Dataset) => {
         massageJobsData(dataset);

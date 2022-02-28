@@ -4,7 +4,7 @@ import { FC, useEffect } from "react";
 import { CriticalPathDataset, FiltersState } from "../types";
 import { getNodeColor } from "../graph-utils";
 
-const GraphDataControllerCriticalPath: FC<{ dataset: CriticalPathDataset; filters: FiltersState }> = ({ dataset, filters, children }) => {
+const GraphDataControllerCriticalPath: FC<{ dataset: CriticalPathDataset; filters: FiltersState, activeNode: string }> = ({ dataset, filters, children, activeNode }) => {
   const sigma = useSigma();
   const graph = sigma.getGraph();
 
@@ -94,7 +94,7 @@ const GraphDataControllerCriticalPath: FC<{ dataset: CriticalPathDataset; filter
       graph.addEdge(edgeObj.inV, edgeObj.outV, {
         type: "arrow",
         label: "",
-        size: 1
+        size: 10
       });
     }
   }
@@ -112,7 +112,7 @@ const GraphDataControllerCriticalPath: FC<{ dataset: CriticalPathDataset; filter
       graph.setNodeAttribute(node, "x", 100 * Math.cos(angle));
       graph.setNodeAttribute(node, "y", 100 * Math.sin(angle));
       const neigbors = graph.neighbors(node);
-      graph.setNodeAttribute(node, "size", 5 + (neigbors.length * 2));
+      graph.setNodeAttribute(node, "size", 5 + (neigbors.length * 5));
     });
   }
 
