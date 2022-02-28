@@ -13,9 +13,9 @@ const Root: FC = () => {
     <div id="app-root">
       <TitlePanel/>
       <div id="flex-container">
-        <SideBar setCurrentPanel={setCurrentPanel}/>
+        <SideBar currentPanel={currentPanel} setCurrentPanel={setCurrentPanel}/>
         <div className="flex-item">
-          <TopPanel/>
+          <TopPanel currentPanel={currentPanel}/>
           <GraphPanel currentPanel={currentPanel}/>
         </div>
 
