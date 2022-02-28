@@ -1,39 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 
-export class TopPanel extends React.Component{
+interface TopPanelProps {
+    currentPanel: string;
+}
+export const TopPanel = (props: TopPanelProps) => {
 
-    state = {
-        todayDate: this.todaysDate()
-    }
-
-    todaysDate () {
+    const todaysDate = () => {
         const local = new Date();
         return local.toISOString().slice(0, 10)
     }
 
-    valueChanged(event: any) {
+    const [selectedDate, updateDate] = useState(todaysDate());
+
+    const valueChanged = (event: any) => {
         if(event) {
-            // this.todayDate = event.target.value;
-            this.setState({
-                todayDate: event.target.value
-            })
+            updateDate(event.target.value)
         }
     }
 
-    render() {
+
         return (
             <div className="top-panel">
-                <div className="top-float">
+                
+
+                <h2 className="graph-header">
+                    {props.currentPanel.toUpperCase()}
+                </h2>
 
                 <i className="bx bxs-file-pdf pdf-icon"/>
 
-                <label className="date-range-label">Date:</label>
-                <input value={this.state.todayDate} type={'date'} className="date-picker" onChange={this.valueChanged.bind(this)}/>
+                <div className="date-div">
+
+                    <label className="date-range-label">Date:</label>
+                    <input value={selectedDate} type={'date'} className="date-picker" onChange={valueChanged}/>
+
                 </div>
                 
             </div>
 
            
         )
-    }
+
 }

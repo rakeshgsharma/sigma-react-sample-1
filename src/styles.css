@@ -50,8 +50,13 @@ ol, ul {
   margin: 20px;
 }
 
-.top-float {
-  float: right;
+.top-panel {
+  display: flex;
+}
+
+.graph-header {
+  width: 80%;
+  padding: 20px;
 }
 
 .react-sigma {
@@ -69,6 +74,7 @@ ol, ul {
 .date-range-label {
   padding: 3px 20px;
   font-size: 1.2rem;
+  margin-top: 1px;
   border: 1px solid gray;
   border-right: 0px;
   color: white;
@@ -80,9 +86,14 @@ ol, ul {
   font-size: xx-large;
   color: #376c8b;
   cursor: pointer;
-  top: 9px;
+  top: 20px;
     left: -10px;
     position: relative;
+}
+
+.date-div {
+  min-width: 270px;
+  padding-top: 20px;
 }
 
 div#header {
@@ -155,7 +166,7 @@ background: linear-gradient(135deg, rgba(2,96,74,1) 0%, rgba(36,108,166,1) 57%, 
     height: 30px;
     border-width: 1px;
     padding: 5px;
-    border-color: gray;
+    border-color: #f8f9fa;
     font-size: 14px;
     color: #6a6969;
   }
@@ -180,6 +191,7 @@ background: linear-gradient(135deg, rgba(2,96,74,1) 0%, rgba(36,108,166,1) 57%, 
     cursor: pointer;
   }
 
+  .category-header.selected,
   .category-header:hover{
     color: #6bb1bb;
     transition: all 0.5s ease;
@@ -306,10 +318,10 @@ background: linear-gradient(135deg, rgba(2,96,74,1) 0%, rgba(36,108,166,1) 57%, 
     opacity: 1;
   }
 
-h1,
+/* h1,
 h2 {
   font-family: Lora, serif;
-}
+} */
 h2 {
   font-size: 1.3em;
   margin: 0;

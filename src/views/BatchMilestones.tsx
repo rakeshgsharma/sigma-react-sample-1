@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { constant, keyBy, mapValues, omit } from "lodash";
 import { useState, useEffect } from "react";
 import { BiBookContent, BiRadioCircleMarked } from "react-icons/bi";
@@ -19,7 +19,7 @@ import SearchField from "./SearchField";
 import TagsPanel from "./TagsPanel";
 import "react-sigma-v2/lib/react-sigma-v2.css";
 
-export const ShortestPath = () => {
+export const BatchMilestones = () => {
 
     const [showContents, setShowContents] = useState(false);
     const [dataReady, setDataReady] = useState(false);

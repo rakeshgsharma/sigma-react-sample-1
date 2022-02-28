@@ -4,7 +4,7 @@ import { mapValues, keyBy, constant } from "lodash";
 import { Cluster, CriticalPathDataset, FiltersState, Tag } from "../types";
 import drawLabel from "../canvas-utils";
 import GraphTitle from "./GraphTitle";
-
+import React from "react";
 import "react-sigma-v2/lib/react-sigma-v2.css";
 import { GrClose } from "react-icons/gr";
 import { BiRadioCircleMarked, BiBookContent } from "react-icons/bi";
@@ -27,9 +27,9 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
 
   const getTags = (data: CriticalPathDataset) => {
-    let jobs = data.jobs;
-    let tags: Tag[] = [];
-    let apps: string[] = [];
+    const jobs = data.jobs;
+    const tags: Tag[] = [];
+    const apps: string[] = [];
     for (let i = 0; i < jobs.length; i++) {
       jobs[i].cluster = jobs[i].app;
       jobs[i].tag = jobs[i].app;
@@ -42,9 +42,9 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
   }
 
   const getClusters = (data: CriticalPathDataset) => {
-    let jobs = data.jobs;
-    let clusters: Cluster[] = [];
-    let apps: string[] = [];
+    const jobs = data.jobs;
+    const clusters: Cluster[] = [];
+    const apps: string[] = [];
     for (let i = 0; i < jobs.length; i++) {
       if (apps.indexOf(jobs[i].status) < 0) {
         clusters.push({ key: jobs[i].status, clusterLabel: jobs[i].status, color: getNodeColor(jobs[i].status) });
@@ -55,7 +55,7 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
   }
 
   const massageJobsData = (data: any) => {
-    let jobs = [];
+    const jobs = [];
     for (let i = 0; i < data.vertex.length; i++) {
       const jobObj = data.vertex[i];
       const status = jobObj.properties?.status[0]?.value;
