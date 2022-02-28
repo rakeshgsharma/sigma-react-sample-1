@@ -12,7 +12,7 @@ import { BsArrowsFullscreen, BsFullscreenExit, BsZoomIn, BsZoomOut } from "react
 import GraphDataControllerCriticalPath from "./GraphDataControllerCriticalPath";
 import GraphEventsControllerCriticalPath from "./GraphEventsControllerCriticalPath";
 import { getNodeColor } from "../graph-utils";
-import GraphSettingsController from "./GraphSettingsController";
+import GraphSettingsController from "./GraphSettingsControllerCriticalPath";
 interface CriticalPathProps {
     activeNode: string;
 }
@@ -61,8 +61,8 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
       const status = jobObj.properties?.status[0]?.value;
       const statusMap: any = {
         "FAILURE": "FAILED",
-        "ABENDED": "COMPLETED WITH DELAY",
-        "SUCCESS": "COMPLETED"
+        "ABENDED": "COMPLETED WITH DELAY", // remove this line
+        "SUCCESS": "COMPLETED",
       };
       jobs.push(
         {
@@ -78,26 +78,43 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
     }
 
     data.jobs = jobs;
-    console.log("jobs", jobs);
     // data.edge = data.edge[0];
   }
 
   const filterData = (data: CriticalPathDataset) => {
-    const requiredNodes: string[] = [];
-    data.edge = data.edge.filter(({ inV, outV }: { inV: string, outV: string }) => {
-      const exists = inV === props.activeNode || outV === props.activeNode;
+    const requiredNodes: string[] = [props.activeNode];
+    console.log(data);
+    const dependencyEdges = data.edge.filter(({ inV, outV }: { inV: string, outV: string }) => {
+      const exists = inV === props.activeNode;
       if(exists) {
         requiredNodes.push(inV);
         requiredNodes.push(outV);
       }
       return exists;
     });
+    console.log('dependecyEdges', dependencyEdges);
+    const drillDownEdges: any[] = getDrillDownEdges(data, props.activeNode, [], [], requiredNodes);
+    data.edge = [...dependencyEdges, ...drillDownEdges];
     data.vertex = data.vertex.filter(({ id }) => requiredNodes.find(n => n === id));
+  }
+
+  const getDrillDownEdges = (data: CriticalPathDataset, node: string, drillDownArray: any = [], edgesAdded: string[], requiredNodes: string[]): any[] => {
+    data.edge.forEach((e: any) => {
+      if(e.outV === node && edgesAdded.indexOf(e.id) < 0) {
+        drillDownArray.push(e);
+        edgesAdded.push(e.id);
+        requiredNodes.push(e.inV);
+        requiredNodes.push(e.outV);
+        return getDrillDownEdges(data, e.inV, drillDownArray, edgesAdded, requiredNodes);
+      }
+    });
+    return drillDownArray;
   }
 
   // Load data on mount:
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/sample-data.json`)
+    // fetch(`${process.env.PUBLIC_URL}/sample-data-with-successor.json`)
+    fetch(`${process.env.PUBLIC_URL}/sample-data1.json`)
       .then((res) => res.json())
       .then((dataset: CriticalPathDataset) => {
           filterData(dataset);
@@ -133,9 +150,9 @@ const CriticalPath: FC<CriticalPathProps> = (props: CriticalPathProps) => {
         // className="react-sigma"
         style={{ height: "700px", width: "1000px" }}
       >
-        <GraphSettingsController hoveredNode={hoveredNode} />
+        <GraphSettingsController hoveredNode={hoveredNode} activeNode={props.activeNode} />
         <GraphEventsControllerCriticalPath setHoveredNode={setHoveredNode} />
-        <GraphDataControllerCriticalPath dataset={dataset} filters={filtersState} />
+        <GraphDataControllerCriticalPath dataset={dataset} filters={filtersState} activeNode={props.activeNode} />
 
         {dataReady && (
           <>
