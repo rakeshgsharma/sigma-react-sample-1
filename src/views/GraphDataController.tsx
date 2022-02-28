@@ -82,6 +82,7 @@ const GraphDataController: FC<{ dataset: Dataset; filters: FiltersState }> = ({ 
             color: getNodeColor(batchJob.status),
             cluster: batchJob.status,
             tag: batchJob.app,
+            image:`${process.env.PUBLIC_URL}/images/concept.svg`,
             x: xCo,
             y: isNeg ? (-yCo) : yCo
           });

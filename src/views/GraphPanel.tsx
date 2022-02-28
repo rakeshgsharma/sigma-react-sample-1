@@ -18,6 +18,7 @@ import GraphTitle from "./GraphTitle";
 import SearchField from "./SearchField";
 import TagsPanel from "./TagsPanel";
 import "react-sigma-v2/lib/react-sigma-v2.css";
+import getNodeProgramImage from "sigma/rendering/webgl/programs/node.image"
 
 export const GraphPanel = (props: any) => {
     
@@ -118,9 +119,9 @@ export const GraphPanel = (props: any) => {
         <SigmaContainer
             graphOptions={{ type: "directed" }}
             initialSettings={{
-              // nodeProgramClasses: { circle: getNodeCir() },
+              nodeProgramClasses: { image: getNodeProgramImage() },
               labelRenderer: drawLabel,
-              defaultNodeType: "circle",
+              defaultNodeType: "image",
               defaultEdgeType: "arrow",
               labelDensity: 0.07,
               labelGridCellSize: 60,
