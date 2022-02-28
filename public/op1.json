@@ -1,0 +1,5094 @@
+{
+  "vertex":  [
+    {
+      "id": "PSO",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c5f9fd71-7b13-4c3d-a2a4-5a0f60360d36",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "2c546763-623f-4b2a-885d-94968031e9b0",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "dff928dc-7e51-4823-9e7d-aaa6e87ad1a0",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "02467eb2-9beb-4cff-b094-436824ede67f",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "d4023b2b-18ce-4a04-9f87-07ca9c7d82e4",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "6264498b-11ae-444e-8ff4-7f249995c127",
+            "value": "20:15:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "1e1717b2-b32c-4d3e-bbf2-1fc65334a18e",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "PSO|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MARGIN",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "58d23f3f-fff9-40df-aa96-155a7b84c0ce",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "cd76404f-2c3d-453e-804d-f28ea58b7a1d",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "4124ea46-6894-40ce-a129-4949b684e511",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "f06c0bb2-654c-4f2b-bbcc-87e67a3730d8",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "status": [
+          {
+            "id": "636a26c8-5c74-4ace-95be-6bf11921b810",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "01b1edbc-9cbc-46b4-91f3-70a354da5dc1",
+            "value": "20:45:32"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "08098be0-db81-429f-b611-508ab1312617",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "MARGIN|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EDB",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "2c6728e2-bd60-4805-81c6-2cec39653b13",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "9d401b75-f3bc-443d-92a2-60b1dbc38a83",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "91a3e6c3-873b-45b5-8267-4c667c672740",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "bd82dc3f-4bea-4581-8266-971aca180f13",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "51a130a9-4a01-4dc8-9290-4ce7f6565344",
+            "value": "FAILURE"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "f0d338e2-47e3-4391-be31-fba86b4cf218",
+            "value": "21:22:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "11c8ab2a-17d1-443a-aaa7-d0a2e65f293a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "EDB|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MSD",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "2ec09fcf-e3f8-424e-8499-27cd2f687dee",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "e41b7d4b-5613-41da-9efc-6192670a4e0c",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "8c443264-c11c-4f96-b42e-bafd71b85cc9",
+            "value": "Master Security Description"
+          }
+        ],
+        "description": [
+          {
+            "id": "d7e67657-1346-440b-bd45-60f0700c94b9",
+            "value": "MSD Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "33cac4bd-3344-45e1-a501-66505067331b",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "155d2abc-ddae-44f7-ab30-2555b04c1296",
+            "value": "21:25:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "443bbe28-e7f9-4730-805d-ba1161d25fc8",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "MSD|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RTA",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c641b5ac-73d8-4680-b76f-44252d70c1b6",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "bb2dd03d-f738-453b-8188-82473e88ec58",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "4dec0b07-ec1f-4ae9-a562-5ac5e11c0a71",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "7acbf3da-7849-4fea-932e-68fb867a57fb",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "84c377d8-7224-4ebf-9d76-9758b1a6e5f9",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "38513b06-b932-49f4-9c95-84dfb68eb199",
+            "value": "22:56:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "38a6e87b-67a6-4465-a5e8-8f59e063b841",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "RTA|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MFO",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "ad2f25cc-3223-477b-9fc6-14fe1136142f",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "4a8655ff-bea1-4dec-afe9-7cc7b9cfeb87",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "8ca67fd4-d292-476e-93d2-847530fe0e11",
+            "value": "Mutual Fund Reconciliation"
+          }
+        ],
+        "description": [
+          {
+            "id": "e16a4372-a0ad-484c-a1bf-32579ce40127",
+            "value": "Mutual Fund Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "ce4dcfd1-8a71-4bac-9ddd-757b09c72b60",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "752e460e-f0c0-480b-a2ab-502950141b99",
+            "value": "23:27:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "99bf57ad-7ac2-4d1b-9ec5-7a32e98d91c4",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "MFO|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IRA",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "5a6a44ff-a21e-479e-a134-cf2a6059cdbc",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "8d8343eb-7de7-482b-9939-11f2489120f5",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "a4ee0756-5620-4761-95fb-edaa4e97021e",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "daaf7bb7-1e85-4752-8545-7f9cf1d93ae2",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "status": [
+          {
+            "id": "f0a1b217-ee79-4df7-9633-da0830fea23a",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c360f8af-2b7e-433a-a4ab-a63e88b0c530",
+            "value": "01:44:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e4a6e13f-4643-4737-b00d-cf3091199b09",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "IRA|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CBS",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "d837edd1-351c-4144-aa80-7a3ed07a8009",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "8c2923bb-d0b1-400c-8746-21410058e803",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "c7c01d95-d561-426f-ad8e-14581836b7b3",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "19201107-fa6c-4208-88c4-c4c0e4619993",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "status": [
+          {
+            "id": "bbd2d616-e16c-41ec-8fb9-9a395e6d71a3",
+            "value": "ABENDED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3703746e-ebf9-445d-a07b-4eb18bd5b9cb",
+            "value": "02:15:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ec663cb2-df36-49c0-a8a2-e1ad1196b02f",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "CBS|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PAS",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c0ecffc9-2e21-4f6a-9d6f-17784928499b",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "8b9b9dc7-33db-4917-9f10-cd492a3434cd",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "fdb5b6a9-5ced-4158-94b3-0cd4b13a8c12",
+            "value": "Portfolio Alerting"
+          }
+        ],
+        "description": [
+          {
+            "id": "4ea971d8-114e-49bd-a6da-958e084eccfd",
+            "value": "Portfolio Alerting System"
+          }
+        ],
+        "status": [
+          {
+            "id": "3be6ddf3-1c14-493c-aabf-268353918f43",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "d732f507-79ab-408a-88dc-4ad2c356bcee",
+            "value": "02:41:23"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e9746427-e9a7-43de-8e17-88a4e268045d",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "PAS|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CFS",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "2e493bf2-777d-4975-bf24-af059504dbaa",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "2e40d18c-5fcd-425a-84f4-a6305b083ee5",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "22b1373f-5c6b-4580-809a-b0f4d6958c2c",
+            "value": "Confirms"
+          }
+        ],
+        "description": [
+          {
+            "id": "065c5327-70b5-4e2b-82e7-e91c6bc1dba8",
+            "value": "Confirms Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "7821d04d-36bc-484f-ad88-647959bdf858",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "69301c67-37ca-4c5a-bff5-7d4d22afe7d9",
+            "value": "04:21:16"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "08528661-3175-4005-b66b-092afd900f65",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "CFS|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KGS",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "4142ed4e-d9bd-445f-b3a7-55f088523bbc",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "d0b2a4b0-ad0f-41d5-b88f-d97d951d9d39",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "07316fca-9733-4929-b2a6-4220eb357bd8",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "3bbcc4d3-0ea3-4725-b3b0-5e7874c7d383",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "36d8f9b1-b09a-4695-8123-77c5bc1cf818",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "dfb979f8-bd9a-40af-a857-202b231a576b",
+            "value": "04:33:41"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ba47988e-d538-48ce-9c69-64f9fb52c20e",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "KGS|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AI",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "e04b42d0-6640-49c8-b995-280a4abe4ea0",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "97b365f0-8bf6-43ab-92ab-d0db5881f12e",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "411e3b98-857d-4828-b667-9a289e4a7688",
+            "value": "Alternative Investments"
+          }
+        ],
+        "description": [
+          {
+            "id": "229b250a-7206-4b14-afd9-e9d3e9c949dc",
+            "value": "Alternative Investments and Managed Futures"
+          }
+        ],
+        "status": [
+          {
+            "id": "b5ffc6d9-f9b0-4f56-943c-1f3458014eb3",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "715dc855-93df-4b53-8c10-5b427e577a2c",
+            "value": "05:11:47"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "4f6aa76f-c121-475b-939c-e7caffdf03cf",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "AI|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VMA",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "54afa32e-97d7-4653-917d-78f9757e11ae",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "508f23d5-f351-48bc-b1d3-0e3481eb3511",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "b9a0a533-765d-4424-bbde-609b40d02b80",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "6c357529-532f-4f7f-8a43-27537f94dee4",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "15ddac18-bac6-47a3-a73a-42f5d93cccc2",
+            "value": "ABENDED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "f8167a06-82b4-4702-b5f5-e238f9c14d20",
+            "value": "06:42:37"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "6e453faa-1e11-4115-95ce-431e8f575831",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "VMA|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NRS",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6d08e160-a6be-48a7-a8b7-1c880c5c67a4",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "ebbf05d6-2081-4804-a29a-9aa0ebc16c8a",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "503d3427-f231-4eb8-8359-d5c0c788b281",
+            "value": "National Registration System"
+          }
+        ],
+        "description": [
+          {
+            "id": "321d6f85-6e7c-4670-a04d-8b6e4d19ebf0",
+            "value": "NRA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "d86f0952-8c2b-4d2f-ba11-64c48df17f9e",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "ef472a35-ac68-4768-b50d-4a53e3da25ac",
+            "value": "07:32:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "3440ad8a-a27b-41cc-8e6a-3de900da4367",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "NRS|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UBS",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "2b0caa6f-1629-4e0d-98ae-f0bea22cc2ae",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "a0bfde00-985c-4846-b561-96a1680bac67",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "5d0b7706-2033-4f97-8066-09992aa91717",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "b66d51b0-b7dd-40d0-8571-4f363108ede1",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "18c8e0de-2f86-4c6f-afe5-254c33d2f2ef",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "6e16486f-10f4-45a7-98c1-c5a08a065e4b",
+            "value": "08:41:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b9c60d3b-a69b-41bf-af1a-558cf2edc2eb",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "UBS|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_7",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c273974c-87c7-4ded-a7da-61c8f26bd18f",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "1c14488c-7aad-47e6-8c37-6d05be3f5834",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "a385c5e1-1466-44d2-be17-9dc88d467a14",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "0c974947-ae5c-4bfc-98ff-465dab09bfb9",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "bee22ee0-2a5a-4c0f-abdb-b5d22e515443",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "19b1d731-5bfa-4301-90c2-4c8b41cc60be",
+            "value": "19:54:56"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "dd130411-98e1-43cb-967a-ed0852034992",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_7|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_8",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "cd88fd8a-91f0-410b-9fcc-3ffbb0360758",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "27ade6b6-58e3-4cfb-bd21-c78e3f1b378d",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "7fc056ba-3eb9-4c38-858a-a2ef2827dbc1",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "4c8e7c66-32ca-4ad2-9412-f4bc40294a7f",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "ee9d2efc-1b1f-4366-b860-513c10fcd4b6",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "be4ffa87-7043-47b7-95cb-b9fe4ab7959b",
+            "value": "19:57:38"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a59c4174-349a-4824-88bd-876ef989540a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_8|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_9",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "4a7967e5-74b7-4afe-a06d-038f00b346d2",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "1d62d3ea-d6b2-434e-9796-9d87e2cd97ec",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "2cf90ec6-f31c-48ad-b557-6c4b3f1ba44e",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "9fab9bdf-1c7d-4f8e-9495-8b6a5f2bbd2c",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "0b961dfd-c605-40be-8988-de6aaa6d1ed4",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "9b523deb-af25-413b-b311-50e650196bfa",
+            "value": "19:58:28"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "f9368e3e-ba41-4135-a3fd-462c8425d8c3",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_9|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_10",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "df7da245-6911-498d-a1f3-00623ea30667",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "540bba29-a633-4ee0-93f1-0949f6aaff1a",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "cc04658d-c811-425e-80e3-9daf7620be26",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "62fea264-4102-45b6-a0bf-85f68ee9e8ff",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "cd25550c-c639-4d8a-b223-ca728d6de54d",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "7726facf-3991-437c-b7fd-3b0de3220c4c",
+            "value": "19:59:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b4f76534-1cb1-46b7-bc1a-fefc57fb468b",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_10|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_15",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "d47ae7a2-2169-4d85-8037-5eb34828de67",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "0fee2c9a-8598-4d02-8fb1-ce87a4b11695",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "cc258313-0ee1-4291-9100-1680e5bfa09a",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "1341af39-8c70-4b65-8952-36ff52f1340e",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "20d7b5df-06b5-42ef-b43e-fc9d32f26c33",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "7f2052cc-0f1e-4d52-b7d4-717ed7d93c25",
+            "value": "20:34:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "9a7adcb5-df49-47b0-95b1-1a66134b4ad6",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_15|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_16",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "87e8a31d-aeff-4396-a549-24f0d6630a35",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "520c7cf3-b0cd-4df8-a208-ad7868e71079",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "001beb16-a965-4249-988d-b82fdf678fd1",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "3a5e7d15-55a4-41e7-8289-84ac6e4c7b3a",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "1254ceee-42ed-4898-8f55-8d69722df295",
+            "value": "FAILURE"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "7a2d91f9-5ea2-42ce-b44e-6c05624b68b2",
+            "value": "20:45:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c785cee1-3f0d-4ea2-8801-c66148b05fef",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_16|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_17",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "2183441b-1e25-43ec-a0af-0ae7095ad99e",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "dd170a15-6ee7-46b1-83c4-2fb41ec5de7e",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "c4706b6e-b59f-485a-8583-18213745e4a1",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "055059df-86e9-460e-9003-0e0f4a538bdc",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "242e36f0-1d42-4ac7-a557-26b2602d97f9",
+            "value": "FAILURE"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "74ccfb8f-317f-41bf-b9a8-ce85b0e80b64",
+            "value": "20:49:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "477efcbb-e90a-4165-ad71-a6680258f89e",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_17|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_18",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c32af2a5-6af0-49a5-ac97-9263160ee6fe",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "7e683a24-a66e-4cea-9ed9-04c63848c2fc",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "76b8bd76-5a54-461f-9c40-a5657f967248",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "9573d16e-860a-46d8-b502-6d690e29af87",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "79dc195c-6fcd-4444-9b80-ba77ef7834d0",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "61f05f31-d030-4e8f-a132-126776998d96",
+            "value": "21:03:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c3e92bde-506f-4456-93ff-2cba30552061",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_18|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_19",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "94e1c58a-ea1b-4f2e-a77c-5f4d8c70e2dc",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "152d5338-2ce9-46df-8eb6-421f45e29658",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "7132233b-bc0b-4351-b52f-903a14a3f9e2",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "9a10ab5f-e589-4f2e-be56-f98c2d346bfe",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "5d3b561e-d492-4805-8b11-f085ce42521c",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "f7382518-0978-4f3b-904b-d457f0bddd1f",
+            "value": "21:12:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a29969b4-b7ca-4c53-94e1-4d6ba852c950",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_19|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_20",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "4ed663f5-f5b4-445d-b798-ad4dcabc389b",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "ffd9ff86-51ce-4773-9527-06fd68c66dea",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "0e3eb756-cd29-4412-b71d-ac7157d0dd6b",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "9e3278dd-cccb-41c9-9f3c-ef22bf6ae636",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "05cb9b54-b18e-48a0-bf8e-06b2adaa4ec2",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "f9ba1199-e75c-410f-a3ad-2c11a74a115e",
+            "value": "21:18:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "55a06aff-c1e2-49be-8a48-78539816401b",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_20|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_21",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "723159a0-b2b8-4cf3-ba5c-f05eb57919ff",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "2fe7495f-e803-4642-8717-9ca7c4505aef",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "26811177-ae4f-44a8-bff5-f6d67527f097",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "ff3fe6de-4125-470e-96fb-64c931399e22",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "86248606-f1fe-4c6b-b2aa-37af8c433cbe",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "da7732d1-d92c-4f17-81ab-82b7a8878f67",
+            "value": "21:21:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c91b6aad-3e82-4ad9-b875-5314e5f37d38",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_21|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_22",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "3b3d6558-4592-448c-b422-1e1db71ee349",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "03845935-9706-43cb-a26d-c27bdd3f75e1",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "de55decd-9330-4419-bfbb-09935ec36188",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "5fb092d9-a212-414d-9efe-2b8bf7c79415",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "1ec4dc20-c178-47f0-aa98-0aee2aa372eb",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b9d252ea-553b-4f40-b15a-b809ab2dc7dd",
+            "value": "21:32:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c2b3ffbc-cb49-41bf-83f3-4ca5f8963375",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_22|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_23",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "3a5aa240-6eca-42a5-9281-a871f46a9470",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "fa9cbb2d-47f7-432e-8677-c83a2e255b75",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "0a856d6b-ffd2-4371-bb71-b9a4e12a0a30",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "230d624c-795a-4a34-b44f-7ede898ac835",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "2c1a1258-0694-47f1-99de-713c089900f8",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c517976b-017e-458b-a745-766ec2a6240e",
+            "value": "21:41:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "2826038d-c58a-4c12-9b2a-095c90d50c9a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_23|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_24",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "76b22aba-a08e-4712-8f70-7b791d9eb7a3",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "8ff1bb7a-3b3e-47be-9437-457f539963c6",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ba10bf80-383d-4c53-a76d-4b7402885608",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "db384d26-1d1b-41cc-9f3f-640691d36a98",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "0905f322-f566-47ca-bb9b-eea19968fdd4",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c570e30d-b0a0-468e-af5d-4ecfe86579d7",
+            "value": "21:44:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "27df55ba-250d-447d-a985-644ed46f837c",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_24|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_25",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6c54c97f-b9c0-4a81-beaa-894bf3808fa7",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "d056e385-196f-47dd-acbe-f965dbb77d4c",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "7d02dc70-9d70-4317-86be-39f37f3d353b",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "11b08616-cecc-48f3-94b7-c9437eaa4c94",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "34555d5c-a3bd-4521-bc10-2020c691be84",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "f6bdc7b5-d67a-4e00-a82f-22700ff7ddb4",
+            "value": "21:46:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "512bf613-066b-45d9-b4cc-d1bb7ccc218e",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_25|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_26",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c504d97c-9757-406b-a21e-32e54e8cad4c",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "19f58a0f-c493-4d9a-8eee-7191e735c333",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "8af26f5f-70cd-4b62-8a48-2b816a4b0658",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "8b279f9a-2417-445f-bfb8-863dcc43ee8e",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "5c146ce8-3ddc-4206-85b1-5476ecb3deb4",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "bdc37384-e3f4-4d32-8e31-9a037f27f8a6",
+            "value": "21:51:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a1d2521f-362f-4a62-b181-aa40599e99bc",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_26|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_27",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "fa7a7348-3651-4b3c-9d2b-f6ce958aa539",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "d20e9a0a-bdc2-4e01-9e0c-4ebede6412b2",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "2eee2d4c-1b36-45df-95eb-3685d2950652",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "3f810268-1fc9-4fe5-aebb-4802c362a105",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "14861d70-5954-4fa3-80c2-d3ed305de714",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "a24b9376-74d1-47eb-86b7-665682543bda",
+            "value": "22:10:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "9e98532f-cfe1-4af9-b31f-df9479c121d8",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_27|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_28",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "045ba4dc-8f8e-4363-b287-eefc799f14b8",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "7a11cba1-5730-43f6-9924-703b3bc24729",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "331736db-d8fe-487c-bdb7-e622150e8ffb",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "79de5f4e-9abb-4d6c-bc7d-48d1e0157eb0",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "b263f1cf-751c-4568-ba60-4344ef6f6b16",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "79ef6a05-d24a-4894-8bd7-ad3cb63711dc",
+            "value": "22:16:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "5c6d5399-554b-47e5-9acd-f6c5590fab22",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_28|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_29",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "bc3e124c-c942-4354-befa-b20628ce4a68",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "f174d04a-d786-4104-9157-1095961197a9",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "c9c6b609-ebc7-45ed-9e44-6dc2de39d6ef",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "7604d1b8-91ef-44db-a175-ad424fdb0a7a",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "8f36bb36-bb13-4e4e-a667-674dc10ee917",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "df3c9c31-5b37-4db4-8d7d-3a001b38b484",
+            "value": "22:24:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "365d19e3-935b-450d-b987-60bb73f10750",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_29|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_30",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "051891ed-bc0d-4a7e-9749-37fe4cd4b5bc",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "1291a813-d740-4485-aa35-9cf7e792c1cf",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "0da786d5-303a-4c97-91c8-dd4e2762210b",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "f561eff0-bfa2-469d-a092-9fe8dcb057e9",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "1b9055a1-8d0a-45c4-92a7-792b73f31c80",
+            "value": "ABENDED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "8dd590dd-d75d-42f9-9277-648c1c13da23",
+            "value": "22:31:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c9235555-61e3-4376-a085-64da04e0defc",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_30|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_31",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "2c587b3e-cc24-4984-8963-7d0b0c2a2500",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "4bcc70d5-35f9-43c7-ac66-99f8f06fee9b",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "2a24bb6e-32e4-48e2-8cee-6aa60c906a7b",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "ca40b0dd-6ae2-45a3-8fdc-ee560c4c3ef1",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "f43d9a47-5d11-4bb9-bd56-9ea9c4c9d8dc",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "4c5ed4b4-0673-4e42-8442-1b56989f3f78",
+            "value": "22:38:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "117d3396-436b-4452-b8c7-a03db66a449a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_31|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_32",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "b898dd7c-4933-4eb9-8078-9381791c92de",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "f73be2af-b8b5-454b-82d3-35a99d2d2075",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "a3000ded-38fd-4a43-9ded-e7ba86554873",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "c0ed167f-54d6-454c-98d1-938d06a1c7ba",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "dcb5fdf3-7502-49ba-9e02-95a5d447cff3",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3c8cb5dd-91cd-48ca-8c4d-8bf36f688654",
+            "value": "22:41:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a74c80b0-516d-464e-9144-eaa6d852ef12",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_32|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_33",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "074f3a43-d435-48f3-aa3c-63ddfd4cc369",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "9fec9c21-546f-404c-acb0-ab1dfe31b1d8",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "c3d943fc-3efb-4526-9dfe-6e98f1b48e28",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "e831fa3b-43a2-41cc-a8f0-aac5f8f6e45a",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "44582db5-8745-41b7-8fcd-53cc3c9bec60",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "2676d93a-06ef-41cb-a325-0e37abd99254",
+            "value": "23:01:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "542a1948-508d-4de3-a4a0-d29ad265c704",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_33|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_34",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "3a7fa8eb-816f-431b-a63c-c98708d07aa6",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "39ef7ed3-0eca-4d02-a600-ad3a0fe9415e",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "26c02e89-c0b2-45c1-8fb4-a0ad549519c5",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "7d17f4a1-14ab-42c7-900a-59cca5c4c743",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "3459d29d-0234-46b1-9324-c02b4338cd07",
+            "value": "ABENDED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "cccb5fd8-16c7-4955-80f9-ac1b82dae61a",
+            "value": "23:04:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c1a3b91c-682d-4813-b0ee-875af7538407",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_34|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_35",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "11020c5c-82f6-401a-9961-0ac314620209",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "4194de9a-b1ec-4bbf-802a-b857525d3728",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "f018436b-97ae-40b1-93c5-1c22b7c3b9e3",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "a6be93ca-2ec0-480f-b05d-54dcaab32152",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "a1c1871e-a34a-44be-b604-6c049b7235e6",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b4254028-8ba7-4f6c-9fd6-9ee104b36084",
+            "value": "23:11:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ee0585e5-b69f-4822-b319-32f06c993479",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_35|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_36",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "8f85cc85-0b07-4958-b4ce-4c4a9a29de36",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "6b3707be-b97a-46c7-acb7-20fd665b3cea",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "62f769a6-368f-4b9a-9f20-0ebb2e948c7c",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "5f5397b8-b66b-4b07-a583-cde2b18ec5cd",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "f46f75f2-5c43-4bd8-a999-ae144eaef9cc",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "5e75d0ad-03f0-4fc6-a8db-72f0d43c8af2",
+            "value": "23:15:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "94617ed6-a783-43bf-8aaa-a0ce41e6664e",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_36|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_37",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "206ae583-1f8a-4a8b-a900-8884a7c8999d",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "a515eb38-eb00-4e3d-b0c2-333f336b871c",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "2de36855-b14b-4be5-bb59-36e021154391",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "7e85f00b-0bf0-42a8-88fe-cc8169128442",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "79b4937b-0e7a-4dfc-83bd-60462b7323c8",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b6205888-b2d2-461c-a889-fd945550fa59",
+            "value": "23:17:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "940bd9a6-e40d-4b8f-845f-f862251ddd89",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_37|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_38",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6fde0495-f4c7-4a27-8700-e236f4b88956",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "34ba81a6-036f-4e3b-8848-9d3ff4ad5254",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "2d0d06a1-dc56-4f93-83da-1dccee786560",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "f26c1879-819c-4308-97a3-480a5bd92478",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "45ff3b7e-5685-4b08-b9f5-1748372a0e10",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c3dcf2ce-604b-4c8c-ad58-2f7665e833ec",
+            "value": "23:22:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "30594419-cccc-4ccd-a406-1519841334e2",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_38|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_39",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "93bce0b9-6821-4f9f-b870-921a7826701a",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "1640d9e4-ef7a-428f-9bc3-3e13a5114389",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "631db68a-3fa5-461f-a517-7b165affee64",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "5fad729e-f06d-43e7-94a7-deaba2a8c47b",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "f94f1cb9-8262-4dc7-a359-d68765c3dfe0",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "d7ce6af6-5ed6-42a0-9d32-d0cfd5891c4a",
+            "value": "23:23:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "efc62dd4-9b06-4d15-afd8-42f18fcc8687",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_39|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_40",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "f9e1ec65-c5e6-4071-a178-3e487fbfc4c7",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "456d7c33-da72-4b1c-a7ea-204ada25e8a8",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "b4af80f3-41c4-43d2-a304-02b4ae6f23b5",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "cb71cf78-a666-48e7-82cc-c133b709a785",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "4f163d2d-7133-46a4-ac88-a65220d298ad",
+            "value": "ABENDED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "27b1544c-4f17-4bbd-a684-46e5ef9b0d3b",
+            "value": "23:40:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "75111003-3c35-48f4-b688-5b1917410a3d",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_40|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_41",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6952bece-8472-4ba7-bd9b-e6f26774ea05",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "9c7e32dd-e68d-4e33-8ba0-e200bd52cf3f",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "5cc38b4f-bd0c-4519-b62d-6dd410243630",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "a97fd454-2474-4fec-83e9-93ac7cb15a42",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "d779c0d1-2d1a-4477-9ced-4343501ea54c",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "fe6ae346-0488-41bc-98c5-210083f89238",
+            "value": "23:47:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "5eb0506b-659b-4f21-a4aa-251dd9f5cb96",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_41|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_42",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "dc912fcf-0259-411e-a8a1-e98ff2835e65",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "0b29c5ab-c283-4a4c-ab96-c8aafd3f0662",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "858e4486-2126-4035-a368-f67dce79d1ac",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "5d7a9fdd-b025-4d64-9fcb-029ddf9b7589",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "7f9f91e8-1dcb-4266-9f72-af22b456769e",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "f4c0ecd5-212e-478c-ba9e-ff0556d2a94d",
+            "value": "23:57:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "0d2e3401-1e92-42f2-87de-8085c910e02b",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_42|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_43",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "b55e262e-2878-4f71-b5e6-4a72a5c9af37",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "634ece38-83d4-4772-ab05-0e7e30002568",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "d4956c02-cfe3-4551-9cd8-71b013f1bf5e",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "c49b5384-513c-4d7d-b5f4-237ba78bdfcd",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "3133a67e-20a1-4ec9-a3d7-7a8046abf135",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "a4a4e7f5-e7cd-4fff-b7ef-bd24b02414ce",
+            "value": "00:10:49"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "4eb4cfa5-fde6-4960-af06-3d7b332d5ff2",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_43|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_44",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "320c7c52-ef67-471b-90d2-2edad4b837a1",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "93b45ee6-222a-4b8e-8507-8cd6a0bf3c87",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "b9913313-d9fe-4dba-a256-1890a39ed9d3",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "d053faad-2825-4438-a431-f1699b19726d",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "cd0fa287-dfe2-4097-830f-99cdedf4a393",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "451ded0e-ce5c-4158-9bd9-7b4bb71cbd1b",
+            "value": "00:20:49"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "d7de1ed1-2ffc-445c-abb1-58aac0f9be9f",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_44|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_45",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "7bc37216-f2bd-4091-8f2d-97fc7c008f53",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "bbd85dba-cab3-44e0-9989-0c769cef8732",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "add1c415-bcc7-47ad-a17c-a46a05fc50f7",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "765edaa2-d0da-4efe-89e5-1edcb2457102",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "88c3da76-5c96-44a8-998f-8cdcfb4ba2cf",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "5e91f230-de4d-45dd-919a-d04108c64d80",
+            "value": "00:34:49"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e48df652-2f6a-4078-a15e-b5c849593318",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_45|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_46",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "2712df38-3d64-40d0-8e51-72b41f16c95a",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "bdf39fcb-7b67-4d26-91d4-d1d5a2411738",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "c5efa85d-2081-4d46-8d32-99ea1a836eea",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "028f0ae2-d36e-40ac-bb06-155a7fe66a56",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "4cebac94-7796-4da3-af2a-f0580112e14b",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "19f0c781-5bd3-49e4-81c8-cfc26f3b3d5a",
+            "value": "00:55:49"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "d6717fe0-6024-4a86-959e-9ef0ec8e4316",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_46|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_47",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "b9b37fa2-126e-41e6-8186-a1e3c7e39328",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "be8e44fe-f89d-4293-8702-666779eec39f",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "9ee07073-7d63-47f6-adfa-0f9287633e42",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "90dfa0d6-23fd-4b7a-8e67-e889e6948df4",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "0d4e9709-c639-4c4e-a673-c11056227cae",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "bd5652e8-ddf0-4686-bd42-b41676508461",
+            "value": "01:01:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "d2c26d42-eb75-446a-b391-3dfb841c11a3",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_47|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_48",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "cebdd36a-0d1a-4df3-91b7-a1dfcdca1cd6",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "22a3fd7d-607e-4e6a-b009-83f2d280bdd4",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "666fb621-8f87-4ec1-95d5-c82007753adb",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "5d59b198-51c0-45de-8807-5b5cfb3e7afa",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "ddcecc66-b453-4c18-8b0a-25177a49eb19",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "e6bd6807-5f8a-4e72-87c6-b8da7f2963e5",
+            "value": "01:11:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e4827a25-5de8-44ab-86c1-d986954225c1",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_48|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_49",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "905dca0c-d18c-4b9e-8ffc-132c1c321527",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "f7fe1a46-9ebe-4fac-892f-6bf0d0ac166b",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "b6ca9880-4cb5-4bf8-b07e-f39acf12c3f7",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "62238b0b-24f4-4889-b96e-9c27668ba1af",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "5570a153-21d5-412b-bc81-cc195e28a415",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "60c7f164-3317-4191-8e91-7de9b67fe3b5",
+            "value": "01:24:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "65a82e79-2395-4eba-b8b5-95e22c54de61",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_49|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_50",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "68102466-4ed3-449f-9c24-714f84e21157",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "6695c6e1-9141-4e03-9b61-f787da2d3212",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "474ea6e1-1ccd-47b3-8534-fe7e46a33c64",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "4a0978e3-78ce-4dcd-8c5e-3fb315a58ce9",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "197e321e-a12a-49a5-9123-f9d18dcb13dd",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "8c581b01-7e5b-4a53-ac6f-2c83c26146ff",
+            "value": "01:31:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "fb342f2c-6775-44f9-8b63-490399a327fb",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_50|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_51",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "97d3f31b-caa5-49dc-beff-f2b843121cf0",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "a1992025-f252-4dfc-a3d6-019bd3f89edf",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "fb7eb708-f222-469a-88a3-69821117f8be",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "aeec6f03-f283-4a18-ba46-2c618f30723e",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "979b528b-91dc-4569-9170-aab5d23878aa",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "fb86655b-1b5f-4228-8896-0ddde2823007",
+            "value": "02:13:23"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "45cf26ea-88d4-4f76-b719-12460e184cd3",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_51|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_52",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "1470626d-e162-409b-a014-f4439eb2d307",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "1374cf27-35bb-4b37-85af-55e53899d12b",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "4be6eedb-212a-4d5c-bbd7-c95704bbab9a",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "16c4cb57-2d5e-40d8-92e2-2e85ee167027",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "972a001c-b929-4187-9699-841528fbbb6e",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "774e2c9b-6a61-4726-92d8-ab750afdc8f1",
+            "value": "02:24:23"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c5d3299a-ba0b-4a1a-8a62-2417aaf43d8e",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_52|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_53",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "f3d44649-923d-412d-a5f0-eb771a7a75f1",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "7f779be6-d4f2-431d-979f-4298df0a3364",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "97de10fd-3a36-440c-a3d4-7a7a4e3dbe60",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "cf7aba72-c737-4c63-b441-249b123af65a",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "7c2edf5a-f809-4357-a9b2-c0ef6a883e81",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "1b06af96-64fe-4ba8-850a-3b5f5712f247",
+            "value": "03:26:23"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "edecb868-74b9-417f-9972-257658c987fc",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_53|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_54",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "3994e3bb-845a-4ab5-a269-c197a3f2d695",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "aa9f2758-a702-4ec6-ad41-378d88e2d5e0",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "1f521927-37a3-4f1b-9513-d8245cb8d936",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "f97debab-6037-466f-9ede-23a8def8b949",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "0cd2da5d-6420-47d4-867e-7b4c7bbd0cc6",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "26e0c5f2-732b-41f4-97a8-ddbbd525f7a8",
+            "value": "03:42:23"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "f7436f99-24b9-4b05-923e-4077d0d7347b",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_54|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_55",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "2ae5e8a4-5460-477c-974b-9d2ad42988a4",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "ff1f91ae-620a-455b-8d57-cf53ee20d8fe",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "38e739e9-c181-4256-ac4d-5dcc1c9a5643",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "7ea3c95c-d630-4817-a97c-94e762742fb3",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "c3312213-81b4-45cf-9bf3-ea12fc8fca68",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "fd15a6f3-e736-4917-9791-504ec260bd41",
+            "value": "04:07:16"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "7edcb645-a695-4c0c-bf6e-e5f4891b8b5a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_55|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_56",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "8ca7eef4-677f-4e0e-88be-d577c7679a72",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "12d05050-0fa1-457e-a415-9c99667f3f3b",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "b8cbfe50-d55c-4431-9563-2995980df396",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "b81b70de-2edb-40b9-8af2-4f7c3193dcf9",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "1fd9ead8-80b8-40b2-a07e-2feb536a6b56",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "2fbcab53-749e-47f7-a40e-dde87a83ffff",
+            "value": "04:12:16"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "490a020e-ff4d-433d-b0b1-60117c59e064",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_56|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_57",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "0ed0033d-99fe-4666-b086-d2e61cbddadf",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "dfd605f0-a897-44af-ab47-11d653c2ac26",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "d57589e9-801c-4fcf-ae7b-8163ba7acd07",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "e111b1cf-6552-4d1e-ab51-9b432a866276",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "861d14a0-d387-432d-8f78-2453e825eb36",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b2a07836-326d-4ce0-8f19-189543a6180f",
+            "value": "05:15:37"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a75e7ddf-7dfc-427e-8a76-fa7e12ee87c9",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_57|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_58",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "a6519e05-4597-43b7-9972-04df22f2ce7e",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "ddb533a6-ba71-483c-ac47-4dc69bddb3ec",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "608e3e80-5347-4943-a01d-aab07f6cc1c4",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "18cf64a9-8606-4499-85bd-1a7a68ed2959",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "99bfd214-71d7-4c1f-aad8-451599be776a",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "a4b9ee79-c922-423e-a0ba-5cc5aba70250",
+            "value": "06:31:37"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "6020c64a-ab91-4c6c-aa49-f6476a537ba4",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_58|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_59",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "0479cc96-9f4c-460d-932b-aa3cdb8803a5",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "ca84c352-1eac-46c4-a9ef-016546399aaa",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "f7c7403b-c2ed-4c1c-855b-639eea75c928",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "c27eb54d-d391-4b3f-a810-7a649a3ef795",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "7aa453ae-80c8-4d2c-8f08-f42620cb8035",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b72c8f8b-920b-49fa-86dc-46adceb7221c",
+            "value": "07:22:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a7d082fa-1249-47df-a7da-c5d6618b4e89",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_59|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_60",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c8d78ecd-b42d-4265-b7fa-7da6102a0940",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "4a3f5e3e-8fcf-4c99-959b-0141ae890b01",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ddf650fe-a236-412d-8a8d-efdad8a491fa",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "da71e15e-1a48-4d54-b54e-bbd72ecb48ec",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "9b7008cf-1185-4efe-8347-4ab51c0eb100",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "383fe33b-b5bd-4d52-bbba-73e9f5de6243",
+            "value": "08:31:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "dcdf8899-0327-42c8-9fd9-3cd155d73d86",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_60|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_1",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "623a5911-1e67-4c46-953b-578f962f442d",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "2952d30d-3e11-4f6e-b057-5f7d70309fad",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ed1d9d26-ae90-47b8-9204-4d280b9d9a27",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "96936b57-5ebb-418b-9af3-d230e133603a",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "3b59e0ac-ec88-4ef2-b939-2a892db823bd",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "60ad7b63-858b-4bcc-864d-fe4af32dcbf8",
+            "value": "19:45:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a9fe807a-4964-4e20-82de-663a3187c98f",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_1|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_2",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6917149d-8aba-4da7-983e-fcb8281c58a8",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "79d06711-868d-483b-b052-a71df4c28967",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "da013e41-83cf-4522-b6d9-ff66a37fa3f9",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "61b3ce7d-a149-416c-a702-e38898b38597",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "05d0e564-22e1-4318-84e9-2e9c2f7ba2ec",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "71b02029-92ef-424c-983b-2420fb859412",
+            "value": "19:47:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "71c19b3a-922d-4e41-8f53-3b0d6e7022d8",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_2|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_3",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "0e071064-a590-4628-bfa6-93856ed47f25",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "46f4bde5-988d-4e3b-90db-98c3aef09189",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ca67b967-ed96-4c61-b361-59a9c06da075",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "53cccf26-21b5-49ad-804a-da6d7ea9da54",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "901511c7-f958-401c-afd5-5440d2eb816a",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "9348289a-b3cc-4881-9f75-10dd233c08c5",
+            "value": "19:48:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e18aa4b8-3d86-4273-9c84-dfe8bd2a5b5b",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_3|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_4",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "4439ace3-c3c7-470a-9254-43247551f59c",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "648b3c54-4a90-44d7-b85b-ae4bf064007f",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "e84d730c-d2a9-49e8-8965-ec4d9bf3eecb",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "9d7598b9-32d9-468e-af05-49caa10048ee",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "264dc265-6705-490d-876d-a3e792349c58",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "d3a81aa6-c2ca-4b03-823d-b6f253b6c8e4",
+            "value": "19:49:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "43bc02e7-c888-4a75-93d8-02b9321b5418",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_4|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_5",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "a29d6a25-c0ca-43b7-bf5c-fa405c54d288",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "1335a114-e287-4adb-ac75-b90b2df4fe6a",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "6fde798b-3756-449f-af25-d593095c362b",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "7ab7782d-51b5-436e-8a3f-6c4cac314292",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "80a6e38c-f710-4aa1-a892-4ac2fe03a4bb",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "23eddc2e-7e8e-47b6-8d9e-7fbe15705c11",
+            "value": "19:51:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "949588bb-2996-4629-9f4f-53bad8fa3378",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_5|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_6",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "3c8bbc52-e397-4c3f-b48d-e9fabcb25c75",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "53e47ac6-574a-491c-8d07-74856964cac5",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "49904c5d-f3a6-415d-9b3a-58cd4e90171f",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "770b4127-0ce3-4734-8d7c-790630e1d68b",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "c274f240-b2dc-4861-8b68-35d7512b8f31",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "e454896f-604c-4efe-a241-d845bb4df669",
+            "value": "19:53:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "eeb73d10-be1e-4a7a-a493-be9973448688",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_6|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_11",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "61359cb2-be5f-447b-b1ec-99c5faf98157",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "707b65b4-e091-43af-8a72-c2402748085f",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ca711e33-9c09-4c00-bb1e-1e828c135c3c",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "549c4677-a522-4c88-8b81-c68ff4968422",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "cde83d7d-fd91-4439-9b4c-e17c768f399b",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3e2c4a47-21ca-4c1a-a08b-735bcdead051",
+            "value": "20:15:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "9d2879e8-5f2f-4777-9486-e2ec61bce357",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_11|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_12",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "e7e220de-c41f-4be8-b6fb-fb6670af600f",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "24bdecdf-8165-4245-957e-436cdc7ec3bf",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "77e2c7eb-8c45-4312-965d-1d5256c90037",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "e756c906-bff8-409f-8037-5ca5914395b1",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "b8b1024c-445e-42f6-87df-fccc2f4e41f9",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "72cc9609-f5ef-470e-9548-4c94b213739c",
+            "value": "20:16:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ca16a328-200e-4e43-824a-b15e94125f1a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_12|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_13",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "7a1b1f7c-6000-433e-b66e-95c3d9013030",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "75f254e9-3dcd-424d-9999-e90be4133711",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "5a5558f2-cd0d-4bcd-8cfd-d3c58eaf9712",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "ebb5b50f-4f82-4fd1-a607-b9bbb96f9b2f",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "e7c48fb9-70c2-4095-afbe-4241ec01ae11",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "bde0d6af-ddca-4f3d-9949-4565205ab084",
+            "value": "20:25:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "f216e2ae-521e-4647-a5cf-bb75bbc27aba",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_13|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_14",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "9ec07628-def6-42fb-8c7a-b4b083aaa320",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "357594e8-23d8-4fd5-a9cd-9ed7e2c61c64",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "bc6026b8-bea1-49a5-9993-993b8cd55bae",
+            "value": ""
+          }
+        ],
+        "description": [
+          {
+            "id": "e929efd6-0254-43ac-b7b6-badf92ce063a",
+            "value": ""
+          }
+        ],
+        "status": [
+          {
+            "id": "6539accf-ca45-4aa4-8164-f9eec8e1d6af",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "7ae9be8b-a43b-4966-a54b-9d4ea7bea28c",
+            "value": "20:31:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "8176d25d-178c-466c-b697-3c7ce7c918a9",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_14|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    }
+  ],
+  "edge": [
+    {
+      "id": "ea9cfbf1-1281-4d56-9bda-aac089a7c01f",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_1",
+      "outV": "PSO"
+    },
+    {
+      "id": "a10f5958-3989-4a2a-8cdf-8070d4663bc3",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_2",
+      "outV": "PSO"
+    },
+    {
+      "id": "06eb5de4-5309-490b-b9ab-2c14bf45664f",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_3",
+      "outV": "PSO"
+    },
+    {
+      "id": "56fb4dac-e33c-4471-baf3-9ce1c68455cd",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_4",
+      "outV": "PSO"
+    },
+    {
+      "id": "5759b3e4-f61c-4da0-9138-47d0c9d0252f",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_5",
+      "outV": "PSO"
+    },
+    {
+      "id": "729ee053-9265-454f-8d58-036ee07c57db",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_6",
+      "outV": "PSO"
+    },
+    {
+      "id": "38ba5e83-5b06-46ed-a46e-faaa5e323f5a",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_7",
+      "outV": "PSO"
+    },
+    {
+      "id": "fb72a512-be9e-4923-af6e-b01acffd8fa6",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_8",
+      "outV": "PSO"
+    },
+    {
+      "id": "c25da683-3d24-4e67-87d4-33d797612056",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_9",
+      "outV": "PSO"
+    },
+    {
+      "id": "0c99fc9d-b3f3-48d9-ae9b-d5f5bae09bc9",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_10",
+      "outV": "PSO"
+    },
+    {
+      "id": "fc6734e5-cd09-4b30-aa70-b62bffd06e46",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_1",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "fa56886f-473d-46ac-b0cc-96b5d90f3eaf",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_2",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "65aadd21-9bb3-4d36-9291-f28f5261bf91",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_3",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "8db56854-418b-4320-922a-3d0116f76236",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_4",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "27ef39f7-b170-4b8a-b534-cd7660eef6d0",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_5",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "e4b4725b-fee8-4e71-b646-b147a0465863",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_6",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "5872c863-9456-4c2d-a441-4f759c8f9811",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_7",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "7606a7c8-2ea9-4c12-9270-e52e48c8884a",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_8",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "77a79419-f608-4cd1-a643-db6b05cd2bc4",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_9",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "dfc5ee0f-8caf-42fe-b8c1-0845d737907d",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_10",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "21e22cd7-d362-4b70-88b6-bc589652ca7a",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_11",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "b33ce25d-c8cb-4bd9-b59e-d3d255822db8",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_12",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "23b54eb2-f5db-422f-a890-6fc2bed1c2f9",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_13",
+      "outV": "MARGIN"
+    },
+    {
+      "id": "423f8594-929d-4d56-9580-f9becf640185",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_11",
+      "outV": "EDB"
+    },
+    {
+      "id": "79f097c7-efc5-4a28-849d-1b10797599f8",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_12",
+      "outV": "EDB"
+    },
+    {
+      "id": "e1d5850d-a3cc-44b6-bfe1-fcdf6839de67",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_13",
+      "outV": "EDB"
+    },
+    {
+      "id": "7c3a6817-6902-4d48-93fc-2379b63daf40",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_14",
+      "outV": "EDB"
+    },
+    {
+      "id": "9f295a52-cbd7-4e8f-a077-c9585bf7cf10",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_15",
+      "outV": "EDB"
+    },
+    {
+      "id": "0efc2ca6-f10e-4126-9886-123d485af38a",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_16",
+      "outV": "EDB"
+    },
+    {
+      "id": "0efc2ca6-f10e-4126-9886-123d485af38b",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_14",
+      "outV": "JOB_16"
+    },
+    {
+      "id": "0efc2ca6-f10e-4126-9886-123d485af38c",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_1",
+      "outV": "JOB_14"
+    },
+    {
+      "id": "0efc2ca6-f10e-4126-9886-123d485af38d",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_2",
+      "outV": "JOB_1"
+    },
+    {
+      "id": "0efc2ca6-f10e-4126-9886-123d485af38e",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_3",
+      "outV": "JOB_2"
+    },
+    {
+      "id": "8394200c-36e9-4281-8dda-281a09c56184",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_17",
+      "outV": "EDB"
+    },
+    {
+      "id": "8192067b-4ffe-4c56-9360-903821ecf69e",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_18",
+      "outV": "EDB"
+    },
+    {
+      "id": "ac248b29-d5f1-43cf-8422-c8dcb3b7d703",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_19",
+      "outV": "EDB"
+    },
+    {
+      "id": "f65e906b-803d-44c4-bc19-43ad0f039e33",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_20",
+      "outV": "EDB"
+    },
+    {
+      "id": "dbd0bbaf-82bd-463c-a638-02f6c9f7bd98",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_1",
+      "outV": "MSD"
+    },
+    {
+      "id": "60cf64ef-07d0-452f-a93f-3300a1ef3f25",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_3",
+      "outV": "MSD"
+    },
+    {
+      "id": "1202b65d-51d6-4e59-9e07-f2a76e1bc8af",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_4",
+      "outV": "MSD"
+    },
+    {
+      "id": "27f13a6d-1413-481f-b0d4-b67115c67092",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_8",
+      "outV": "MSD"
+    },
+    {
+      "id": "e2f1cc84-321b-4826-86eb-87d225b755be",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_12",
+      "outV": "MSD"
+    },
+    {
+      "id": "9d75d40a-c914-4dd2-8ecf-fab7268c07c5",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_16",
+      "outV": "MSD"
+    },
+    {
+      "id": "5e1549e6-b126-49c6-a5f2-c4500bf5f3d1",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_15",
+      "outV": "MSD"
+    },
+    {
+      "id": "fbd070c6-0be8-44b6-af0a-77324e618aec",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_19",
+      "outV": "MSD"
+    },
+    {
+      "id": "5de5de33-1953-4efc-bf95-367c6c6e5f41",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_31",
+      "outV": "RTA"
+    },
+    {
+      "id": "244e56b9-d1ba-4643-b45d-d8f03ba138cf",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_31",
+      "outV": "MFO"
+    },
+    {
+      "id": "756213ad-5b71-454b-957a-acefc216c92d",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_32",
+      "outV": "MFO"
+    },
+    {
+      "id": "cdb5f2a8-22db-4d77-a4ba-973b8e708f2b",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_34",
+      "outV": "MFO"
+    },
+    {
+      "id": "481126bc-05c1-4081-b984-38c20a0fb473",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_36",
+      "outV": "MFO"
+    },
+    {
+      "id": "ef8a3d05-66c7-4749-a1aa-5e2430622c7f",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_37",
+      "outV": "MFO"
+    },
+    {
+      "id": "1f64f9e5-9950-4cee-a324-81ff335a868e",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_9",
+      "outV": "MFO"
+    },
+    {
+      "id": "2d1c648d-b3d2-4fb0-960e-a0e82ebaa8f9",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_41",
+      "outV": "IRA"
+    },
+    {
+      "id": "0cc2bd8a-15bb-4ae1-84e1-46610a210fdd",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_42",
+      "outV": "IRA"
+    },
+    {
+      "id": "b02d6cd3-2b9a-4303-9c9f-d286157ec4da",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_1",
+      "outV": "IRA"
+    },
+    {
+      "id": "eef86a81-89ab-47ad-9c6a-f9736a54cf36",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_13",
+      "outV": "IRA"
+    },
+    {
+      "id": "32290101-871f-489c-9ac0-b03fcaef354f",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_18",
+      "outV": "IRA"
+    },
+    {
+      "id": "06d85e8c-045c-4d03-ada4-3697eb49fe63",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_19",
+      "outV": "IRA"
+    },
+    {
+      "id": "7bd117a8-bcda-4c9b-991b-fc01a6a5b8bc",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_20",
+      "outV": "IRA"
+    },
+    {
+      "id": "2a467c1e-0fc8-4fe1-be5d-11be5430ffca",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_9",
+      "outV": "IRA"
+    },
+    {
+      "id": "ec74e63c-c016-4b07-a65b-e36708c93cc8",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_14",
+      "outV": "IRA"
+    },
+    {
+      "id": "d33d0063-9e0d-4098-8eac-b9b434f7cbea",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_31",
+      "outV": "IRA"
+    },
+    {
+      "id": "e38ce02e-de82-4f31-a749-1ff15daafa12",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_43",
+      "outV": "IRA"
+    },
+    {
+      "id": "ed06113d-b645-484a-8273-3fc8c82d1181",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_44",
+      "outV": "IRA"
+    },
+    {
+      "id": "9f0e6369-cd3e-4621-8b97-98d4d52e5172",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_48",
+      "outV": "IRA"
+    },
+    {
+      "id": "c7ca4b51-374c-4d81-a15a-7160d9b8016b",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_12",
+      "outV": "CBS"
+    },
+    {
+      "id": "f5a1f770-2201-46b8-98c7-ea8b62b9cf27",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_21",
+      "outV": "CBS"
+    },
+    {
+      "id": "22c05dff-8bca-436f-9581-ed84c8cf638f",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_34",
+      "outV": "CBS"
+    },
+    {
+      "id": "1ef11fcf-7421-414c-a285-20cf4e08c13a",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_43",
+      "outV": "CBS"
+    },
+    {
+      "id": "0914644b-74cf-4c42-bd72-8d25ef3c7637",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_18",
+      "outV": "CBS"
+    },
+    {
+      "id": "87b7747b-3754-466c-a496-afad2bd34526",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_52",
+      "outV": "PAS"
+    },
+    {
+      "id": "a76fa265-9a0c-4fa7-a099-412ac94e4908",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_24",
+      "outV": "CFS"
+    },
+    {
+      "id": "1fa211b9-6ac2-43e9-aaa9-6a15bec71153",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_53",
+      "outV": "CFS"
+    },
+    {
+      "id": "5172774e-b36e-43bd-a6d1-8c05b1b54819",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_54",
+      "outV": "CFS"
+    },
+    {
+      "id": "8eeecca8-1fb9-482e-a795-478da6fe7ec9",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_56",
+      "outV": "CFS"
+    },
+    {
+      "id": "d9c4ec20-378a-4b28-990f-69586fe3003f",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_21",
+      "outV": "KGS"
+    },
+    {
+      "id": "d53160cb-72e4-4907-a7d6-9e5fc7908dbc",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_56",
+      "outV": "KGS"
+    },
+    {
+      "id": "82a70c08-47c4-48fd-ac60-80e21b9dc6de",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_33",
+      "outV": "KGS"
+    },
+    {
+      "id": "0f94cb8a-08f9-467b-8c44-76bd7a0f78eb",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_18",
+      "outV": "KGS"
+    },
+    {
+      "id": "8fca4020-5e2b-4b7d-9d1b-d064f2985d74",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_31",
+      "outV": "KGS"
+    },
+    {
+      "id": "a46ef8e0-b72a-4413-8827-91ffb9fc16ab",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_37",
+      "outV": "KGS"
+    },
+    {
+      "id": "ec4e2c93-67c5-47a6-802b-a76925c106e5",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_39",
+      "outV": "KGS"
+    },
+    {
+      "id": "23f68f7f-a9a6-42cc-b15d-024a56728c00",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_12",
+      "outV": "KGS"
+    },
+    {
+      "id": "30c5b31f-b81b-41d7-87a9-8e2d3b847738",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_25",
+      "outV": "KGS"
+    },
+    {
+      "id": "10a7da12-7aad-4910-9104-b115089b489f",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_13",
+      "outV": "KGS"
+    },
+    {
+      "id": "58ae4789-4fec-4334-8fc9-e068f142f9c6",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_41",
+      "outV": "KGS"
+    },
+    {
+      "id": "193395e0-12e0-4cf4-b3cc-31543633b326",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_53",
+      "outV": "KGS"
+    },
+    {
+      "id": "a8665afb-cf40-4a25-add3-60705d7a5abe",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_22",
+      "outV": "KGS"
+    },
+    {
+      "id": "d8ef037c-826b-4f5a-ae69-e78d19c2bcc2",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_24",
+      "outV": "KGS"
+    },
+    {
+      "id": "a4161b50-437f-4335-a744-b3b018755ac2",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_22",
+      "outV": "AI"
+    },
+    {
+      "id": "d0080265-a8b9-47a7-999f-e9f821b5a082",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_58",
+      "outV": "AI"
+    },
+    {
+      "id": "28a32657-1849-4d3b-8e5f-01486a667425",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_12",
+      "outV": "AI"
+    },
+    {
+      "id": "580b77ce-793f-41e5-805d-1fa3e930a4f7",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_12",
+      "outV": "VMA"
+    },
+    {
+      "id": "f2b29baa-a770-4013-9b07-1e97af71caa9",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_49",
+      "outV": "VMA"
+    },
+    {
+      "id": "d21e7589-6220-4da6-a317-65c0f471a772",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_13",
+      "outV": "VMA"
+    },
+    {
+      "id": "259e676b-b6f1-48b2-9370-77f864b0d044",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_41",
+      "outV": "VMA"
+    },
+    {
+      "id": "f542319f-9a3a-4bd0-986a-04de6933a97e",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_11",
+      "outV": "VMA"
+    },
+    {
+      "id": "0ec83a55-3a5d-4533-8e7d-d5618f904939",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_22",
+      "outV": "VMA"
+    },
+    {
+      "id": "3d365ca4-b2f8-4f45-94da-d3bde5674303",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_24",
+      "outV": "VMA"
+    },
+    {
+      "id": "88794fdd-ef8b-4e5f-9946-26f9ca15cfd7",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_26",
+      "outV": "VMA"
+    },
+    {
+      "id": "70d62d10-e26a-42ad-83b3-58d55264e955",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_48",
+      "outV": "VMA"
+    },
+    {
+      "id": "24e6727c-7b57-47bb-9ac0-999db0c7bc4a",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_57",
+      "outV": "VMA"
+    },
+    {
+      "id": "85a25b29-f225-4ea6-b45e-98ee1bbe7a6c",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_34",
+      "outV": "VMA"
+    },
+    {
+      "id": "3af63d26-7223-48bf-be84-0ee3c31e37cb",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_2",
+      "outV": "VMA"
+    },
+    {
+      "id": "54e5e728-c8a9-403f-b545-ab2160cb0c4c",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_58",
+      "outV": "VMA"
+    },
+    {
+      "id": "c71a9501-9f42-407e-b034-819eb44e51a4",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_41",
+      "outV": "NRS"
+    },
+    {
+      "id": "b1a0ef70-d747-4198-a4d9-aa67033a8404",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_59",
+      "outV": "UBS"
+    }
+  ]
+}
