@@ -142,7 +142,7 @@
         "status": [
           {
             "id": "51a130a9-4a01-4dc8-9290-4ce7f6565344",
-            "value": "SUCCESS"
+            "value": "FAILURE"
           }
         ],
         "avgTime": [
@@ -1132,7 +1132,7 @@
         "status": [
           {
             "id": "1254ceee-42ed-4898-8f55-8d69722df295",
-            "value": "SUCCESS"
+            "value": "FAILURE"
           }
         ],
         "avgTime": [
@@ -3992,7 +3992,7 @@
         "status": [
           {
             "id": "b8b1024c-445e-42f6-87df-fccc2f4e41f9",
-            "value": "FAILURE"
+            "value": "SUCCESS"
           }
         ],
         "avgTime": [
@@ -4387,6 +4387,42 @@
       "outVLabel": "job",
       "inV": "JOB_16",
       "outV": "EDB"
+    },
+    {
+      "id": "0efc2ca6-f10e-4126-9886-123d485af38b",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_14",
+      "outV": "JOB_16"
+    },
+    {
+      "id": "0efc2ca6-f10e-4126-9886-123d485af38c",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_1",
+      "outV": "JOB_14"
+    },
+    {
+      "id": "0efc2ca6-f10e-4126-9886-123d485af38d",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_2",
+      "outV": "JOB_1"
+    },
+    {
+      "id": "0efc2ca6-f10e-4126-9886-123d485af38e",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_3",
+      "outV": "JOB_2"
     },
     {
       "id": "8394200c-36e9-4281-8dda-281a09c56184",

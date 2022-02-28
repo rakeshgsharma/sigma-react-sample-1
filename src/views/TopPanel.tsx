@@ -7,7 +7,7 @@ export class TopPanel extends React.Component{
     }
 
     todaysDate () {
-        var local = new Date();
+        const local = new Date();
         return local.toISOString().slice(0, 10)
     }
 

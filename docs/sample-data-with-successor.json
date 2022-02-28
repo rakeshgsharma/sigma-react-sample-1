@@ -1,0 +1,6245 @@
+{
+  "vertex": [
+    {
+      "id": "JOB_2",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "44fa6746-6beb-4694-b555-c3954852ee10",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "e9be8558-0811-4e11-863c-6ee086bbcd3d",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "9d8056ee-7196-46b7-82ac-14b63d6db789",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "ab7e0761-4d14-483b-b310-887c5ee08800",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "9ca6ac3d-8c60-4dc6-b6bd-b2259de694f5",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "34503aba-adec-4f65-8749-5167a731a395",
+            "value": "19:47:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "9190a669-874f-444e-ab0c-d462703e3956",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_2|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_13",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "f308ee11-96eb-4b22-b85e-b8670d5622c7",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "45ad47a7-e9b7-4eac-88f1-686a66fa2e15",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "3d25411d-8c38-4b97-812d-90da702eca33",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "eff6e929-2e93-4d80-bb62-1d8ecff6c45c",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "status": [
+          {
+            "id": "50db2223-86a3-4eb5-bd40-a8c9431810f4",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "0c1ffd26-aadf-45e3-a13d-7c4a1a8de2d3",
+            "value": "20:25:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "af2b0259-7841-43b9-bfe3-584573dfeba1",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_13|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_63",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "070a3046-a13f-4727-a613-a6b2fdbcd2e5",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "3c620253-f1cd-4c18-9865-da1423f9a09e",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "2f89c681-f291-4e4f-88d7-8daffc2618f6",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "45ff60d8-706a-42d0-8252-5d410ff6d244",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "9cc323cd-d989-4946-8dc3-46e599b74f4e",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "4046a8f8-0e33-4479-a2e2-9f67ec1676f7",
+            "value": "21:00:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "cf0cb916-2852-4f0f-a527-143806ada322",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_63|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_59",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "b9bf728e-7847-455f-84fc-bd82d89438d0",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "831cb64e-8fd1-4c91-b109-f7b1de4f3a6f",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "210cef8e-f97b-4cb4-8783-feefb04f1c5b",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "ab411b1e-c12c-46ef-967c-6f11f7cb55ee",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "7cec0780-cc3f-493a-8d61-5061b295a5cc",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "7ea4ecbb-3bb1-4c57-b6a9-d5d949f62586",
+            "value": "07:22:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "645b5713-3ceb-4eed-ae13-81d605eb1f3d",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_59|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_5",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6d26f7a8-3473-4691-b571-6d3359f2dd41",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "46b41483-52d6-41ec-9e01-1ae75f1235a2",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "70d49876-9269-4de7-8ea7-489fb1e5e578",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "df84d6e2-e41c-4679-ae99-ddc5489e23e3",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "8438a959-2e2c-4e6b-b005-ec9aca13d861",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "59afb69b-4ed0-4cbc-9dc5-5d5d1bd360a8",
+            "value": "19:51:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c63757c3-1164-41e5-a7ac-8f59f35743f0",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_5|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_66",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c78b5cef-84b4-4b41-a28c-3c29f83f86ec",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "0c1cca09-a659-4d08-8357-d76dde2b721e",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "2e9288ba-b4a4-434e-9fbb-c7c80227f18a",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "6dfb3b3c-ba9c-4e96-9d79-5c7e3099af9f",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "83d9c4bd-2552-41e0-8b86-326187e1d8c7",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "cceeccf6-c118-4026-8a5f-471e83c4ad4f",
+            "value": "20:17:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ed36e4a7-cb0d-4ffa-8688-a7a68db60ce3",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_66|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_73",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c5851361-d84e-4a11-83d5-353f6ec5c28a",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "5266b102-df72-4cb2-924b-ceb345794675",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "831f33fd-d940-408b-bc9f-e0981890f6df",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "5a70e108-9666-426c-b15e-7706d4ce39b3",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "e65c85e8-db13-4005-a35d-b96eb064e254",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "1906e662-390d-4237-9794-30b3053e29ee",
+            "value": "20:46:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e7b63513-ad62-4e86-bcd8-8a7b27054329",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_73|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_70",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "a87803bf-2f54-4d23-bf3b-8f3fc0a7624c",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "3d82d03f-7636-48e6-b527-d450a15282d7",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "5a5b5bd2-6e56-4919-98c3-6533b4c77f4a",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "3e892318-4471-4ee3-9a94-6ec6517d9723",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "3ad30eca-2ffa-49b2-9dfc-79c267aa4b28",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "0e7f4ac9-ed46-4abb-bc45-f4ebcaf0e7d0",
+            "value": "20:30:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "24b847ca-1392-407a-b821-785e38a11860",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_70|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_69",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "1e1cbbc9-9ee3-4073-aef7-5577e2935b5e",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "9d5f5beb-138d-43b2-940d-59c6f98163c9",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "8a17c2bb-2584-42de-a46f-303d8a9a918f",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "6491e4c9-9f1e-45a3-b0cb-a8bacde249e4",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "1df0ede3-e215-414a-96ac-f3ee57504940",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "0384e5be-fb11-4611-bbd5-6fe067791f8f",
+            "value": "20:28:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e907cc3c-7d9a-4030-a74f-80f54fc2b7b6",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_69|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_67",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "31a98ffc-e43d-468a-a35f-d54484a7f234",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "6293d94a-d826-4a46-b1de-6f7f38318579",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "8c44d351-46a2-4b7f-9e44-e14b3bde5b24",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "cb42c245-736c-4a71-9a5c-18586874466b",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "daef1bab-5e0f-4d70-8911-45df15867cc6",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "44da2f52-235c-44d3-9694-dc1837770414",
+            "value": "20:19:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "5b83cafa-86ef-4eb4-b6bd-caa9f1bfc0f5",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_67|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_72",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "2d87f5eb-0195-49b8-b4c6-aeee16423149",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "1cc56305-170e-484a-9a79-bbc72cc53d93",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "51f6923c-22ec-4d46-9631-6e239b52b1c4",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "d099d888-0b3f-42b7-88a4-a05800b61895",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "d3315c8b-30da-45ac-9f99-4eb269b82bbf",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b0b0b38e-ffa9-4362-a2a2-bbf62c1c98f5",
+            "value": "20:42:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "4a940ae9-12fb-4d29-9fcf-e31112e48906",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_72|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_79",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "e3d85cd8-0e0f-424e-9bf8-398d873fbb5d",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "7fb661c7-f34a-42d6-b0ef-9ae98a087f8d",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "08eb2901-3cd5-492b-b569-d7b22e971619",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "a0fe7045-a02c-41ea-a5a4-56d53e96dcf0",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "dcf0a328-c78d-47cf-8370-d3d629485c1d",
+            "value": "BLOCKED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "412cb31d-b81e-457c-ab99-27c746a9d092",
+            "value": "21:34:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "2c432928-da78-4774-84cf-bc906fc39e25",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_79|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_68",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "b663a736-c49e-40aa-b8da-082a4828f807",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "dce36696-e9be-488c-a250-3c16da42a5eb",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "816f8ea0-9eac-44a5-b1ee-e6399b928086",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "36c27dc3-025a-4161-acba-ed6ed7101055",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "46a516bb-08dd-4f50-bbcb-bb958a0dc328",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "4209c96b-4bdf-4cbf-9ae3-5f1e6794d830",
+            "value": "20:21:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "34d7b529-06b7-4bfd-a4d2-50ddfc231e4a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_68|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_74",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "beda8523-80fe-4dca-ad13-30483f94db9b",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "d509f51b-701e-4192-8b20-7abea259cee2",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "091286d1-e0eb-4b01-b5b2-57a6476fb7bd",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "ab27898f-f231-4499-9f74-8126bdaa77c6",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "8ab9441f-f3ae-4504-b596-424cc26adac9",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "fab99912-c018-45f7-8aff-2f1fc7ed539b",
+            "value": "20:50:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "baf6fdc3-6a69-4599-a4f3-d11e89a3073a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_74|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_65",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c0f65abc-55f3-468e-bf52-098d7445455a",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "66434ac0-cb23-4c49-9772-f6befe069ac9",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "8166481a-d253-4ca3-8820-31fcc93d1447",
+            "value": "Master Security Description"
+          }
+        ],
+        "description": [
+          {
+            "id": "bf8e9215-16a3-4918-aa60-db4d90ed5f71",
+            "value": "MSD Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "50240939-bc78-4a2d-afd7-d67f6751a4bc",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "17bca6d0-2ad2-4952-bdf6-99f95bf56da6",
+            "value": "21:06:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "29418224-788b-41d4-85fb-9b00f8b659e5",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_65|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_80",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "daf294ea-8de7-441b-afeb-242aa17f2f8b",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "91121371-5951-4d01-818d-65aabb5301ef",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "0bfe8a7a-916c-4be2-b614-dd10b57f3636",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "62fbae36-ca7e-4511-b5d1-c926c0c039dd",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "d75396a0-fa0c-440a-b2f5-e9a53b19e8fd",
+            "value": "BLOCKED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "e526b631-c53b-400c-9c99-14b4a19292e5",
+            "value": "21:39:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "88dbfb07-64cb-4ee7-bb8e-b13df13d9ace",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_80|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_71",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "4e34fe73-bc21-4f1c-bd2b-235a26f8a93a",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "d56cea70-da06-44c3-a5fe-38cd9f044e4e",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "91647fa7-ddce-4659-a99e-f5eb4167c212",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "d4e41495-e63f-45a9-8ec8-3554f5b81268",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "79d85e95-4108-49d9-a581-5b5bdab3f97d",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "42ce3b65-aa16-4365-b91c-777eb7d48bda",
+            "value": "20:37:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "98ae87a5-0a48-4a0e-967e-e251c3b33347",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_71|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_78",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "92be5aaa-5d8c-41a1-b722-74110f6ee9d1",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "2d7be296-6389-433c-b30d-d798e27e1240",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "a6d02f18-ed0e-4c1e-872d-705a3a4f0fa4",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "37f03c52-ec2f-4585-a936-6f42097ec94e",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "status": [
+          {
+            "id": "d9746603-3c87-4135-b05f-b602b7e0a9a9",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "ff9073c7-37fa-4853-9d6f-4534d5a9e401",
+            "value": "21:14:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e41d2b39-7bcd-4507-9f51-6cc8f7c5a6d6",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_78|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_75",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "e3ab7e2b-bd50-46a8-9be7-c6ad8cb78820",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "5932fab6-11e9-45dd-9221-9b8c11cf9afe",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "42fd83f8-cb48-4a80-8ba6-55f65d00ea6f",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "7da02db7-1f9c-4a5f-8603-1efe44a3c521",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "status": [
+          {
+            "id": "96a63ccb-423e-4154-91e6-860d1bc21bfc",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3753ae14-9ded-4b62-b160-db4cc5fd7558",
+            "value": "20:58:32"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "1fe77dc2-7cdf-4b9f-8ab4-d6ffe6d068bd",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_75|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_77",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "a62be0a6-2c14-4432-8a4c-73f404f98334",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "dcd746c6-fdc6-4659-a255-96ae0d547ee0",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "52d28c04-c6a9-4dbf-926c-5f55d3c35f83",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "1a64a6f0-92d9-4e3a-8294-4ed17e665ada",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "status": [
+          {
+            "id": "d8490ab4-9995-4e48-bfb9-d1e08b98a466",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "aa2c9261-2851-47a9-a4f2-2c228caf684c",
+            "value": "21:09:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "30b8ea52-0d8f-44b7-a444-c229f1455a2c",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_77|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_76",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "0d63dbee-c438-4567-a0dd-ecbfc79d3cce",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "dff5712a-9b6b-4942-8d91-8057ec0c89d7",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "28d3ce12-31fc-42d5-afbf-5f36da7b631f",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "a65ee37a-0f8e-44be-8346-f29e3083c186",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "status": [
+          {
+            "id": "e7f51aa7-ff43-40e1-bde6-a6cfd57ccf80",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "ceb2b1f3-b94a-4493-a934-930656ae1c53",
+            "value": "21:02:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "7fcf9dcb-f7ea-4edd-9b8d-e4e00f22de89",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_76|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PSO",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "3721038c-5402-4eda-a096-1264e19ca335",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "c96985c8-1344-42b9-8f01-dff52503e369",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "9694c93d-d74b-452c-8c4a-393304d0de3c",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "5e9c85c9-2e30-40d7-8ab1-ea1d636f9b7b",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "053a755f-3adc-43ca-af7b-bf479b241198",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "76c77a4e-24cc-43ed-9f62-3e318d139037",
+            "value": "20:15:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "41e0d335-56e8-467e-af1b-c088d6a0c3bf",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "PSO|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_16",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "933cd033-f777-468e-84dd-d53d4f0e1d0c",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "40e971ab-f24d-414d-8ab2-597918a01a2a",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "f3ae0179-b664-4ade-9332-4dcde64413b4",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "a5892b9b-2101-4f43-85a4-998941481037",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "1f574617-55db-4b3a-a80d-c2b3d4280e9a",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c034884f-5944-4e70-b3e0-ef6fd8421f8b",
+            "value": "20:45:22"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "1ba6cdbd-8f9a-4305-89f2-9379243d177a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_16|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_10",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6ea1ef2a-af4f-4ee3-b123-d7e2e93bc2a1",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "cd457e85-3cfd-4a64-9ffc-3ef4cf0d239e",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "182a83c9-ddd1-43eb-b965-6009d4b55a31",
+            "value": "MARGIN"
+          }
+        ],
+        "description": [
+          {
+            "id": "38635468-c9c7-4490-86aa-cdd935d9d28e",
+            "value": "Book Keeping Positions and Balances"
+          }
+        ],
+        "status": [
+          {
+            "id": "93fcc5f9-455e-499d-af35-6072c7ceb2f2",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "1fbbee96-87dd-444e-8aaf-1e1cd729cd2e",
+            "value": "19:59:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c45282dc-6fab-4e85-bf1a-e34aee391d5e",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_10|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_22",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c4f977ea-75c0-49be-a7fb-221d3d713cad",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "e4cc5d14-a476-453c-9388-ac891bbbc972",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "a087fb22-2722-47fd-890c-822847c216cc",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "44cbb218-996f-4b45-984c-77eb45665b46",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "status": [
+          {
+            "id": "2c77617e-48f2-4556-96d8-a3edd9120a5a",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "0f1ed9d5-cd60-45a2-beca-17687f59e06d",
+            "value": "21:32:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "357b7e39-7fc0-46f5-806a-caafb0aaafb2",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_22|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PAS",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "fa92ebd3-d51b-4c1a-99ee-99c334c5f28a",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "5a851f41-460b-41c2-bf17-b8605420ad10",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "2b3820e3-6113-4f48-89ef-d88f5a56ce88",
+            "value": "Portfolio Alerting"
+          }
+        ],
+        "description": [
+          {
+            "id": "911d1022-c40f-4d87-a603-24832ea5efe8",
+            "value": "Portfolio Alerting System"
+          }
+        ],
+        "status": [
+          {
+            "id": "92f22428-966c-4938-8d8f-9671801d348f",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b121bb35-914c-4dbe-a595-b6d19af1a2ae",
+            "value": "02:41:23"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "17e59832-d496-4184-bdbc-b6c0cea16d61",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "PAS|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_24",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "93878b96-64a7-4aa0-807c-a9e52bcc2397",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "f62a1bad-6d95-40a8-bdc7-fa3a8bbfd700",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "6762dd9f-a638-4089-a590-1f1d7c0492cb",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "1df9277e-36b5-4429-bca2-0a267546b85a",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "status": [
+          {
+            "id": "2d7c84ec-a4cc-42ad-9061-1509fa5e16e8",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "963e895a-e8f1-4831-ac53-9071d237baf7",
+            "value": "21:44:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "6dc7e347-108b-4cf6-b0b6-27b38187aefc",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_24|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_20",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "39ffb93f-0bca-4aaf-80bc-78c260cbdc4b",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "ccdb03f3-caac-44f0-8002-753b51f43a36",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "fe567d32-8dd9-43d2-9908-94bd3022b0f4",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "9c12189e-1c9a-4984-8b85-adea26832808",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "cd2eaac1-74e0-4719-8b31-21ac7d0e2383",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "fd359e81-f3d7-4c57-b257-69ec19921e5d",
+            "value": "21:18:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "d3f8e45e-4ab1-40a0-b88d-f15f59f0f23f",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_20|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_26",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "e7ab36c4-71cb-4744-83e8-a0b802b8a4e1",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "50569154-a118-466d-b454-ef2f595ebcc1",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "1a07d6a6-b2c7-42f0-94b7-a031495795ca",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "5f719675-77d4-4862-9f51-48002a21349c",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "status": [
+          {
+            "id": "1738f6d0-7b49-43fc-b75d-3e69a277d930",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "ba62dae0-5383-4247-98e5-8bbafbb0ba60",
+            "value": "21:51:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "63bb1f96-7b7b-45b2-80af-1e3e59e62064",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_26|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EDB",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "638fd1d1-98f8-488e-9613-a7d23677e585",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "86743360-cf2b-443c-a24b-4b4ac95df22e",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "ee40d0b3-6303-4b6b-8dc7-a2c76667dca2",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "6121c0a5-6a97-4ebd-8a2a-ec2c6bcbd51f",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "26d393a7-c0d5-40e2-887a-fc428d4caa63",
+            "value": "BLOCKED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3d97a80f-c654-4a0d-b1b4-9a777a572ba8",
+            "value": "21:22:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "d9c661d8-a381-48a1-b77f-d503a40d6491",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "EDB|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_8",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c49f3131-de41-4f96-85d1-a4bf47f4408c",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "6bf6c435-91bd-4f5b-8ba6-d91511a1e162",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "933bdf69-3935-497e-b068-07f12259f72f",
+            "value": "Purchase and Sales"
+          }
+        ],
+        "description": [
+          {
+            "id": "148fc829-8abc-447c-bbd5-3ba863824596",
+            "value": "Trade Adjustment and FA Comp process"
+          }
+        ],
+        "status": [
+          {
+            "id": "6db3528c-9694-404f-a9eb-4cf581439cb6",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c0dd009d-0603-4a37-a0f2-f7eeff5fc4f6",
+            "value": "19:57:38"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "9890c4e7-0125-4c53-b242-32702c6b2c35",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_8|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IRA",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "753efb78-1b60-4d65-9c6c-2d4e62e46b2c",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "7d05132f-d50b-43fc-8e9d-859c9775f15e",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "e569b38e-0a9a-44cf-8719-cac751a15b05",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "1ead99e4-19b0-41c9-9fe5-f19b3d4d2500",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "status": [
+          {
+            "id": "6c254688-71a6-4438-9d63-ac98d1104433",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "33e31218-d5ec-47b9-847c-2cd871957d8d",
+            "value": "01:44:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "8fa0dfc1-4f8c-43c4-b9da-c711f130f219",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "IRA|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VMA",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6809504e-8ac9-4550-9e7b-3f2a16783a35",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "4e7ef31f-6d74-41bd-a3fd-7a1496154008",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "774a23ef-20d6-4828-b47f-a913636761d6",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "0ddc2a8e-d321-4fc7-9cf6-f945ad16cd77",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "8562b3e2-8e22-48eb-b389-6860c3272b12",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c66d7465-ddd9-453e-8481-e004542e9dc1",
+            "value": "06:42:37"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b8b94124-3e61-47c2-87c7-e6c361fc9a0f",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "VMA|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RTA",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "e7646adc-516a-4770-927f-be1703c46710",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "2ca4d70b-9beb-408d-ba3f-57d0565618a2",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "3e2b2361-8535-44c5-b0b6-b35c72671f43",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "df07eddc-6cbf-44d6-bdf8-474f39f4ce13",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "fa3a49f4-cdfc-4477-b9f2-a9485f09ba5c",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "22737ac9-64b5-4fa9-aaac-0cb70de5ef75",
+            "value": "22:56:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ac5cda9c-7020-4623-b1c6-811490ae6247",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "RTA|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UBS",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "e706e9c5-18a2-4bd6-8d01-442421c493ad",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "62f15a3c-e4ae-48f1-812f-2b54f4a0b981",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "aec23b9b-9153-4782-a4b7-a8e5a7e6163d",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "ebd7de55-4019-4db0-a910-e785b58847ff",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "6dded990-660b-41e4-9a66-24e467fef4f2",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "d0999819-6642-4ae4-9a0b-fa2b8cc312b9",
+            "value": "08:41:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "06c3d367-1432-4110-bc2f-f1204920553e",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "UBS|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KGS",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "1d489d63-e72d-4b12-bee1-451847a32924",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "21b77fbb-14ef-42c6-bc7a-f11f9faffaec",
+            "value": "Y"
+          }
+        ],
+        "app": [
+          {
+            "id": "3c4f215b-cd54-4472-8f08-81ca6d3f7ae5",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "87774279-edcb-4985-a564-a62d0457d6df",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "014b7d38-f906-43ec-beea-b5d5a2485497",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "34445cd3-ef84-4942-a127-41cb15036e0a",
+            "value": "04:33:41"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "26169733-56f5-4090-80ad-ce0265aae238",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "KGS|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_18",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "64003c6d-00a3-4ba9-960d-97ba1a963dcc",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "ab3b69a3-0617-4d4e-9601-f6e6aedbe607",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "20a06d56-6bcd-4054-b8b9-3c2161e02630",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "a2b9a18a-9ab5-49ca-a6f1-037371ed273c",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "d5fdc1a0-500d-4b9d-9685-14bc01879482",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "1b847862-ff63-4b98-891e-ce23333ff9e7",
+            "value": "21:03:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "641e1a37-3b3f-4586-9d78-c874563aa9c0",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_18|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_89",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "3cb8d2d1-77ae-47cd-a0ba-052bf735f04d",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "0a8174cb-0421-48fb-9212-1b063139f9c1",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "efa1d8ab-bd4d-400c-84dc-1c05e9c2738e",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "be8a0b9a-1050-46fe-a454-5ce67b5fa0f5",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "1ccc7033-892e-4917-b528-292d5c066af0",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "40774a86-e0cc-4e08-bbb1-ceace8cf9ade",
+            "value": "23:12:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "7d673068-a516-432d-a21f-316a392c30c6",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_89|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_90",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "00bc92ac-8adc-4993-9418-f9795604971e",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "313533b9-d002-4077-b905-dad1abbeca25",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "6839ef8b-fcaf-42b6-8f9e-5b14913c2dfc",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "5a604d89-0802-4bdf-8e65-a7d30ff7dd38",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "c6efdf06-c5c8-4435-b1ac-7e5fc20c8ff4",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "37d2a0c5-9b0d-46d3-9c53-63aa99486fba",
+            "value": "23:21:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "92a37ff5-bdc2-4cf2-883a-154991eda4a2",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_90|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_86",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "4e8c3a8a-0740-4009-9fdb-df6167680b12",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "f89fb472-e836-4f2c-8d47-2e0d2f6033b7",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "8a15a795-fd89-43a9-9251-cc5bc980f7f0",
+            "value": "Master Security Description"
+          }
+        ],
+        "description": [
+          {
+            "id": "809ee4d5-6c61-4e0d-bc39-e71d5b987738",
+            "value": "MSD Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "aa6c4396-5fc8-4358-946d-5787f9ba5f25",
+            "value": "BLOCKED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "6dae3927-341b-440a-a047-9f58c283b9bf",
+            "value": "21:37:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b5af234d-ce79-442d-8569-efdd67f8f9af",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_86|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_88",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "456a632e-30cd-4be5-a7c1-9e669327967f",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "4fa8c124-74b7-4e75-817f-1f9f42f80afc",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "327d85ad-8a37-40a3-b0fb-882b6fd1d270",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "8fa57247-2d13-46e1-8adc-40d3a56782f0",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "ba5b30d6-a3d4-4ab2-9e5b-029d75d46ce0",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "1fca93d6-7e2a-4668-925a-cac5ba243388",
+            "value": "22:59:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "a7408936-8317-452b-9593-812c4924e5ef",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_88|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_91",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "978048f3-9569-4618-81be-4bd557c62bf3",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "3dbcb8b9-9823-404c-b8d1-d478d31037dd",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "df51aa6c-f0a9-4987-8c44-3cb44b1e07c4",
+            "value": "Real Time Accounting"
+          }
+        ],
+        "description": [
+          {
+            "id": "e910d4bf-a0d3-4a02-8b2d-54dffd34f6d3",
+            "value": "RTA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "7ad9490c-934c-437b-825e-715e4b068113",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "153cd8b2-6c9c-489e-a5df-2e3fb2ffa0b6",
+            "value": "23:32:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "1fef6aa7-05ec-40e7-99cb-dc746c1c0a4d",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_91|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_87",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "68c3e9eb-e4bb-4fe9-a849-3c9bfae010a4",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "249cbd7f-bee6-4f38-b2bd-cefd7f823e96",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "a982bda2-8216-4884-a9d3-f3fb4d351b45",
+            "value": "Master Security Description"
+          }
+        ],
+        "description": [
+          {
+            "id": "e4a74bc1-7663-47a1-bbc5-44ca4f0138fc",
+            "value": "MSD Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "55eea56b-eed6-456d-9ff7-6c51bc742677",
+            "value": "BLOCKED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "12d932c2-5917-4b0d-8e6a-92722e030ce8",
+            "value": "21:39:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "cb4ee284-d5ba-451e-9558-0e0c5d079f4c",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_87|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_82",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "b680efab-5eeb-4f86-9602-8918318c8757",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "3e6efb3f-b3fb-4cba-b826-9ac1e07a9a5f",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "39197607-851c-4ae4-8ce4-5838ee064ac9",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "f9cc3474-d699-44fe-991e-d64cfad07d52",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "b448eb2e-e20a-4620-a9e0-25b9419b051e",
+            "value": "BLOCKED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "53a6c204-4c55-4297-894f-0583c1d47cb8",
+            "value": "21:45:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ee700c97-508e-42a1-875a-b0a039975282",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_82|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_95",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "659be585-33cb-4fa7-9a65-d2f901e3e886",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "58763db6-f132-486b-9fef-42114d9d610c",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "38fd7dca-0a4d-4689-bb2a-e1f3d91d392e",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "db53b1d4-5fc0-4635-9a5f-56259a6915f7",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "status": [
+          {
+            "id": "ed02e205-58f3-433c-a07d-967e91511f2a",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "96c6c4dd-00e9-45d7-9fe4-9bfbaa5ceb1a",
+            "value": "01:49:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c8105a36-14bb-4f5f-a02f-4ea9f1b5dd25",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_95|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_93",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "304865f3-2faa-453e-8575-3aa0e6f96cc9",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "de244f75-0afe-4e06-9d02-da9f64b57fe5",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "d5f83cf9-911b-4328-b844-73aa47615925",
+            "value": "Mutual Fund Reconciliation"
+          }
+        ],
+        "description": [
+          {
+            "id": "73e412dd-d0b8-4bbf-9635-2dad98deeffa",
+            "value": "Mutual Fund Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "26753813-d436-4686-9010-c91a4baaaa7c",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "9dee1bd2-580f-449f-82c0-cd67608ed636",
+            "value": "23:54:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "415ef5d2-5211-4222-b167-3c82c017a4a7",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_93|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_84",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "b9c73ffe-07e4-4a46-8815-493cb3de271d",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "238f8be6-b2b5-4fef-9283-99dbc460d45c",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "97a9600f-959c-4eb4-9556-0824ba637083",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "8e9fa534-feb6-4245-abd0-3cc4d6ca9b8a",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "fa03d8eb-5ab0-40a5-abdf-4d5a51bf4935",
+            "value": "BLOCKED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b64fe0a0-1173-421d-8fcd-6eed12895508",
+            "value": "21:54:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "50d87525-7f77-4b35-963b-9d5d54a897cb",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_84|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_94",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6a8d0a9e-a4f8-41cc-8312-ce68810fc24b",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "77369c13-cdfd-4c81-8c25-4fe8bc239ae8",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "0dd154b3-42eb-4378-8efb-26a541cd61e2",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "3310b337-0bfc-4697-bc50-988d336ae4ef",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "status": [
+          {
+            "id": "657bf944-b7d1-43dc-a4df-16f5c02887ee",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "6dd1cfc5-69db-41dd-a911-118ddb8e3a24",
+            "value": "01:47:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "11fb1fbf-3b3e-45e5-ac2a-c101e9065942",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_94|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_81",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "bfa03d83-527b-4614-8b5b-93ce6a20f923",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "c5e2f707-2386-4e40-84e5-33fd8d4d6f5e",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "653f0e59-fdc8-4744-b310-e99baaa7abf2",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "ec0e29b7-eb03-4518-9df3-c64cbc1e77d6",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "2bf56fee-5c20-43f5-9e82-54b1e94ce86c",
+            "value": "BLOCKED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "04efa2b7-8de2-49b6-8602-fde365751485",
+            "value": "21:42:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "70be43a3-8caa-4968-be06-81d16831dda0",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_81|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_92",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "dec826c2-2cf1-4e9f-b78b-530adb2a829a",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "cb628d32-4623-461b-acb6-5e59380f08f0",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ed999b29-5001-4dfb-8c97-a3128f33c9ea",
+            "value": "Mutual Fund Reconciliation"
+          }
+        ],
+        "description": [
+          {
+            "id": "06de317a-7e1e-4efa-87a9-b815e32faf8c",
+            "value": "Mutual Fund Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "cc6d263d-cfe7-4301-a7db-3718f3b9928f",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "dea40771-75fc-4b26-a6ae-f53324d95b9b",
+            "value": "23:42:14"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "5238fa7c-9b40-4e47-8c64-4dab5ce37331",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_92|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_96",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "fc7358e0-98e6-4f74-a5cb-fbaaab69685c",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "a1079769-d582-448a-84eb-cea578e70b23",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "92d04621-5588-4ec1-9820-4a6e0b71e699",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "8cb47fb0-2a72-4ac7-b297-a99d08acb987",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "status": [
+          {
+            "id": "d123171e-06ef-4a97-b09f-759d808e5ccb",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "97275108-c390-49d7-a3d6-ec5631f9a6e2",
+            "value": "01:52:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c17a3811-c8a2-44a7-a0ea-b05944b6bf84",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_96|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_85",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "3b24ed51-4e64-4e6e-9207-513d80fe4b07",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "de751686-aa7d-426c-8d28-299dbd4f2237",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "08618aaf-723c-4292-83ed-e32debcd73ff",
+            "value": "Master Security Description"
+          }
+        ],
+        "description": [
+          {
+            "id": "5204c7a1-2203-41cb-90e5-d4a52679a784",
+            "value": "MSD Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "edbc71e3-e290-42f8-8b75-4c901823f851",
+            "value": "BLOCKED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "6f8437e0-529d-49b0-a890-1801cfed4972",
+            "value": "21:32:58"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "884394fb-632d-4717-89b1-07f91b0d49be",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_85|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_83",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "d43a3278-c41c-43f5-aef5-5a4e991b498b",
+            "value": "25/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "1ff8b062-b449-493f-9d6a-103a67a11ca7",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "90ed877b-4557-4fcf-bf45-c5ddc2fb4e0f",
+            "value": "Enterprise Database"
+          }
+        ],
+        "description": [
+          {
+            "id": "def98364-e53a-4a97-a61c-e23b33a52933",
+            "value": "Accounts and Client Data Updates"
+          }
+        ],
+        "status": [
+          {
+            "id": "483bc6de-542d-4187-a6eb-847fe41fee9a",
+            "value": "BLOCKED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "92bf1f4a-b3be-446a-a67c-b43337b0d4ce",
+            "value": "21:50:12"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c447e764-ba75-4187-94be-233c34da7835",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_83|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_112",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "caf0579b-20b8-4a77-9397-dad174094aed",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "c2c880d5-298e-42bc-80ff-53d5caad024f",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ab1f36c4-49bc-4f53-b82e-57b9e4f46608",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "eeb348b0-3baa-47a6-9a15-9374f20d529e",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "986627d7-d7f1-4e65-8ed4-8c7d24306da8",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "52f87420-be8a-480d-84d1-d238a54df874",
+            "value": "04:37:41"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "d6155b4e-b471-4882-88c3-70978cd71f93",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_112|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_99",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "2ce0479b-f106-49ef-95f8-b4dc62952d7d",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "b61f73d6-7bf6-4a7a-a827-11a6a44b6eb5",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "c98f6014-b8fa-4f46-ac2d-be899b417e26",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "c27e700a-5b52-4eb2-bf41-0e7710b5fa40",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "status": [
+          {
+            "id": "f995bec9-c1cb-4860-be04-2d933bd5f1ce",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "04b499c7-1068-49b6-8043-8d6e8b3c4736",
+            "value": "02:27:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "f167a8f7-b7a5-4236-a8b1-553bd474afd3",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_99|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_97",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "0dd46763-d4ae-473c-a537-559c265e18a6",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "0659cce7-62b0-4196-a2de-a2f00215492c",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "b45e51be-4fe1-4b86-9edd-323291b8bb7b",
+            "value": "Retirements"
+          }
+        ],
+        "description": [
+          {
+            "id": "a82431a5-c68a-4ebf-8a61-66a3d337102e",
+            "value": "Contributions and Distributions"
+          }
+        ],
+        "status": [
+          {
+            "id": "b4bf5864-d102-4b6c-9f90-04b60d770921",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "80855044-32fe-439b-b975-84ee08af10a6",
+            "value": "01:59:52"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "4116b3ec-f786-48fd-9e8e-ac92fbd379f2",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_97|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_110",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "96ccf4d5-44c4-47b8-b9c3-6a632bee291d",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "e375e974-8761-482d-82b4-affe8290a4fe",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "f0e5084d-e271-4609-917e-b8441043d43c",
+            "value": "Confirms"
+          }
+        ],
+        "description": [
+          {
+            "id": "7d5d7706-1636-4c14-a523-c618845cb773",
+            "value": "Confirms Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "a85a4363-e351-4da3-ad1d-c840f4faa339",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "8d805508-02c4-48c9-bf66-d4c433204ae3",
+            "value": "04:39:16"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "f7208ee2-25a6-4de7-bb17-261f0ac121b1",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_110|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_104",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "666121f3-30a3-40b7-9f50-16f7ed6567fc",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "8ba4bd87-5a6a-4795-8957-36ffa2709a82",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "fccf219d-0390-4f9f-b44e-45f11e2addf6",
+            "value": "Portfolio Alerting"
+          }
+        ],
+        "description": [
+          {
+            "id": "bec95fac-c0ad-41c5-9c17-b7c3b94dde25",
+            "value": "Portfolio Alerting System"
+          }
+        ],
+        "status": [
+          {
+            "id": "87ec51d8-77ab-40bb-9516-a890f227abe8",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "39d99224-b941-411e-9be2-6d5ee267fa94",
+            "value": "02:45:23"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "3b400f42-0266-4e59-b7c7-5a39892a2f44",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_104|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_106",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "44dc86e9-df63-43f2-9b47-8b8c88fb15c6",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "d7542ba7-f4a6-4206-bd3d-01559fd07dc1",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "e27a3034-eedd-4700-be76-500c15a8a4fd",
+            "value": "Portfolio Alerting"
+          }
+        ],
+        "description": [
+          {
+            "id": "a339d7f6-b5a1-44fd-ae27-2723de921469",
+            "value": "Portfolio Alerting System"
+          }
+        ],
+        "status": [
+          {
+            "id": "e9fa97ad-408b-48c8-855e-df4fe2527df0",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "a328955f-c755-48cf-a4d5-fc32cc624643",
+            "value": "02:58:23"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "49c9e9ae-17ab-4a3e-8a8f-0147194359f2",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_106|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_101",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "cff5a2b1-56c3-4f69-bf50-a9df402d7e8c",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "dfe6a7ca-438e-42a8-a862-104888392a7a",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "e6842c0c-c672-4a89-9e6c-0cf6eb234eb2",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "9d82c38d-d079-4c67-830a-3d4aef088555",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "status": [
+          {
+            "id": "7b696b7d-5f63-48a6-810f-c9a53796a08f",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "4b022ee2-554e-4e49-a04b-598c5bb35f4f",
+            "value": "02:38:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "75e89ced-71e5-4ad1-b839-479c12299652",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_101|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_109",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "cbc4a491-3ab0-47fe-943f-e31569c25943",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "1b3a96f9-0a1e-4441-8489-c099e2be7b4e",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "95b51016-3f72-4098-b935-038d423c0f04",
+            "value": "Confirms"
+          }
+        ],
+        "description": [
+          {
+            "id": "aea1e7a0-56d6-4923-a675-1f6c93e6ecc4",
+            "value": "Confirms Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "3719f9ac-3ce8-4ace-a150-bc3c49b2182d",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "518a0940-0bee-4aa5-b86f-b8eb3b2deef2",
+            "value": "04:35:19"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "468bab0a-3146-4b27-a791-374286421eed",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_109|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_108",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "5ee189c3-2d5e-4bb9-a457-40e6398a2f04",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "68f036ff-cb50-492c-b2b8-418ede58dfad",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "b47f3f18-c86c-4523-88af-4e06a9192465",
+            "value": "Confirms"
+          }
+        ],
+        "description": [
+          {
+            "id": "59285130-d21c-4473-b086-a45471625344",
+            "value": "Confirms Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "a09ccd32-f0eb-4e97-95bf-fcc2f708ae98",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "113eced2-7756-4e9c-b174-975e85f48cc0",
+            "value": "04:31:16"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "7909d4f0-055a-4e46-aad6-5f0d1e4b3052",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_108|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_107",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "30d6edcd-8e64-4e09-abd4-9a47c603d2b8",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "31047aa2-bdff-4943-9934-56639a1ebf67",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "aac107fb-f8aa-4758-b5f5-c28731aa2d96",
+            "value": "Confirms"
+          }
+        ],
+        "description": [
+          {
+            "id": "db3a783a-a23e-48b2-ae36-24b03ac4af55",
+            "value": "Confirms Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "08957d60-c089-4caa-88d0-afa76dd19b2f",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "77fb53c0-8f8a-42f2-a038-41dfc82f9973",
+            "value": "04:27:16"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "023b0f60-bf06-41df-97a7-0a1890dfd345",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_107|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_102",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "70ca4a5e-ccd3-4f35-b6a1-82e68411eeab",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "5e7b1e65-8f9d-4ebe-85e9-7b22b59d8ebc",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "495ed71e-af67-4681-b50f-d31f44be231e",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "9cd64655-2d12-46f6-8b2c-b7effc17ec23",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "status": [
+          {
+            "id": "17697cb4-7700-4699-93af-a6ef1f432f4c",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3fd9de48-08ec-4e41-8f7b-a90346edd6fd",
+            "value": "02:43:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "282ea57f-5fa3-4b18-b528-be55889c3909",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_102|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_98",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "1ac118a2-01f4-495e-b8a3-e7034227a38d",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "bc0ffc84-733b-49de-9875-b15d07f37b9f",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "9dde72e0-5d5a-4739-9ee5-7a075f4c10a6",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "c1ab2d4d-86c7-4d63-b150-c5b6e704897a",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "status": [
+          {
+            "id": "323ede13-79ac-4bbd-b9eb-2aed1d080634",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "9f96cc9e-ce9c-431d-9d44-ab542ebf8bc7",
+            "value": "02:22:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "f838d6f7-4b6c-4b6f-a58f-5d2de7855505",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_98|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_111",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "ec596b60-96e3-4f20-8ee6-38300a000472",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "5f0e0a42-3781-4c45-89f6-8e6b3b586508",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "720fcb77-5623-476c-bbae-70f8adb0a02d",
+            "value": "Confirms"
+          }
+        ],
+        "description": [
+          {
+            "id": "db0a34f7-84bf-4cda-a39d-badc81a2853d",
+            "value": "Confirms Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "d383ec44-50eb-496c-84b1-72350587525c",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b9534917-b19f-467e-aad2-28e1bbc84384",
+            "value": "04:42:16"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "c2e76aea-04b5-40ee-915a-ef8ab3f9c724",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_111|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_105",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "61679632-127e-4c2c-95f6-89c57da2ab90",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "de7f4ee1-2387-4055-8150-30842fd1aba4",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "79b54b33-bf33-4c27-b8cc-4c52d1c8b936",
+            "value": "Portfolio Alerting"
+          }
+        ],
+        "description": [
+          {
+            "id": "189ba932-008c-4344-9ee4-740c23a80ee7",
+            "value": "Portfolio Alerting System"
+          }
+        ],
+        "status": [
+          {
+            "id": "6d009f80-18e0-4040-97c2-d149e612eaa1",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "471ec603-6c98-4e1d-b836-e122dbf77147",
+            "value": "02:51:23"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "2af681fd-9981-4d50-97e9-456f4d346bbe",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_105|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_103",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "cfd3e529-fce2-4a7e-9a4f-94c9c670acfe",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "e0183b80-7954-47c2-984b-e0ad53591520",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "68bf70ac-0c95-465b-b4d9-dfbaa8a4389f",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "17aa67bd-fcfb-40e1-a849-3e3f0713b446",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "status": [
+          {
+            "id": "41431446-ad98-4d21-97b3-555d881ee682",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "dcff8e26-a6fa-4794-bf20-496520d4b180",
+            "value": "02:49:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "adff5198-52f3-4a72-9806-c6dfde98f80b",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_103|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_100",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6e19d459-8c76-4250-a3ae-371f0535fb3e",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "86bd32e9-45af-4344-8d4e-12c71922b000",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "5229c241-870c-460b-a282-6d065f8e7364",
+            "value": "Choice Select"
+          }
+        ],
+        "description": [
+          {
+            "id": "5af5d944-1155-4cb9-ab93-a8efe13a5953",
+            "value": "Billing and Pricing"
+          }
+        ],
+        "status": [
+          {
+            "id": "98780c0e-d398-46aa-a8c4-dea55dffb75c",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "49399538-a14a-444f-8561-1a01f15ffa26",
+            "value": "02:31:31"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b6fed1b9-8786-470e-a47b-7e64beea7e27",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_100|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_115",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "66476be1-ccc9-4f58-8c1f-7348475a87fe",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "ca0027ab-467f-4cca-a637-0590981be2bf",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "1e26a33c-50e5-4ca2-b8de-30d83ee82a4a",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "f95f6f95-c97a-4641-afd1-0be73a8e4156",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "03c4dbbb-e729-47c1-9e89-a56c6dc66777",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c84319e8-a42b-4567-b3fd-7818337c9a83",
+            "value": "04:46:41"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "80a689f9-d20e-4243-ba2d-19b449fbe8be",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_115|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_114",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "5c5c3ee9-5641-4ab0-be7f-c21d565b099b",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "0705ca36-4d28-4ec7-9356-d33e16625450",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "a1001d15-c613-49fc-aac7-51a0a2760000",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "ac460ecf-eb80-484b-8d74-8ea2208ed6a2",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "562e75f2-6031-4067-b50a-328f7d50aa68",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c0427056-d7e1-4107-80c5-5c7439ff788e",
+            "value": "04:42:41"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "15910b9a-5738-4547-9193-7d78da9d1d63",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_114|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_113",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "46d6bab6-b755-4d58-9246-f31f79f7ea4c",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "d24af468-49a3-40a7-97cc-6ec88b346ebe",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ca33ebe2-2b2a-4580-b092-ad6552b731bd",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "291401c1-56ee-454f-9991-63fa6dc05e55",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "b9a89e19-13c4-40f1-920d-e580b8440345",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "d4ea197c-05e6-4f4c-ba20-078f959d0620",
+            "value": "04:40:41"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "d5174978-e3db-463a-80b8-94af89225334",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_113|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_116",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "47a7150a-714f-41fc-a8cd-b1d4f0dd96ea",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "817790e9-bc10-49f8-8984-cfa13bf8c132",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "6cc0be25-664e-4825-b068-f66cc896f574",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "f4ae19e1-ebfb-4710-ac88-647f8ea2e7fb",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "ba0c381a-8169-47c6-ade7-63342b4e9e68",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "63f6458e-45af-49d0-b29c-073dc479477e",
+            "value": "04:50:41"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "24b8d80a-2449-4af6-a2d9-10cdd392eeb8",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_116|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_119",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "ccdaeaf4-0238-41ec-a25f-42955fcf3ca9",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "5d9f2a8e-403d-41c2-ad3e-f1ad901c2f62",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "27aafda3-e438-4542-b9a3-d39673d143d3",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "ac7b73ab-3e8d-4318-81a1-f783879976bb",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "dc9a62d7-e503-4bfe-a2c4-fa3911da88eb",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "1a7a1972-d498-48eb-a381-17a1f2bd5fbe",
+            "value": "05:00:47"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e21751b2-d18a-4c32-9d08-344169e84e43",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_119|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_120",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "0e861d89-bf75-4846-8da1-c1275c95f458",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "e5702736-e0eb-4697-825a-7cc4b5ea2f69",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "02a4d4c3-7915-42e8-a586-c651a551a958",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "6ac46f16-774d-4d24-bf0a-c7ad7ca5d5e8",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "0554ea10-21fd-4baa-877a-34fb5ae31a24",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "6be4bb35-3805-4a2f-8030-7402ce2eff5f",
+            "value": "05:04:47"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "2d6acdd3-077a-44d1-baea-b29dd9a7fac6",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_120|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_118",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "f75f76cf-a0b6-45ea-a590-a4c1dd6eaa70",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "ef41be59-c7dd-4753-af36-3123486d7a53",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "5930c8b7-1dd6-4ac0-8dc1-33c4549fc588",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "aed85c87-6141-41da-ad09-b5492b6813ca",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "2aae5a1a-dd1e-41c1-a2e9-bc36e510db9f",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "04206428-d78e-4ed3-b6e4-2324618f54fb",
+            "value": "04:59:41"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "db967fa8-dcbb-4acd-8077-bffb4e532411",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_118|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_122",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "28abdea1-cea9-41c4-86fe-22a3044ec903",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "8a605da9-9272-45ed-bcf0-da63a862c13a",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "2589b36c-3501-4ffd-b8cb-2dedeecc9fb1",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "55abc0cc-4710-479f-b95e-6f99674fb389",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "5353da3e-0333-4586-b372-d0a991477198",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "99d33a7b-5248-45d5-b976-8f59423ace98",
+            "value": "05:11:47"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "04dbe86d-c030-4775-b852-29cab8381f03",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_122|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_121",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "7aa617d0-e304-4af0-b9e7-0304e0896d24",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "9a847ca7-166f-4382-a8cf-25b0ad713582",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ec6ca6e3-68b2-437d-b2f5-33ce3a625edc",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "84f0ed18-f3dc-4369-a603-83fa0c5ce69e",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "455fe1a0-f439-445d-95c2-bb3cacee6bcb",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "13483fca-cb86-4cb5-89a8-e7e017fda49c",
+            "value": "05:08:47"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b6061bef-fd8e-4f3e-bf48-b3ad42bad764",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_121|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_117",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "93157f79-e13f-4fd2-90ef-063ee996a7fe",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "7c067431-9026-402f-bf3e-15461554bc89",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "2efc1e99-c0ac-45d5-9ca6-1d2ffdc7e85a",
+            "value": "CAGE"
+          }
+        ],
+        "description": [
+          {
+            "id": "0cfa6e91-b9d6-4fd2-bce2-ae1be23a07e4",
+            "value": "Cage Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "e6c597fb-cba5-4866-8062-4808f8700a5f",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "69e9bce7-24c2-4f57-9e4e-31ac13134197",
+            "value": "04:53:41"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "5a1d1be3-4d97-464c-ac07-d579ee311858",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_117|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_125",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6d113c21-7d71-4091-b881-78bb57e4651e",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "3721f3ce-c95b-4636-b894-20e99842a1aa",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "4c17c4d4-7782-4327-97bb-573aa8c36fb3",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "f28afa94-7164-40fa-8996-23cebcd5d84e",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "71b3c9ea-0563-4f27-a2cb-148eb97fb5a7",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "66e89842-63d7-43a8-b9fe-9cc84131fb90",
+            "value": "06:48:37"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e835068e-7257-42ab-8308-4653d3263b7a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_125|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_124",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "856ddd1f-00ee-4273-89b6-902d9fafb045",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "d3dfd8b7-8967-4d1a-ab01-ef2f215b2eb1",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "6c60c62e-17d5-46e7-8229-7b5ad060d6f2",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "77f5f4d1-8621-4df1-9345-06c875b56e9f",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "e5a2b3a5-d92c-4961-941b-fa5e12e8476d",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "0fbe82fc-84c3-4be3-b3df-4bad5b7a10ff",
+            "value": "06:45:37"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "e4f47f61-65e4-4103-ba88-a18cdd053ed9",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_124|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_127",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "483eceb3-d707-4863-9a2d-ccfb04f13c65",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "93f78dcc-f09b-425d-864f-a19a2dc733cc",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "42aae3ec-860c-4812-a7c5-4f43a8ae5454",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "ba74fd5a-785c-46b9-b747-c02cb781f0eb",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "156d556d-c29f-41c0-a46e-33d6cf87096a",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "8dea5b29-e530-43b2-a268-f01f40f20c83",
+            "value": "06:54:37"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "644379e8-6e4b-430f-9cbd-e04c898a255b",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_127|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_126",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "477ea652-87db-4a59-a89e-256a31ec69ac",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "781f0aa6-c9ae-4b1a-b99d-b4399bde5f8d",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "7ba0db7b-4f19-47d2-859d-680440136515",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "79d941b1-23e3-443e-b184-f6d9109939f4",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "6dd445ad-e978-4ddc-99bd-c113060ea053",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "36aac47b-369c-4085-8aa1-220ef38ff316",
+            "value": "06:52:37"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "87ca4496-627c-4689-bb18-2da18d56cade",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_126|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_123",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "3480be7c-6007-43d3-ae68-08e683ab85da",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "e2b5686b-76b5-4ba5-bae2-1f3ae61a1cf4",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ac768ea2-c414-4e16-ab50-c9cded7a7230",
+            "value": "Alternative Investments"
+          }
+        ],
+        "description": [
+          {
+            "id": "8437792f-707f-4169-bc63-c36a26be7510",
+            "value": "Alternative Investments and Managed Futures"
+          }
+        ],
+        "status": [
+          {
+            "id": "b378ffa3-4ff5-4466-8263-ca66d6368f83",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "867bff74-307d-44a4-88d5-78530fbee366",
+            "value": "05:40:47"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "eebe7268-70dc-4558-a50d-2e04709903ed",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_123|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_128",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c1771573-711e-4be6-96cd-29f640a3459f",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "f55e16fe-04d8-4f69-bbb3-365bd844d5c9",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "d91b9e79-dac8-48cc-9191-34cd30da91e2",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "71662cf8-9343-41c0-9c35-e917f85b832d",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "11174a89-a198-491f-825f-806084c74d2a",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "2e4826e5-611e-4ddb-b010-28205bde3296",
+            "value": "06:58:37"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "145db1d5-3f5e-4902-93d1-b9a891d06d5f",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_128|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_133",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "04c576ad-a440-40f3-8c7d-811e1ac95456",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "10ea9368-758e-46e0-b826-2a04ddb031b2",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "4f7eda96-ab35-48f4-bc7d-dab4f2bec3ee",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "11dae775-d45e-43bf-9a33-faec23c1bc94",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "d0afafb7-0e9d-40d8-8bc5-f7daef7317aa",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3855248e-8216-4df3-8029-fc173b1313b4",
+            "value": "07:18:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "638d193d-0781-47b3-8377-be01bef280e0",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_133|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_137",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "36470bf5-55c4-495b-9706-5b462058fa53",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "2669e8e3-450f-4071-b103-cc5c9fa2500f",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "7a0f66dc-6ea2-410d-9845-51103ca2aaf7",
+            "value": "National Registration System"
+          }
+        ],
+        "description": [
+          {
+            "id": "771dd2d0-0180-4d4a-93bc-7c70ef7e3954",
+            "value": "NRA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "de5a6096-aa57-4fc5-85df-cc4fa3e1a414",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "92572cd2-48e7-4dfb-a9c8-eaba168286ff",
+            "value": "07:35:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "5ea2e8b2-2f16-438f-b7ff-2d7b74f4fcb5",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_137|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_134",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "d5fc78ac-2f29-4da3-9752-d41573c714e5",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "612a2d99-ce07-47e9-b833-c4db5c60aac0",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "a12ec072-f7bc-4de7-b4a3-fa117a656158",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "58d82e94-3ec3-48ff-8e46-526b972015df",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "8dc654a4-24f0-4da9-bf4e-84da013efaac",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "b7aded7a-4a84-4838-ad60-bdba8d5d7017",
+            "value": "07:20:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "07646945-29cb-4565-a027-e471ae2ea251",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_134|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_142",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "1ca55412-4aca-49c3-9c39-5f8dd4dbe841",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "32acd4eb-56c9-4910-b4bf-bc025db4ace4",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "f406937b-ed1b-4c49-a500-22d1ab0c716b",
+            "value": "National Registration System"
+          }
+        ],
+        "description": [
+          {
+            "id": "5f2e79d5-34a9-4f7b-acb0-e33a39d78089",
+            "value": "NRA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "d9c8a2ad-d50a-45ad-ad31-3c71d249b62c",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "a475d677-cfee-47d7-9317-44dcaf3552f5",
+            "value": "07:49:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "96fc4f4a-14f0-4d0e-83d6-b6097b886439",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_142|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_130",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "4f3ce79c-5c5b-4dab-9967-ac363b830b0c",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "30bd1ab3-4159-48d1-aa8b-96fefbab9b18",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "bfded837-5de1-406b-bb0f-d2eeeca3293e",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "ce29ead8-2150-40ae-91b9-2e640bc0395d",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "ac361600-100b-4d8f-ac6d-c5201cfbdcf4",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "3ca051b1-859b-46e5-b170-64eec5133772",
+            "value": "07:08:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "75e76a72-2c4e-40d3-8533-51c9c665972d",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_130|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_136",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "89f9e58b-d27c-4909-9708-bd8a9757f5fa",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "226f2092-f80f-4af1-a63e-f594aae63b52",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "1882fead-09fb-43b0-a2a3-41fc76638fa2",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "1fef68c9-5bf9-4f2f-bbd1-5ce2383c37fa",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "7c3bd133-e02b-4f3f-8987-6fb3c2a73ecf",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "9f203747-214c-4818-85ae-c74d78b45ecc",
+            "value": "07:31:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "15f3405c-0c55-4ef8-883d-524022be85a8",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_136|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_131",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "5f8517fa-c77c-421b-b252-165018fed0b9",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "a1ee0fae-0478-48f5-b7e0-f342ae8bade2",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "4d01ff56-f188-426a-ae95-206410e96985",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "6fff9f0c-d533-43a9-90f8-4a5fe1274343",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "b17f8311-ac06-48a7-85d4-7fb29273d702",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "7d44a163-7db7-4213-9da5-8345e5c5cf5a",
+            "value": "07:12:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "9c77ec44-987f-4e4c-a596-bd73a76d36e6",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_131|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_135",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "d3711547-8a8d-412d-aff2-296e8943798f",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "49265681-1531-41a5-bb03-9cd6ad974a69",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "6eca8852-6a1d-41a7-94d4-62183c2063c8",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "f1d43e6e-f4dd-43bb-a2ce-4a7981aee4d9",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "e5d7209e-fc11-4166-8a2e-7d14911c05c5",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "9a24c488-4915-4a44-b521-ab7f7fb40a78",
+            "value": "07:28:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "88c65a57-cfd8-4004-b0a5-52968d4f741c",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_135|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_141",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "d7a3addf-3227-4ed0-97fc-7c23ebe80cc9",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "026f2d60-d3c1-400f-a6dc-89dadb6ca97d",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "5ad3b20c-ec4f-4ca0-b4b0-bf51bfa145e9",
+            "value": "National Registration System"
+          }
+        ],
+        "description": [
+          {
+            "id": "fef0ea4d-6a59-4444-85d6-99e980893354",
+            "value": "NRA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "8847cf6b-ed48-4e0d-8a5b-fd6684ebf899",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "5b537f37-bbd3-4df6-a663-26015a2f83fc",
+            "value": "07:44:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "11c4aeeb-5676-400f-90e8-2b3a16f8369b",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_141|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_138",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "cea1f03d-5a01-45e7-9402-dc1423703bc0",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "ce941824-9767-499e-a492-fabc89f8d900",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "f34249ee-aa6e-407f-8f64-8609f6d7b6ce",
+            "value": "National Registration System"
+          }
+        ],
+        "description": [
+          {
+            "id": "6289f053-3e20-46a6-9925-149024ee0bf0",
+            "value": "NRA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "d987664c-a248-4798-ab90-2793e33c3d7c",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "58af5807-994b-4bf9-9910-4834ad3cb735",
+            "value": "07:37:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "5dc75c9b-75d1-46b8-9118-3fc3a32e3476",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_138|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_140",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "189de6b8-f6c4-413d-b2df-609c15dd3371",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "d188f3f5-90a5-4bac-9ca0-57e9cda6caeb",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "9f3eb790-0b3c-44e8-a222-a5530c59547e",
+            "value": "National Registration System"
+          }
+        ],
+        "description": [
+          {
+            "id": "cb14ddb0-2f33-4f44-8b7c-7c75d07178a1",
+            "value": "NRA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "ca109920-4acd-4533-af87-20ad1c8ea8fd",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "e755f911-1157-4cc0-9028-91a01d781388",
+            "value": "07:41:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b00f167b-2c61-4925-a43e-c07601960fb3",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_140|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_144",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "ae2dec20-2748-41a2-a795-8ba0b7a90859",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "47c6cbc5-23f3-4ede-8d15-39c9ae77df22",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "cbd674de-a43f-4fbe-a7ec-ed70206eff2a",
+            "value": "National Registration System"
+          }
+        ],
+        "description": [
+          {
+            "id": "64183684-158a-429f-8b1a-81e9d1013a98",
+            "value": "NRA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "41a74382-370e-4a64-a6ea-8e12feac4e5a",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "971f6325-0a61-4df1-999e-cf0451fd90a4",
+            "value": "07:56:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "7b537cee-2c61-4dc7-9c28-396cc1839795",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_144|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_132",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6b4839b3-840f-4d6b-a288-7e0f475aa85f",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "d2d10fcd-da7c-4b8e-90ca-180d23fce6e2",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "c5c81734-125c-43b1-a585-e71b81729e54",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "9478dc31-3bbe-4c96-824e-398cbd5a3790",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "222112d9-9b91-412e-84e9-0bee7556cd58",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "ddde3886-a4e2-4060-9bf0-14ce95206ab0",
+            "value": "07:17:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "aaeb7a59-8947-475c-882f-04c6102d6718",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_132|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_129",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "c3deea3c-bcd4-421a-a11d-fc29eafbc466",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "6a946c12-708f-46d1-9995-db6edd292edf",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "c2e03a1a-9c58-4fe6-bf99-c4aa9cde8335",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "d3403e76-fb45-4370-8250-f07420fdc99d",
+            "value": "Order Entry and Trade Allocation"
+          }
+        ],
+        "status": [
+          {
+            "id": "0219f5d8-84af-4c16-b16b-6eb2bc9dcd4e",
+            "value": "DELAYED"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "8b66f040-4a42-4a58-b7d4-eddf2e697024",
+            "value": "07:02:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "abcc86a0-4453-4e02-ab9c-6d9317cb3fd4",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_129|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_143",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "4af952ea-46b6-4e07-915c-310d140f806e",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "4bca3006-0d8d-4c3f-a58c-dcebb04809eb",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "fa822c7f-71b1-4ab9-b65c-e9e812e050cb",
+            "value": "National Registration System"
+          }
+        ],
+        "description": [
+          {
+            "id": "b49891dd-e210-4cc2-9e61-e067d09b28c2",
+            "value": "NRA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "5c65aa0c-dc1c-442f-9e9c-af2a145773f5",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "ac6d20ec-b48c-49a4-952a-e64bb4733ff3",
+            "value": "07:52:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "215c88cd-d10f-43c6-b8f5-f132b68b6a5f",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_143|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_139",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "8821ecab-fdb6-40aa-bf29-3d664da7756b",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "4d6e6408-4c86-4d55-a79d-331466a2f8d6",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "bba50594-130f-4eb3-93c8-a87f0da2a781",
+            "value": "National Registration System"
+          }
+        ],
+        "description": [
+          {
+            "id": "1358a27a-a60c-458b-a96d-538b59a16510",
+            "value": "NRA Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "320d8e78-0882-40b3-ad49-8c47da941d93",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "311a2b0a-4236-48ec-ac48-1023a86733fd",
+            "value": "07:39:46"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "7925f98e-942e-4ea7-aa24-5de0fc7388aa",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_139|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_153",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "9e03632e-e7ad-433c-960e-d8c4a7c16451",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "244b6b5e-8050-4ae7-a2ec-460a765953e4",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "6d3ae7c5-e286-4886-8d2c-ab0399ce126b",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "53de4d25-99e3-456f-9a29-e98b50c12ed6",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "48fdb0a4-2a50-4ab7-90d4-5960b89859d2",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "330c12f5-c596-403b-96d3-ca4730b2c54f",
+            "value": "09:17:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "ce641745-95a6-4821-9f72-f67e5e49b524",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_153|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_146",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "28da3464-3057-4da2-b842-c8dc13315db7",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "c86f1d70-ea14-492c-8234-c46ab3b8951b",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "d1f1b5e0-f2bf-4652-bb59-619e20ea8260",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "c652b174-b71a-4a31-afae-5856d12a884b",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "c68b1a07-a8fc-4693-8c62-8aaffb7090be",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "75805a87-fd5b-4afd-931f-387c7a5a6f80",
+            "value": "08:48:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b6d6f6f9-ba49-4b3d-bc11-9eec23f7505b",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_146|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_152",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "0cf78a0a-480c-45aa-99d7-6b10f1a3a8b0",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "12d985c2-fd23-4d4e-90a7-8f46dd178a36",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "1a3b3ef3-2d75-4734-bd7c-ccbf1dbfa53b",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "ab490c53-f95d-4c7f-85d9-5a605beefdf4",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "33630306-2cc2-41c2-be4b-bf8ffb15de7b",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "257f7656-0dda-49e5-9caf-d25d47926aa0",
+            "value": "09:12:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "b9ef8cbe-3fe6-4f7c-9ebd-f2425e7f38bc",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_152|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_145",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "6956fddc-5936-40d6-b530-d7e72f32e637",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "7f4f343f-ff18-4849-b59c-e0f8c9eae45d",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "fe8455d7-9043-4e67-ab14-35274bb52ec3",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "b2821eaf-b918-4ac2-8c82-e02a2ab9a367",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "4cc46f9d-4f4a-4b6b-a6b5-14a26a4781b1",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "ce02d1e1-1ded-4e8f-8da5-f55fef693df7",
+            "value": "08:44:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "dc80bc2d-6661-4898-8d04-bb1c3dbbf85d",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_145|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_148",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "4f179b07-7740-448b-9b35-b868dc1d959a",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "f5e501f5-0092-4541-b9c7-38cf3d32517b",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "e6c6188f-e52f-443f-b4b0-1b6be5d297c3",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "6da77b7a-f1cd-4e1d-a9ac-81e0e544b73a",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "48bb98a9-6153-4b2a-9b48-5a3db90e701c",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "0da14abd-c947-485f-9608-d0a97b3db3e0",
+            "value": "08:55:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "8d37b735-7bca-4d12-bd97-a320fa7a0239",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_148|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_150",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "5247271e-1e75-40ae-bd81-296a83e1f860",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "98da0aa6-cd0f-4382-b3f2-cd09491681b6",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "ad9aa757-03fe-4204-a4f3-ddc308ea7cff",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "6f347c66-613b-4297-8505-e60f9f3bd202",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "06a30c4c-7291-4148-80b6-9536c51f820d",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "c2b41d82-dc8a-4c14-8a29-381765663867",
+            "value": "09:01:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "2902cf82-e015-4039-8d66-85d4c582da4a",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_150|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_149",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "b7c1f04d-ca32-408a-a011-0ba6387fe266",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "3804ae76-84a0-406e-b692-2f2b586a8677",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "8205799d-92b8-419d-84c6-3ff003bc6564",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "0bfdab01-3faf-4092-b37f-c05a37d00d89",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "527fc05a-3d15-49a5-a21d-190af5e7ba65",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "f2a687fd-a9a4-42e7-b53e-89f37720d24b",
+            "value": "08:59:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "7b65337a-7163-45af-aa24-413b55279979",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_149|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_151",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "9c1a1a71-1bd4-4d30-b4df-344247f61ca8",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "a7ffa87b-dbdf-49bb-a3d5-a1c430947aeb",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "41bd6ea3-728f-48d9-b5a0-e6bac95bdf2a",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "3fa36d23-6818-4183-8ac7-db88710bce45",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "cf804430-f910-4185-a1e5-ae3b7ab8be9e",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "856b351c-d5d6-4c98-979e-afb7977a56c1",
+            "value": "09:08:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "dd089d2f-91b6-4591-b905-df37ed3f230f",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_151|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JOB_147",
+      "label": "job",
+      "type": "vertex",
+      "properties": {
+        "date": [
+          {
+            "id": "81fad8c1-6c8d-487c-bda2-85838db324e7",
+            "value": "26/02/2022"
+          }
+        ],
+        "marker": [
+          {
+            "id": "3399238b-2702-41b8-b03d-fbee81a60c57",
+            "value": ""
+          }
+        ],
+        "app": [
+          {
+            "id": "2beac237-8324-4438-b0e8-6ad048fcd34b",
+            "value": "Advisory"
+          }
+        ],
+        "description": [
+          {
+            "id": "f40785d1-f2a6-4b5b-9a5f-68179d31125f",
+            "value": "UBS Delta Process"
+          }
+        ],
+        "status": [
+          {
+            "id": "193847ce-b25d-4803-ab01-fb0940d149a5",
+            "value": "SUCCESS"
+          }
+        ],
+        "avgTime": [
+          {
+            "id": "59f5e0b2-af74-458e-aff8-b2d50a7c73ba",
+            "value": "08:51:54"
+          }
+        ],
+        "actualTime": [
+          {
+            "id": "8b4d353a-db55-429b-9a04-61e9f37b6340",
+            "value": "null"
+          }
+        ],
+        "pk": [
+          {
+            "id": "JOB_147|pk",
+            "value": "pk"
+          }
+        ]
+      }
+    }
+  ],
+  "edge": [
+    {
+      "id": "00da2f50-d4f4-44ef-9ef2-a8e1268a3a8a",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_5",
+      "outV": "PSO"
+    },
+    {
+      "id": "8378f15d-03be-47eb-9388-958f468f5332",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_2",
+      "outV": "PSO"
+    },
+    {
+      "id": "e055b915-d30b-4acd-beb8-e72853eef482",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_8",
+      "outV": "PSO"
+    },
+    {
+      "id": "faa52c6b-ba30-4078-ac44-b96bffef2b33",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_10",
+      "outV": "PSO"
+    },
+    {
+      "id": "ef89dbdb-fbe6-4e1c-9831-1bdbca39f5de",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_13",
+      "outV": "EDB"
+    },
+    {
+      "id": "d29b4012-f9a8-4eb5-9c6a-c6c5d12a3029",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_20",
+      "outV": "EDB"
+    },
+    {
+      "id": "38d0fdee-47b6-4993-9ec0-ca4aae8bb19b",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_18",
+      "outV": "EDB"
+    },
+    {
+      "id": "69a72093-7a8c-462b-a87d-661d25bee85c",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_16",
+      "outV": "EDB"
+    },
+    {
+      "id": "62261e3a-f11d-40b5-9325-cf4d8d1e3d34",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_13",
+      "outV": "IRA"
+    },
+    {
+      "id": "cef39c59-3a63-423b-b7e9-2319ba64962b",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_20",
+      "outV": "IRA"
+    },
+    {
+      "id": "ffdc6ccc-b8f6-4dda-8f4f-4c50870151b7",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_18",
+      "outV": "IRA"
+    },
+    {
+      "id": "6d07a3f3-610b-4ede-bc08-e8b216efc130",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_24",
+      "outV": "VMA"
+    },
+    {
+      "id": "5095b167-38f7-457c-8f04-72c49d3103e8",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_22",
+      "outV": "VMA"
+    },
+    {
+      "id": "d89d20d8-29b2-4bbe-bff5-1784f29b8a41",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_26",
+      "outV": "VMA"
+    },
+    {
+      "id": "649f7bb1-1c69-4b7c-bac1-3062ace30084",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_2",
+      "outV": "VMA"
+    },
+    {
+      "id": "986e3f81-7e30-4417-bf54-ecf759711950",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_13",
+      "outV": "VMA"
+    },
+    {
+      "id": "f080b69d-9f12-4298-bb7d-a143afd4c971",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_59",
+      "outV": "UBS"
+    },
+    {
+      "id": "869dca5f-c4e0-4311-91b0-2b7fe00eb0c8",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_18",
+      "outV": "KGS"
+    },
+    {
+      "id": "02f71ac2-19ea-4aca-bf0e-3ad26e08ce1a",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_13",
+      "outV": "KGS"
+    },
+    {
+      "id": "9151c24b-af02-4c67-af63-b357d10a5aca",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_22",
+      "outV": "KGS"
+    },
+    {
+      "id": "b80c0149-a12b-4361-afdd-babbfa58d04e",
+      "label": "predecessor",
+      "type": "edge",
+      "inVLabel": "job",
+      "outVLabel": "job",
+      "inV": "JOB_24",
+      "outV": "KGS"
+    }
+  ]
+}
